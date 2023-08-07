@@ -13,12 +13,14 @@ class VipCard(CoreModel):
     """ 会员卡配置 """
     name = models.CharField(max_length=20, verbose_name='会员卡名称', blank=True, null=True, help_text='会员卡名称')
     # rebate = models.IntegerField(verbose_name='折扣', blank=True, null=True, default=0, help_text='折扣')
+    vipType = models.CharField(max_length=20, verbose_name='VIP类型', null=True, blank=True, help_text='VIP类型')
     sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
-    discount = models.CharField(max_length=1000, verbose_name='优惠配置', null=True, blank=True, help_text='优惠配置')
+    discount = models.IntegerField(verbose_name='折扣', null=True, blank=True, help_text='折扣', default=0)
     amount = models.DecimalField(max_length=10, verbose_name='购买金额', null=True, blank=True, help_text='购买金额',
                                  decimal_places=2,
                                  max_digits=5,
                                  default=0)
+    isRecommend = models.IntegerField(verbose_name='是否推荐', null=True, blank=True, help_text='是否推荐', default=0)
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
 
     class Meta:

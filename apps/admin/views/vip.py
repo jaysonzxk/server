@@ -21,7 +21,6 @@ class VipCreateSerializer(CustomModelSerializer):
     """
     vip商品新增-序列化器
     """
-
     name = serializers.CharField(
         max_length=20,
         validators=[
@@ -31,7 +30,7 @@ class VipCreateSerializer(CustomModelSerializer):
 
     def save(self, **kwargs):
         data = super().save(**kwargs)
-        data.dept_belong_id = data.dept_id
+        # data.dept_belong_id = data.dept_id
         data.save()
         # data.post.set(self.initial_data.get("post", []))
         return data
@@ -50,13 +49,13 @@ class VipUpdateSerializer(CustomModelSerializer):
     name = serializers.CharField(
         max_length=20,
         validators=[
-            CustomUniqueValidator(queryset=VipCard.objects.all().first(), message="账号已存在")
+            CustomUniqueValidator(queryset=VipCard.objects.all(), message="商品已存在")
         ],
     )
 
     def save(self, **kwargs):
         data = super().save(**kwargs)
-        data.dept_belong_id = data.dept_id
+        # data.dept_belong_id = data.dept_id
         data.save()
         # data.post.set(self.initial_data.get("post", []))
         return data
@@ -102,3 +101,4 @@ class VipViewSet(CustomModelViewSet):
         "amount": ["icontains"],
         "status": ["icontains"],
     }
+    ordering = "sort"
