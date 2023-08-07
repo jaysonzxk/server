@@ -2916,3 +2916,503 @@ AttributeError: 'VipCard' object has no attribute 'filter'
 [2023-08-07 16:45:36,347][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxMzk4NzIzLCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6Ijg2MThmNTkyZGQ2ZTQ3MDBhOWNmMDM1NGY3YjdjZjI2IiwidXNlcl9pZCI6MX0.iHKWsDhdySXqKDy85YXx5BTR8FXW1Es4ka_qtZE0YDk/ [127.0.0.1:53131]
 [2023-08-07 16:45:36,350][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxMzk4NzIzLCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6Ijg2MThmNTkyZGQ2ZTQ3MDBhOWNmMDM1NGY3YjdjZjI2IiwidXNlcl9pZCI6MX0.iHKWsDhdySXqKDy85YXx5BTR8FXW1Es4ka_qtZE0YDk/ [127.0.0.1:53131]
 [2023-08-07 16:45:36,435][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:53128]
+[2023-08-07 16:49:43,782][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:54265]
+[2023-08-07 16:49:53,553][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:54265]
+[2023-08-07 16:50:00,285][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54265]
+[2023-08-07 16:50:07,474][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/vip/?status=1&user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:54265]
+[2023-08-07 16:50:07,505][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?status=1&user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54265]
+[2023-08-07 16:50:07,532][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?status=1&user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:54265]
+[2023-08-07 16:50:09,417][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/vip/?status=0&user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:54265]
+[2023-08-07 16:50:09,436][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?status=0&user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:54265]
+[2023-08-07 16:50:10,780][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:54265]
+[2023-08-07 16:50:25,592][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/vip/?search=%E6%B8%94%E4%B8%9A&user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:54265]
+[2023-08-07 16:50:25,660][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?search=%E6%B8%94%E4%B8%9A&user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:54265]
+[2023-08-07 16:50:47,638][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54265]
+[2023-08-07 16:50:54,367][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/vip/?name=%E6%9C%88%E4%BB%98VIP&user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:54265]
+[2023-08-07 16:50:54,389][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?name=%E6%9C%88%E4%BB%98VIP&user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:54265]
+[2023-08-07 16:50:55,932][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54265]
+[2023-08-07 16:52:48,160][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:55117]
+[2023-08-07 16:53:01,025][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:55117]
+[2023-08-07 16:55:30,746][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxMzk4NzIzLCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6Ijg2MThmNTkyZGQ2ZTQ3MDBhOWNmMDM1NGY3YjdjZjI2IiwidXNlcl9pZCI6MX0.iHKWsDhdySXqKDy85YXx5BTR8FXW1Es4ka_qtZE0YDk/ [127.0.0.1:53131]
+[2023-08-07 16:55:32,542][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:55877]
+[2023-08-07 16:55:32,573][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:55879]
+[2023-08-07 16:55:32,680][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:55879]
+[2023-08-07 16:55:32,700][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:55877]
+[2023-08-07 16:55:32,744][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:55883]
+[2023-08-07 16:55:32,966][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxMzk4NzIzLCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6Ijg2MThmNTkyZGQ2ZTQ3MDBhOWNmMDM1NGY3YjdjZjI2IiwidXNlcl9pZCI6MX0.iHKWsDhdySXqKDy85YXx5BTR8FXW1Es4ka_qtZE0YDk/ [127.0.0.1:55889]
+[2023-08-07 16:55:32,968][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxMzk4NzIzLCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6Ijg2MThmNTkyZGQ2ZTQ3MDBhOWNmMDM1NGY3YjdjZjI2IiwidXNlcl9pZCI6MX0.iHKWsDhdySXqKDy85YXx5BTR8FXW1Es4ka_qtZE0YDk/ [127.0.0.1:55889]
+[2023-08-07 16:55:33,043][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:55883]
+[2023-08-07 16:55:35,680][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.04, 127.0.0.1:55879]
+[2023-08-07 16:55:36,835][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=9 200 [0.03, 127.0.0.1:55879]
+[2023-08-07 16:55:39,543][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=19 200 [0.03, 127.0.0.1:55879]
+[2023-08-07 16:55:43,215][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.03, 127.0.0.1:55879]
+[2023-08-07 16:56:33,221][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.14, 127.0.0.1:55879]
+[2023-08-07 16:56:33,411][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.03, 127.0.0.1:55879]
+[2023-08-07 16:57:49,819][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 16:57:51,464][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 16:57:52,185][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 16:57:52,186][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 16:57:52,186][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 16:59:20,121][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 16:59:21,442][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 16:59:22,146][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 16:59:22,147][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 16:59:22,147][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:03:35,860][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 18:03:37,675][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:03:38,556][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:03:38,556][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:03:38,557][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:04:55,138][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 18:04:56,440][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:04:57,178][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:04:57,179][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:04:57,179][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:06:59,481][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:51276]
+[2023-08-07 18:06:59,488][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.01, 127.0.0.1:51277]
+[2023-08-07 18:06:59,505][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:51276]
+[2023-08-07 18:06:59,516][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:51277]
+[2023-08-07 18:06:59,822][django.channels.server.log_action():147] [INFO] HTTP POST /token/refresh/ 200 [0.11, 127.0.0.1:51277]
+[2023-08-07 18:06:59,863][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:51277]
+[2023-08-07 18:06:59,878][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:51277]
+[2023-08-07 18:06:59,881][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:51276]
+[2023-08-07 18:06:59,885][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:51282]
+[2023-08-07 18:07:00,089][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.21, 127.0.0.1:51277]
+[2023-08-07 18:07:00,104][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.22, 127.0.0.1:51276]
+[2023-08-07 18:07:00,147][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.26, 127.0.0.1:51282]
+[2023-08-07 18:07:00,487][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:51289]
+[2023-08-07 18:07:00,491][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:51289]
+[2023-08-07 18:07:00,498][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/ 200 [0.01, 127.0.0.1:51282]
+[2023-08-07 18:07:00,575][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.07, 127.0.0.1:51282]
+[2023-08-07 18:07:03,196][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:51282]
+[2023-08-07 18:07:03,212][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 268, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: name, sort, discount, amount
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 268, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: name, sort, discount, amount
+[2023-08-07 18:07:03,215][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:51282]
+[2023-08-07 18:08:11,837][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 18:08:13,457][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:08:14,189][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:08:14,190][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:08:14,190][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:08:17,985][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 268, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: name, sort, discount, amount
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 268, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: name, sort, discount, amount
+[2023-08-07 18:08:17,989][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.20, 127.0.0.1:51638]
+[2023-08-07 18:09:15,436][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 18:09:16,806][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:09:17,548][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:09:17,549][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:09:17,549][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:10:01,903][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1226, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'icontains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 257, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'icontains' for field 'client.UserVipCard.user'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1226, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'icontains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 257, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'icontains' for field 'client.UserVipCard.user'.
+[2023-08-07 18:10:01,906][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.19, 127.0.0.1:52113]
+[2023-08-07 18:10:58,017][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 18:10:59,497][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:11:00,311][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:11:00,311][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:11:00,312][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:11:07,967][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1226, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'icontains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 257, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'icontains' for field 'client.UserVipCard.user'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1226, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'icontains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 79, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 47, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 287, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 216, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/filters.py", line 257, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django_filters/utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'icontains' for field 'client.UserVipCard.user'.
+[2023-08-07 18:11:07,971][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.19, 127.0.0.1:52413]
+[2023-08-07 18:11:26,446][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-07 18:11:27,823][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:11:28,501][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:11:28,501][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:11:28,502][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:11:31,553][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.20, 127.0.0.1:52520]
+[2023-08-07 18:12:35,541][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:52813]
+[2023-08-07 18:13:59,823][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:53205]
+[2023-08-07 18:14:12,153][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.05, 127.0.0.1:53205]
+[2023-08-07 18:14:38,318][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.05, 127.0.0.1:53205]
+[2023-08-07 18:14:40,675][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.05, 127.0.0.1:53205]
+[2023-08-07 18:15:10,972][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/models.py changed, reloading.
+[2023-08-07 18:15:12,650][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:15:13,504][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:15:13,504][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:15:13,504][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:16:15,664][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/models.py changed, reloading.
+[2023-08-07 18:16:17,120][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:16:17,881][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:16:17,881][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:16:17,882][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:17:28,658][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.20, 127.0.0.1:54169]
+[2023-08-07 18:18:29,268][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:54451]
+[2023-08-07 18:19:14,279][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:54451]
+[2023-08-07 18:20:08,908][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:54451]
+[2023-08-07 18:20:46,986][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54451]
+[2023-08-07 18:20:56,951][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54451]
+[2023-08-07 18:21:00,368][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54451]
+[2023-08-07 18:21:07,062][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:54451]
+[2023-08-07 18:21:23,218][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:54451]
+[2023-08-07 18:22:00,621][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54451]
+[2023-08-07 18:22:14,902][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:54451]
+[2023-08-07 18:23:54,341][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:55951]
+[2023-08-07 18:23:59,742][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:55951]
+[2023-08-07 18:24:10,433][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:55951]
+[2023-08-07 18:28:30,685][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:57257]
+[2023-08-07 18:28:36,971][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:57257]
+[2023-08-07 18:28:46,416][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:57257]
+[2023-08-07 18:28:51,025][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:57257]
+[2023-08-07 18:28:57,724][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:57257]
+[2023-08-07 18:29:59,311][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:57674]
+[2023-08-07 18:30:03,486][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.07, 127.0.0.1:57674]
+[2023-08-07 18:30:03,515][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:57699]
+[2023-08-07 18:30:03,703][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:57699]
+[2023-08-07 18:30:03,723][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:57674]
+[2023-08-07 18:30:03,776][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:57703]
+[2023-08-07 18:30:04,003][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:57710]
+[2023-08-07 18:30:04,011][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:57710]
+[2023-08-07 18:30:04,092][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:57703]
+[2023-08-07 18:33:49,145][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:58805]
+[2023-08-07 18:33:59,832][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:34:25,207][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:58805]
+[2023-08-07 18:34:38,392][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:58805]
+[2023-08-07 18:34:52,108][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:58805]
+[2023-08-07 18:34:54,463][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=19 200 [0.00, 127.0.0.1:58805]
+[2023-08-07 18:34:54,500][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=19 200 [0.03, 127.0.0.1:58805]
+[2023-08-07 18:34:56,802][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=22 200 [0.00, 127.0.0.1:58805]
+[2023-08-07 18:34:56,825][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:34:58,191][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /swagger.json 200 [0.00, 127.0.0.1:58805]
+[2023-08-07 18:34:59,263][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [1.07, 127.0.0.1:58805]
+[2023-08-07 18:35:57,493][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/ 200 [0.00, 127.0.0.1:58805]
+[2023-08-07 18:35:57,622][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.13, 127.0.0.1:58805]
+[2023-08-07 18:35:57,694][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:36:14,337][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:58805]
+[2023-08-07 18:36:14,400][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:36:35,187][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:58805]
+[2023-08-07 18:36:35,248][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:36:40,737][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.04, 127.0.0.1:58805]
+[2023-08-07 18:36:42,615][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=19 200 [0.04, 127.0.0.1:58805]
+[2023-08-07 18:36:44,830][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=21 200 [0.00, 127.0.0.1:58805]
+[2023-08-07 18:36:44,854][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=21 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:36:55,576][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:37:11,407][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:58805]
+[2023-08-07 18:37:11,476][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:58805]
+[2023-08-07 18:37:13,808][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:57710]
+[2023-08-07 18:37:15,454][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:58805]
+[2023-08-07 18:37:15,476][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:59752]
+[2023-08-07 18:37:15,597][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:59752]
+[2023-08-07 18:37:15,616][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:58805]
+[2023-08-07 18:37:15,653][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:59756]
+[2023-08-07 18:37:15,842][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:59760]
+[2023-08-07 18:37:15,844][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:59760]
+[2023-08-07 18:37:15,908][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=22 200 [0.02, 127.0.0.1:59756]
+[2023-08-07 18:37:16,707][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.73, 127.0.0.1:59756]
+[2023-08-07 18:37:18,327][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:59756]
+[2023-08-07 18:37:48,043][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:59756]
+[2023-08-07 18:38:31,104][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/models.py changed, reloading.
+[2023-08-07 18:38:32,993][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:38:33,822][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:38:33,822][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:38:33,823][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:39:18,564][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/models.py changed, reloading.
+[2023-08-07 18:39:19,915][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 18:39:20,777][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 18:39:20,777][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 18:39:20,779][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 18:39:38,772][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/area/?limit=100&page=1&level=1 200 [0.02, 127.0.0.1:60420]
+[2023-08-07 18:39:39,130][django.channels.server.log_action():147] [INFO] HTTP GET /admin/area/?limit=100&page=1&level=1 200 [0.35, 127.0.0.1:60420]
+[2023-08-07 18:39:39,134][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?limit=999&parent__isnull=1 200 [0.27, 127.0.0.1:60422]
+[2023-08-07 18:39:39,193][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?limit=999&parent__isnull=1 200 [0.06, 127.0.0.1:60422]
+[2023-08-07 18:39:39,236][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?parent=1&limit=999 200 [0.00, 127.0.0.1:60422]
+[2023-08-07 18:39:39,242][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?parent__isnull=1&limit=999 200 [0.01, 127.0.0.1:60420]
+[2023-08-07 18:39:39,268][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.03, 127.0.0.1:60422]
+[2023-08-07 18:39:39,303][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent__isnull=1&limit=999 200 [0.06, 127.0.0.1:60420]
+[2023-08-07 18:39:39,776][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.01, 127.0.0.1:60420]
+[2023-08-07 18:39:39,820][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.04, 127.0.0.1:60420]
+[2023-08-07 18:40:00,313][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/ 200 [0.00, 127.0.0.1:60420]
+[2023-08-07 18:40:00,435][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.12, 127.0.0.1:60420]
+[2023-08-07 18:40:00,522][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.03, 127.0.0.1:60420]
+[2023-08-07 18:40:00,530][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:60422]
+[2023-08-07 18:40:02,389][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=1&parent=50 200 [0.00, 127.0.0.1:60422]
+[2023-08-07 18:40:02,408][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=50 200 [0.02, 127.0.0.1:60422]
+[2023-08-07 18:40:17,155][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.10, 127.0.0.1:60422]
+[2023-08-07 18:40:17,201][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=50 200 [0.02, 127.0.0.1:60422]
+[2023-08-07 18:40:17,207][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:60420]
+[2023-08-07 18:40:30,901][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.11, 127.0.0.1:60420]
+[2023-08-07 18:40:30,946][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=50 200 [0.02, 127.0.0.1:60420]
+[2023-08-07 18:40:30,951][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:60422]
+[2023-08-07 18:42:09,101][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:61126]
+[2023-08-07 18:42:16,209][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.03, 127.0.0.1:61126]
+[2023-08-07 18:42:18,261][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=50 200 [0.02, 127.0.0.1:61126]
+[2023-08-07 18:42:27,059][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/51/ 200 [0.00, 127.0.0.1:61126]
+[2023-08-07 18:42:27,174][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/dictionary/51/ 200 [0.11, 127.0.0.1:61126]
+[2023-08-07 18:42:27,217][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=50 200 [0.02, 127.0.0.1:61126]
+[2023-08-07 18:42:27,222][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:61221]
+[2023-08-07 18:42:32,182][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/52/ 200 [0.00, 127.0.0.1:61221]
+[2023-08-07 18:42:32,292][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/dictionary/52/ 200 [0.11, 127.0.0.1:61221]
+[2023-08-07 18:42:32,341][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=50 200 [0.03, 127.0.0.1:61221]
+[2023-08-07 18:42:32,348][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:61126]
+[2023-08-07 18:42:37,866][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:61126]
+[2023-08-07 18:44:45,793][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:61849]
+[2023-08-07 18:44:45,869][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:61849]
+[2023-08-07 18:44:45,991][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:61849]
+[2023-08-07 18:44:46,007][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:61853]
+[2023-08-07 18:44:46,042][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:61854]
+[2023-08-07 18:44:46,253][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:61861]
+[2023-08-07 18:44:46,263][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:61861]
+[2023-08-07 18:44:46,327][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:61854]
+[2023-08-07 18:45:06,201][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:61861]
+[2023-08-07 18:45:08,731][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:61854]
+[2023-08-07 18:45:08,889][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:61854]
+[2023-08-07 18:45:09,041][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:61854]
+[2023-08-07 18:45:09,053][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:61849]
+[2023-08-07 18:45:09,086][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:61853]
+[2023-08-07 18:45:09,315][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:61978]
+[2023-08-07 18:45:09,318][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:61978]
+[2023-08-07 18:45:09,424][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:61853]
+[2023-08-07 18:46:29,634][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:61978]
+[2023-08-07 18:46:31,035][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62367]
+[2023-08-07 18:46:31,077][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:62367]
+[2023-08-07 18:46:31,412][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.26, 127.0.0.1:62367]
+[2023-08-07 18:46:31,429][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.27, 127.0.0.1:62371]
+[2023-08-07 18:46:31,463][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.31, 127.0.0.1:62372]
+[2023-08-07 18:46:31,651][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:62375]
+[2023-08-07 18:46:31,652][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDA2NDE5LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6IjU1NDBkMzIzYjQ3ZDQ5ZThiMjkzMjJmNWY3MzE1NjJmIiwidXNlcl9pZCI6MX0.UUzNo7q2wrFyNVNGYzN0S3UTPwuXKykDe6W0eEPJRcw/ [127.0.0.1:62375]
+[2023-08-07 18:46:31,739][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:62372]

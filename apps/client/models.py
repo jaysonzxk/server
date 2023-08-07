@@ -48,6 +48,9 @@ class UserVipCard(CoreModel):
                                 null=True,
                                 blank=True,
                                 help_text="关联会员卡配置", )
+    expiration = models.DateTimeField(auto_now=True, null=True, blank=True, help_text="过期时间",
+                                      verbose_name="过期时间")
+    isExpired = models.IntegerField(verbose_name='是否到期', null=True, blank=True, help_text='是否到期', default=0)
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
 
     class Meta:

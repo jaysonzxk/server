@@ -17,7 +17,7 @@ from apps.admin.views.role import RoleViewSet
 from apps.admin.views.system_config import SystemConfigViewSet
 from apps.admin.views.user import UserViewSet
 from apps.admin.views.member import MemberViewSet
-from apps.admin.views.vip import VipViewSet
+from apps.admin.views.vip import VipViewSet, UserVipViewSet
 
 system_url = routers.SimpleRouter()
 system_url.register(r'menu', MenuViewSet)
@@ -27,6 +27,7 @@ system_url.register(r'dept', DeptViewSet)
 system_url.register(r'user', UserViewSet)
 system_url.register(r'member', MemberViewSet)
 system_url.register(r'vip', VipViewSet)
+system_url.register(r'user_vip', UserVipViewSet)
 system_url.register(r'operation_log', OperationLogViewSet)
 system_url.register(r'dictionary', DictionaryViewSet)
 system_url.register(r'area', AreaViewSet)
