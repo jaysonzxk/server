@@ -308,12 +308,26 @@ AUTHENTICATION_BACKENDS = ["apps.utils.backends.CustomBackend"]
 # ****************** simplejwt配置 ***************** #
 # ================================================= #
 from datetime import timedelta
+# redis 缓存
+REDIS_URL = f'redis://:{REDIS_PASSWORD if REDIS_PASSWORD else ""}@{os.getenv("REDIS_HOST") or REDIS_HOST}:6379/1'
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": REDIS_URL,
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            "COMPRESSOR": "django_redis.compressors.zlib.ZlibCompressor",
+            "IGNORE_EXCEPTIONS": True,
+        }
+    },
+}
 
 SIMPLE_JWT = {
     # token有效时长
-    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
+    # "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
+    # 'JWT_AUTH_HEADER_PREFIX': 'Bearer',
     # token刷新后的有效时间
-    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+    "REFRESH_TOKEN_LIFETIME": timedelta(seconds=100),
     # 设置前缀
     "AUTH_HEADER_TYPES": ("JWT",),
     "ROTATE_REFRESH_TOKENS": True,

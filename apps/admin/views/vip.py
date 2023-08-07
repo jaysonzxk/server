@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from apps.client.models import VipCard, UserVipCard
+from apps.admin.models import VipCard, UserVipCard
 from apps.utils.serializers import CustomModelSerializer
 from apps.utils.validator import CustomUniqueValidator
 from apps.utils.viewset import CustomModelViewSet

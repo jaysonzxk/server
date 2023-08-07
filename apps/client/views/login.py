@@ -125,6 +125,7 @@ class LoginSerializer(TokenObtainPairSerializer):
             Users.objects.filter(id=self.user.id).update(last_token=data.get('refresh'))
         return {"code": 2000, "msg": "请求成功", "data": data}
 
+
 class CustomTokenRefreshView(TokenRefreshView):
     """
     自定义token刷新
@@ -140,6 +141,7 @@ class CustomTokenRefreshView(TokenRefreshView):
         except:
             return ErrorResponse(status=HTTP_401_UNAUTHORIZED)
         return DetailResponse(data=data)
+
 
 class LoginView(TokenObtainPairView):
     """

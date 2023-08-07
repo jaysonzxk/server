@@ -9,7 +9,7 @@ from django.db import connection
 from application import dispatch
 from apps.admin.models import Users, Role, Dept
 from apps.admin.views.role import RoleSerializer
-from apps.client.models import VipCard
+from apps.admin.models import VipCard
 from apps.utils.json_response import ErrorResponse, DetailResponse
 from apps.utils.serializers import CustomModelSerializer
 from apps.utils.validator import CustomUniqueValidator

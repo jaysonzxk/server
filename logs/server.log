@@ -3556,3 +3556,293 @@ django_filters.exceptions.FieldLookupError: Unsupported lookup 'icontains' for f
 [2023-08-07 20:33:35,940][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_addr/?limit=20&page=1 200 [0.06, 127.0.0.1:58808]
 [2023-08-07 20:33:42,933][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_addr/?limit=20&page=1 200 [0.02, 127.0.0.1:58808]
 [2023-08-07 20:33:59,740][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_addr/?limit=20&page=1 200 [0.02, 127.0.0.1:58808]
+[2023-08-07 20:54:57,369][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/userAddr.py changed, reloading.
+[2023-08-07 20:54:59,057][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 20:55:16,448][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-07 20:55:17,479][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 20:55:18,049][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 20:55:18,049][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 20:55:18,050][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 20:57:38,698][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63744]
+[2023-08-07 20:57:38,738][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:63744]
+[2023-08-07 20:57:38,979][django.channels.server.log_action():147] [INFO] HTTP POST /token/refresh/ 200 [0.07, 127.0.0.1:63744]
+[2023-08-07 20:57:39,003][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:63744]
+[2023-08-07 20:57:39,213][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.20, 127.0.0.1:63744]
+[2023-08-07 20:57:39,222][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.21, 127.0.0.1:63753]
+[2023-08-07 20:57:39,254][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.24, 127.0.0.1:63754]
+[2023-08-07 20:57:39,486][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2NjU4LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6ImY1ZjI1NTFjNTllNTRlODViMjE0YjVmY2FkZTM0NWJjIiwidXNlcl9pZCI6MX0.HHw3AcnefNCfE8YKOBtwffLnnmn5jI593bgInYB7Ifg/ [127.0.0.1:63757]
+[2023-08-07 20:57:39,487][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2NjU4LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6ImY1ZjI1NTFjNTllNTRlODViMjE0YjVmY2FkZTM0NWJjIiwidXNlcl9pZCI6MX0.HHw3AcnefNCfE8YKOBtwffLnnmn5jI593bgInYB7Ifg/ [127.0.0.1:63757]
+[2023-08-07 20:57:39,582][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_addr/?limit=20&page=1 200 [0.02, 127.0.0.1:63754]
+[2023-08-07 20:58:43,882][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_addr/?limit=20&page=1 200 [0.08, 127.0.0.1:64054]
+[2023-08-07 20:59:09,016][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/models.py changed, reloading.
+[2023-08-07 20:59:10,630][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 20:59:11,403][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 20:59:11,404][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 20:59:11,405][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:01:33,343][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/conf/env.py changed, reloading.
+[2023-08-07 21:01:34,947][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:01:35,677][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:01:35,677][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:01:35,678][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:15:37,810][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-07 21:15:39,488][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:15:40,286][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:15:40,286][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:15:40,287][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:15:57,294][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:52720]
+[2023-08-07 21:15:57,310][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:52720]
+[2023-08-07 21:15:57,335][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:52720]
+[2023-08-07 21:15:57,393][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:52720]
+[2023-08-07 21:15:57,478][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:52720]
+[2023-08-07 21:15:57,483][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:52728]
+[2023-08-07 21:15:57,487][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:52729]
+[2023-08-07 21:15:57,677][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.20, 127.0.0.1:52720]
+[2023-08-07 21:15:57,687][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.20, 127.0.0.1:52728]
+[2023-08-07 21:15:57,731][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.24, 127.0.0.1:52729]
+[2023-08-07 21:15:57,955][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2NjU4LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6ImY1ZjI1NTFjNTllNTRlODViMjE0YjVmY2FkZTM0NWJjIiwidXNlcl9pZCI6MX0.HHw3AcnefNCfE8YKOBtwffLnnmn5jI593bgInYB7Ifg/ [127.0.0.1:52736]
+[2023-08-07 21:15:58,011][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2NjU4LCJpYXQiOjE2OTEzOTE0MTUsImp0aSI6ImY1ZjI1NTFjNTllNTRlODViMjE0YjVmY2FkZTM0NWJjIiwidXNlcl9pZCI6MX0.HHw3AcnefNCfE8YKOBtwffLnnmn5jI593bgInYB7Ifg/ [127.0.0.1:52736]
+[2023-08-07 21:15:58,045][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_addr/?limit=20&page=1 200 [0.02, 127.0.0.1:52729]
+[2023-08-07 21:16:39,499][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:16:40,848][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:16:41,629][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:16:41,630][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:16:41,631][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:16:49,223][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/logout/ 200 [0.00, 127.0.0.1:52965]
+[2023-08-07 21:16:49,313][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.09, 127.0.0.1:52965]
+[2023-08-07 21:16:49,412][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/captcha/ 200 [0.02, 127.0.0.1:52971]
+[2023-08-07 21:16:50,553][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:52971]
+[2023-08-07 21:16:50,678][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:52971]
+[2023-08-07 21:16:50,741][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.09, 127.0.0.1:52980]
+[2023-08-07 21:17:00,747][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:52980]
+[2023-08-07 21:17:00,865][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:17:01,941][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.18, 127.0.0.1:52980]
+[2023-08-07 21:17:01,965][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:52980]
+[2023-08-07 21:17:02,015][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:52980]
+[2023-08-07 21:17:02,133][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3ODIxLCJpYXQiOjE2OTE0MTQyMjEsImp0aSI6IjNlNDc4MjE2ZTRhZDRjNjU4ZDAwMmVmY2QyZTRmOWJhIiwidXNlcl9pZCI6MX0.8WODpVnb3gOOz3SS2hyq7h-UhK6fiWuJY67AnZVRraA/ [127.0.0.1:53057]
+[2023-08-07 21:17:02,166][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3ODIxLCJpYXQiOjE2OTE0MTQyMjEsImp0aSI6IjNlNDc4MjE2ZTRhZDRjNjU4ZDAwMmVmY2QyZTRmOWJhIiwidXNlcl9pZCI6MX0.8WODpVnb3gOOz3SS2hyq7h-UhK6fiWuJY67AnZVRraA/ [127.0.0.1:53057]
+[2023-08-07 21:17:11,254][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:17:12,440][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:17:13,088][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:17:13,089][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:17:13,089][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:19:11,783][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:19:13,398][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:19:14,184][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:19:14,185][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:19:14,186][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:23:53,539][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-07 21:23:55,195][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:23:55,954][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:23:55,954][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:23:55,955][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:25:35,319][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-07 21:25:39,531][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:25:40,307][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:25:40,307][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:25:40,308][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:27:58,232][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-07 21:27:59,708][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:28:00,317][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:28:00,317][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:28:00,318][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:28:21,113][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:56253]
+[2023-08-07 21:28:21,121][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:56254]
+[2023-08-07 21:39:25,556][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:39:27,535][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:39:28,372][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:39:28,373][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:39:28,373][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:40:31,556][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:40:33,024][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:40:33,846][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:40:33,846][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:40:33,847][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:41:34,981][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:41:36,124][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:41:50,143][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:41:51,226][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:41:51,978][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:41:51,978][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:41:51,979][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:43:08,904][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:43:10,361][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:43:11,134][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:43:11,134][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:43:11,135][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:45:04,969][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:45:06,113][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:45:06,787][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:45:06,788][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:45:06,789][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:45:22,497][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:45:23,515][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:45:24,137][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:45:24,138][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:45:24,139][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:45:31,052][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:59368]
+[2023-08-07 21:45:31,114][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:59368]
+[2023-08-07 21:45:53,128][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:59368]
+[2023-08-07 21:45:53,322][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:59368]
+[2023-08-07 21:45:53,392][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.11, 127.0.0.1:59462]
+[2023-08-07 21:46:06,605][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:46:07,590][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.05, 127.0.0.1:59462]
+[2023-08-07 21:46:07,601][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:59462]
+[2023-08-07 21:46:07,662][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.05, 127.0.0.1:59462]
+[2023-08-07 21:51:44,231][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:51:45,692][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:51:46,378][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:51:46,378][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:51:46,380][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:51:55,423][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:51:56,617][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.27, 127.0.0.1:60969]
+[2023-08-07 21:51:56,632][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:60969]
+[2023-08-07 21:51:56,705][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:60969]
+[2023-08-07 21:52:08,677][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:52:10,023][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:52:10,771][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:52:10,771][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:52:10,772][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:52:17,103][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:52:17,772][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.75, 127.0.0.1:61066]
+[2023-08-07 21:52:17,783][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:61066]
+[2023-08-07 21:52:17,837][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.05, 127.0.0.1:61066]
+[2023-08-07 21:53:21,551][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:53:22,991][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:53:23,760][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:53:23,760][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:53:23,760][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:53:28,872][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:53:36,547][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [7.74, 127.0.0.1:61360]
+[2023-08-07 21:53:36,632][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [2.29, 127.0.0.1:61387]
+[2023-08-07 21:53:36,640][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:61360]
+[2023-08-07 21:53:36,697][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.05, 127.0.0.1:61360]
+[2023-08-07 21:53:36,735][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.04, 127.0.0.1:61387]
+[2023-08-07 21:53:51,172][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:53:55,031][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [3.92, 127.0.0.1:61387]
+[2023-08-07 21:53:55,044][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:61387]
+[2023-08-07 21:53:55,088][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.04, 127.0.0.1:61387]
+[2023-08-07 21:54:30,407][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-07 21:54:32,167][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:54:32,819][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:54:32,820][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:54:32,820][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:54:39,280][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:54:39,995][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.78, 127.0.0.1:61672]
+[2023-08-07 21:54:40,020][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:61672]
+[2023-08-07 21:54:40,097][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:61672]
+[2023-08-07 21:54:40,430][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2Nzc5LCJpYXQiOjE2OTE0MTY0NzksImp0aSI6IjdlNmJjODMzMDdjNDQ2ODBiNjUzNGZmYTA3NDM5NDk0IiwidXNlcl9pZCI6MX0.toeOzRQ7KwB3JZnEpj_YsOT0h5qPIqbNF9_ZnnfmfAg/ [127.0.0.1:61685]
+[2023-08-07 21:54:40,502][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2Nzc5LCJpYXQiOjE2OTE0MTY0NzksImp0aSI6IjdlNmJjODMzMDdjNDQ2ODBiNjUzNGZmYTA3NDM5NDk0IiwidXNlcl9pZCI6MX0.toeOzRQ7KwB3JZnEpj_YsOT0h5qPIqbNF9_ZnnfmfAg/ [127.0.0.1:61685]
+[2023-08-07 21:54:54,055][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 21:54:55,458][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 21:54:56,135][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 21:54:56,135][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 21:54:56,136][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 21:55:00,983][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.07, 127.0.0.1:61786]
+[2023-08-07 21:55:01,097][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:61786]
+[2023-08-07 21:55:01,158][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.07, 127.0.0.1:61790]
+[2023-08-07 21:55:04,553][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:61790]
+[2023-08-07 21:55:04,691][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:61790]
+[2023-08-07 21:55:04,746][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.09, 127.0.0.1:61786]
+[2023-08-07 21:55:15,685][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 21:55:16,483][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.85, 127.0.0.1:61786]
+[2023-08-07 21:55:16,506][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:61786]
+[2023-08-07 21:55:16,567][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:61786]
+[2023-08-07 21:55:16,751][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:61869]
+[2023-08-07 21:55:16,804][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:61869]
+[2023-08-07 21:55:29,704][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?limit=999&parent__isnull=1 200 [0.00, 127.0.0.1:61786]
+[2023-08-07 21:55:29,753][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?limit=999&parent__isnull=1 200 [0.05, 127.0.0.1:61786]
+[2023-08-07 21:55:29,816][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?parent=1&limit=999 200 [0.00, 127.0.0.1:61786]
+[2023-08-07 21:55:29,822][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?parent__isnull=1&limit=999 200 [0.01, 127.0.0.1:61790]
+[2023-08-07 21:55:29,856][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.04, 127.0.0.1:61786]
+[2023-08-07 21:55:29,900][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent__isnull=1&limit=999 200 [0.07, 127.0.0.1:61790]
+[2023-08-07 21:58:17,859][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:61869]
+[2023-08-07 21:58:19,523][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62632]
+[2023-08-07 21:58:19,588][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:62632]
+[2023-08-07 21:58:19,843][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.25, 127.0.0.1:62632]
+[2023-08-07 21:58:19,855][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.25, 127.0.0.1:62636]
+[2023-08-07 21:58:19,878][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.28, 127.0.0.1:62638]
+[2023-08-07 21:58:19,978][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62644]
+[2023-08-07 21:58:20,025][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?limit=999&parent__isnull=1 200 [0.05, 127.0.0.1:62638]
+[2023-08-07 21:58:20,029][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62644]
+[2023-08-07 21:58:20,133][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.03, 127.0.0.1:62638]
+[2023-08-07 21:58:20,163][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent__isnull=1&limit=999 200 [0.05, 127.0.0.1:62636]
+[2023-08-07 21:58:22,277][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62644]
+[2023-08-07 21:58:23,055][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62636]
+[2023-08-07 21:58:23,102][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:62636]
+[2023-08-07 21:58:23,132][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:62636]
+[2023-08-07 21:58:23,139][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:62638]
+[2023-08-07 21:58:23,167][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:62632]
+[2023-08-07 21:58:23,265][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62665]
+[2023-08-07 21:58:23,267][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62665]
+[2023-08-07 21:58:23,341][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?limit=999&parent__isnull=1 200 [0.06, 127.0.0.1:62632]
+[2023-08-07 21:58:23,432][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.03, 127.0.0.1:62632]
+[2023-08-07 21:58:23,484][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent__isnull=1&limit=999 200 [0.05, 127.0.0.1:62632]
+[2023-08-07 21:58:26,194][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62665]
+[2023-08-07 21:58:26,550][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62632]
+[2023-08-07 21:58:26,598][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:62632]
+[2023-08-07 21:58:26,626][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:62632]
+[2023-08-07 21:58:26,633][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:62638]
+[2023-08-07 21:58:26,667][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.06, 127.0.0.1:62636]
+[2023-08-07 21:58:26,728][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62690]
+[2023-08-07 21:58:26,730][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE2ODE1LCJpYXQiOjE2OTE0MTY1MTUsImp0aSI6ImIwZWIxMWJmY2JmNDQ2ZTA5NjIzNzVlMWMyNDhmOTJlIiwidXNlcl9pZCI6MX0.eMAFGkr_l31VkELu-oLNJg8TX7p47wXrdvO7cTflT4g/ [127.0.0.1:62690]
+[2023-08-07 21:58:26,775][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?limit=999&parent__isnull=1 200 [0.04, 127.0.0.1:62636]
+[2023-08-07 21:58:26,872][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.03, 127.0.0.1:62636]
+[2023-08-07 21:58:26,909][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent__isnull=1&limit=999 200 [0.06, 127.0.0.1:62638]
+[2023-08-07 22:01:13,004][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-07 22:01:14,664][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 22:01:15,418][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 22:01:15,419][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 22:01:15,420][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 22:01:22,862][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.08, 127.0.0.1:63413]
+[2023-08-07 22:01:22,919][django.channels.server.log_action():147] [INFO] HTTP POST /token/refresh/ 200 [0.05, 127.0.0.1:63413]
+[2023-08-07 22:01:22,967][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.04, 127.0.0.1:63413]
+[2023-08-07 22:01:23,135][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:63413]
+[2023-08-07 22:01:23,201][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:63419]
+[2023-08-07 22:01:24,001][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63419]
+[2023-08-07 22:01:24,062][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:63419]
+[2023-08-07 22:01:24,124][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:63413]
+[2023-08-07 22:01:36,919][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 22:01:38,450][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.60, 127.0.0.1:63413]
+[2023-08-07 22:01:38,471][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:63413]
+[2023-08-07 22:01:38,519][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.03, 127.0.0.1:63413]
+[2023-08-07 22:01:38,621][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63502]
+[2023-08-07 22:01:38,651][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63502]
+[2023-08-07 22:02:54,349][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 22:02:56,473][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 22:02:57,176][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 22:02:57,176][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 22:02:57,177][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 22:03:24,137][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63946]
+[2023-08-07 22:03:24,169][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:63946]
+[2023-08-07 22:03:24,446][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.26, 127.0.0.1:63946]
+[2023-08-07 22:03:24,461][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.27, 127.0.0.1:63950]
+[2023-08-07 22:03:24,501][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.31, 127.0.0.1:63951]
+[2023-08-07 22:03:24,580][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63961]
+[2023-08-07 22:03:24,616][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63961]
+[2023-08-07 22:03:26,569][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63961]
+[2023-08-07 22:03:26,834][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63951]
+[2023-08-07 22:03:26,875][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:63951]
+[2023-08-07 22:03:26,899][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:63951]
+[2023-08-07 22:03:26,908][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:63946]
+[2023-08-07 22:03:26,939][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.06, 127.0.0.1:63950]
+[2023-08-07 22:03:27,002][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63976]
+[2023-08-07 22:03:27,004][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63976]
+[2023-08-07 22:03:27,757][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63976]
+[2023-08-07 22:03:28,006][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63950]
+[2023-08-07 22:03:28,050][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:63950]
+[2023-08-07 22:03:28,074][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:63950]
+[2023-08-07 22:03:28,081][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:63946]
+[2023-08-07 22:03:28,108][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:63951]
+[2023-08-07 22:03:28,169][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63986]
+[2023-08-07 22:03:28,172][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE3MTk3LCJpYXQiOjE2OTE0MTY4OTcsImp0aSI6ImVlMTQyYjFkNTBkMDRkMTFiY2VmNjUzZjc1MTg1M2I2IiwidXNlcl9pZCI6MX0.rHb86c2sJOc352drObgGkB8GchfkWOO4-qhu8l58qnY/ [127.0.0.1:63986]
+[2023-08-07 22:05:02,059][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?limit=999&parent__isnull=1 200 [0.04, 127.0.0.1:64371]
+[2023-08-07 22:05:02,144][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.03, 127.0.0.1:64371]
+[2023-08-07 22:05:02,223][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent__isnull=1&limit=999 200 [0.10, 127.0.0.1:64379]
+[2023-08-07 22:05:59,373][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?parent=5&limit=999 200 [0.00, 127.0.0.1:64379]
+[2023-08-07 22:05:59,412][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=5&limit=999 200 [0.04, 127.0.0.1:64379]
+[2023-08-07 22:06:06,897][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.03, 127.0.0.1:64379]
+[2023-08-07 22:09:46,026][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-07 22:09:47,470][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-07 22:09:48,184][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-07 22:09:48,184][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-07 22:09:48,185][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
