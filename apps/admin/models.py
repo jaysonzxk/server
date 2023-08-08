@@ -1,7 +1,7 @@
 import hashlib
 import os
 from pathlib import PurePath, PureWindowsPath, PurePosixPath
-
+from uuid import uuid4
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
@@ -19,6 +19,7 @@ class Users(CoreModel, AbstractUser):
                                 help_text="用户账号")
     employee_no = models.CharField(max_length=150, unique=True, db_index=True, null=True, blank=True,
                                    verbose_name="工号", help_text="工号")
+    secret = models.CharField(max_length=255, default=uuid4, verbose_name='加密秘钥')
     email = models.EmailField(max_length=255, verbose_name="邮箱", null=True, blank=True, help_text="邮箱")
     mobile = models.CharField(max_length=255, verbose_name="电话", null=True, blank=True, help_text="电话")
     avatar = models.CharField(max_length=255, verbose_name="头像", null=True, blank=True, help_text="头像")

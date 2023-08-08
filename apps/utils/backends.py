@@ -1,12 +1,9 @@
-import hashlib
 import logging
 
 from django.contrib.auth import get_user_model
 from django.contrib.auth.backends import ModelBackend
-from django.contrib.auth.hashers import check_password
 from django.utils import timezone
-
-from apps.utils.validator import CustomValidationError
+from rest_framework.authentication import SessionAuthentication as DjangoSessionAuthentication
 
 logger = logging.getLogger(__name__)
 UserModel = get_user_model()
@@ -27,13 +24,29 @@ class CustomBackend(ModelBackend):
         except UserModel.DoesNotExist:
             UserModel().set_password(password)
         else:
-            verify_password = check_password(password, user.password)
-            if not verify_password:
-                password = hashlib.md5(password.encode(encoding='UTF-8')).hexdigest()
-                verify_password = check_password(password, user.password)
-            if verify_password:
-                if self.user_can_authenticate(user):
-                    user.last_login = timezone.now()
-                    user.save()
-                    return user
-                raise CustomValidationError("当前用户已被禁用，请联系管理员!")
+            # print(user.check_password(password))
+            # print(self.user_can_authenticate(user))
+            if user.check_password(password) and self.user_can_authenticate(user):
+                user.last_login = timezone.now()
+                user.save()
+                return user
+
+
+class SessionAuthentication(DjangoSessionAuthentication):
+    """
+    Session认证
+    """
+
+    def authenticate(self, request):
+        """
+        Returns a `User` if the request session currently has a logged in user.
+        Otherwise returns `None`.
+        """
+        # Get the session-based user from the underlying HttpRequest object
+        user = getattr(request._request, 'user', None)
+        # Unauthenticated, CSRF validation not required
+        if not user or not user.is_active:
+            return None
+        # self.enforce_csrf(request)
+        # CSRF passed with authenticated user
+        return user, None

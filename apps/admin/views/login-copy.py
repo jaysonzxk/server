@@ -19,7 +19,6 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
 from rest_framework_simplejwt.tokens import RefreshToken, AccessToken
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
-
 from django.conf import settings
 
 from application import dispatch
@@ -72,7 +71,6 @@ class LoginSerializer(TokenObtainPairSerializer):
     default_error_messages = {"no_active_account": _("账号/密码错误")}
 
     def validate(self, attrs):
-        print(1111)
         captcha = self.initial_data.get("captcha", None)
         if dispatch.get_system_config_values("base.captcha_state"):
             if captcha is None:
@@ -103,7 +101,6 @@ class LoginSerializer(TokenObtainPairSerializer):
             data['dept_info'] = {
                 'dept_id': dept.id,
                 'dept_name': dept.name,
-
             }
         role = getattr(self.user, 'role', None)
         if role:
@@ -133,13 +130,12 @@ class CustomTokenRefreshView(TokenRefreshView):
     自定义token刷新
     """
     def post(self, request, *args, **kwargs):
-        print(222222)
         refresh_token = request.data.get("refresh")
         try:
             token = RefreshToken(refresh_token)
             data = {
-                "access": str(token.access_token),
-                "refresh": str(token)
+                "access":str(token.access_token),
+                "refresh":str(token)
             }
         except:
             return ErrorResponse(status=HTTP_401_UNAUTHORIZED)
@@ -150,7 +146,6 @@ class LoginView(TokenObtainPairView):
     """
     登录接口
     """
-    print(333333)
     serializer_class = LoginSerializer
     permission_classes = []
 
@@ -168,7 +163,6 @@ class LoginTokenSerializer(TokenObtainPairSerializer):
     default_error_messages = {"no_active_account": _("账号/密码不正确")}
 
     def validate(self, attrs):
-        print(44444)
         if not getattr(settings, "LOGIN_NO_CAPTCHA_AUTH", False):
             return {"code": 4000, "msg": "该接口暂未开通!", "data": None}
         data = super().validate(attrs)
@@ -181,7 +175,6 @@ class LoginTokenView(TokenObtainPairView):
     """
     登录获取token接口
     """
-    print(55555)
     serializer_class = LoginTokenSerializer
     permission_classes = []
 

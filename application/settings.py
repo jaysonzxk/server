@@ -288,26 +288,28 @@ REST_FRAMEWORK = {
     ),
     "DEFAULT_PAGINATION_CLASS": "apps.utils.pagination.CustomPagination",  # 自定义分页
     "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
-        "rest_framework.authentication.SessionAuthentication",
+        "apps.utils.authentication.RedisOpAuthJwtAuthentication",
     ),
     "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.IsAuthenticated",  # 只有经过身份认证确定用户身份才能访问
-        # 'rest_framework.permissions.IsAdminUser', # is_staff=True才能访问 —— 管理员(员工)权限
-        # 'rest_framework.permissions.AllowAny', # 允许所有
-        # 'rest_framework.permissions.IsAuthenticatedOrReadOnly', # 有身份 或者 只读访问(self.list,self.retrieve)
     ],
     "EXCEPTION_HANDLER": "apps.utils.exception.CustomExceptionHandler",  # 自定义的异常处理
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.AutoSchema',
 }
 # ================================================= #
 # ******************** 登录方式配置 ******************** #
 # ================================================= #
 
-AUTHENTICATION_BACKENDS = ["apps.utils.backends.CustomBackend"]
+AUTHENTICATION_BACKENDS = ['apps.utils.backends.CustomBackend',
+                           'apps.utils.backends.SessionAuthentication', ]
+AUTH_USER_MODEL = 'admin.Users'
+# username_field
+USERNAME_FIELD = 'username'
 # ================================================= #
 # ****************** simplejwt配置 ***************** #
 # ================================================= #
 from datetime import timedelta
+
 # redis 缓存
 REDIS_URL = f'redis://:{REDIS_PASSWORD if REDIS_PASSWORD else ""}@{os.getenv("REDIS_HOST") or REDIS_HOST}:6379/1'
 CACHES = {
@@ -322,18 +324,29 @@ CACHES = {
     },
 }
 
-SIMPLE_JWT = {
-    # token有效时长
-    # "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
-    # 'JWT_AUTH_HEADER_PREFIX': 'Bearer',
-    # token刷新后的有效时间
-    "REFRESH_TOKEN_LIFETIME": timedelta(seconds=100),
-    # 设置前缀
-    "AUTH_HEADER_TYPES": ("JWT",),
-    "ROTATE_REFRESH_TOKENS": True,
-    'BLACKLIST_AFTER_ROTATION': True,
-    'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',),
+JWT_AUTH = {
+    'JWT_ALLOW_REFRESH': True,
+    # 'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=30),  # JWT有效时间24小时
+    'JWT_AUTH_HEADER_PREFIX': 'JWT',  # JWT的Header认证头以'JWT '开始
+    'JWT_AUTH_COOKIE': 'AUTH_JWT',
+    'JWT_VERIFY_EXPIRATION': True,
+    'JWT_PAYLOAD_HANDLER': 'apps.utils.jwt_util.jwt_payload_handler',
+    'JWT_GET_USER_SECRET_KEY': 'apps.utils.jwt_util.jwt_get_user_secret_key',
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'apps.utils.jwt_util.jwt_response_payload_handler',
 }
+
+# SIMPLE_JWT = {
+#     # token有效时长
+#     # "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
+#     # 'JWT_AUTH_HEADER_PREFIX': 'Bearer',
+#     # token刷新后的有效时间
+#     "REFRESH_TOKEN_LIFETIME": timedelta(seconds=100),
+#     # 设置前缀
+#     "AUTH_HEADER_TYPES": ("JWT",),
+#     "ROTATE_REFRESH_TOKENS": True,
+#     'BLACKLIST_AFTER_ROTATION': True,
+#     'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',),
+# }
 
 # ====================================#
 # ****************swagger************#

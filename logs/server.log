@@ -3846,3 +3846,1593 @@ django_filters.exceptions.FieldLookupError: Unsupported lookup 'icontains' for f
 [2023-08-07 22:09:48,184][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
 [2023-08-07 22:09:48,184][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
 [2023-08-07 22:09:48,185][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-07 22:15:48,196][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.08, 127.0.0.1:50631]
+[2023-08-07 22:15:48,206][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /token/refresh/ 200 [0.00, 127.0.0.1:50631]
+[2023-08-07 22:15:48,264][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-07 22:15:48,265][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.06, 127.0.0.1:50631]
+[2023-08-07 22:15:48,374][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:50631]
+[2023-08-07 22:15:48,435][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:50636]
+[2023-08-07 22:16:02,241][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-07 22:16:03,254][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.07, 127.0.0.1:50636]
+[2023-08-07 22:16:03,340][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.98, 127.0.0.1:50631]
+[2023-08-07 22:16:03,359][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.10, 127.0.0.1:50636]
+[2023-08-07 22:16:03,425][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:50631]
+[2023-08-07 22:16:03,469][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE4MDYyLCJpYXQiOjE2OTE0MTc3NjIsImp0aSI6Ijg4NmJmYzZmMjEyYTQ4MWY4ZTI3YjFiMjYwMWE1YWFkIiwidXNlcl9pZCI6MX0.QHCyWceXnhcb5FHH_KYfnWreldte9GHiS7kkzBMt7dE/ [127.0.0.1:50707]
+[2023-08-07 22:16:03,522][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE4MDYyLCJpYXQiOjE2OTE0MTc3NjIsImp0aSI6Ijg4NmJmYzZmMjEyYTQ4MWY4ZTI3YjFiMjYwMWE1YWFkIiwidXNlcl9pZCI6MX0.QHCyWceXnhcb5FHH_KYfnWreldte9GHiS7kkzBMt7dE/ [127.0.0.1:50707]
+[2023-08-07 22:21:11,017][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDE4MDYyLCJpYXQiOjE2OTE0MTc3NjIsImp0aSI6Ijg4NmJmYzZmMjEyYTQ4MWY4ZTI3YjFiMjYwMWE1YWFkIiwidXNlcl9pZCI6MX0.QHCyWceXnhcb5FHH_KYfnWreldte9GHiS7kkzBMt7dE/ [127.0.0.1:50707]
+[2023-08-08 10:25:09,009][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 10:25:10,879][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 10:25:14,807][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 10:25:14,808][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 10:25:14,811][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 10:25:24,801][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.09, 127.0.0.1:61736]
+[2023-08-08 10:25:24,866][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 10:25:24,867][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.06, 127.0.0.1:61736]
+[2023-08-08 10:25:24,996][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:61736]
+[2023-08-08 10:25:25,062][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:61739]
+[2023-08-08 10:25:33,712][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:61739]
+[2023-08-08 10:25:33,857][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:61739]
+[2023-08-08 10:25:33,919][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:61736]
+[2023-08-08 10:25:46,781][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 10:25:49,876][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [3.19, 127.0.0.1:61736]
+[2023-08-08 10:25:49,905][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:61736]
+[2023-08-08 10:25:49,970][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:61736]
+[2023-08-08 10:25:50,174][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYxODQ2LCJpYXQiOjE2OTE0NjE1NDYsImp0aSI6ImZiZGM0NjY2YmFkNjQxMmVhYzNiMWVkZGNjMzk1NjNlIiwidXNlcl9pZCI6MX0.EacTd-bvowL2VxdM8qdureQPfOKYd36d8zLWd_0W37k/ [127.0.0.1:61865]
+[2023-08-08 10:25:50,217][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYxODQ2LCJpYXQiOjE2OTE0NjE1NDYsImp0aSI6ImZiZGM0NjY2YmFkNjQxMmVhYzNiMWVkZGNjMzk1NjNlIiwidXNlcl9pZCI6MX0.EacTd-bvowL2VxdM8qdureQPfOKYd36d8zLWd_0W37k/ [127.0.0.1:61865]
+[2023-08-08 10:26:12,276][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 10:26:13,702][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 10:26:14,454][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 10:26:14,454][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 10:26:14,455][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 10:34:43,774][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:64036]
+[2023-08-08 10:34:43,825][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:64036]
+[2023-08-08 10:34:43,912][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 10:34:43,913][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.07, 127.0.0.1:64036]
+[2023-08-08 10:34:43,972][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:64036]
+[2023-08-08 10:34:44,042][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:64045]
+[2023-08-08 10:35:01,134][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 10:35:03,080][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [2.00, 127.0.0.1:64045]
+[2023-08-08 10:35:03,106][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:64045]
+[2023-08-08 10:35:03,161][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:64045]
+[2023-08-08 10:35:03,377][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyNDAxLCJpYXQiOjE2OTE0NjIxMDEsImp0aSI6ImE4MDZkNTBlYmU0OTRjNjZiNTU4MGEyNjc2NWVhMTU4IiwidXNlcl9pZCI6MX0.QthAZ3V7bGYZr5lR3xvvHVFnTFNHvXeC03RHot3vbIo/ [127.0.0.1:64132]
+[2023-08-08 10:35:03,424][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyNDAxLCJpYXQiOjE2OTE0NjIxMDEsImp0aSI6ImE4MDZkNTBlYmU0OTRjNjZiNTU4MGEyNjc2NWVhMTU4IiwidXNlcl9pZCI6MX0.QthAZ3V7bGYZr5lR3xvvHVFnTFNHvXeC03RHot3vbIo/ [127.0.0.1:64132]
+[2023-08-08 10:37:04,394][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyNDAxLCJpYXQiOjE2OTE0NjIxMDEsImp0aSI6ImE4MDZkNTBlYmU0OTRjNjZiNTU4MGEyNjc2NWVhMTU4IiwidXNlcl9pZCI6MX0.QthAZ3V7bGYZr5lR3xvvHVFnTFNHvXeC03RHot3vbIo/ [127.0.0.1:64132]
+[2023-08-08 10:37:06,378][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:64638]
+[2023-08-08 10:37:06,443][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:64638]
+[2023-08-08 10:37:06,717][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.26, 127.0.0.1:64638]
+[2023-08-08 10:37:06,735][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.28, 127.0.0.1:64642]
+[2023-08-08 10:37:06,774][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.32, 127.0.0.1:64643]
+[2023-08-08 10:37:06,971][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyNDAxLCJpYXQiOjE2OTE0NjIxMDEsImp0aSI6ImE4MDZkNTBlYmU0OTRjNjZiNTU4MGEyNjc2NWVhMTU4IiwidXNlcl9pZCI6MX0.QthAZ3V7bGYZr5lR3xvvHVFnTFNHvXeC03RHot3vbIo/ [127.0.0.1:64654]
+[2023-08-08 10:37:06,977][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyNDAxLCJpYXQiOjE2OTE0NjIxMDEsImp0aSI6ImE4MDZkNTBlYmU0OTRjNjZiNTU4MGEyNjc2NWVhMTU4IiwidXNlcl9pZCI6MX0.QthAZ3V7bGYZr5lR3xvvHVFnTFNHvXeC03RHot3vbIo/ [127.0.0.1:64654]
+[2023-08-08 10:43:19,677][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 10:43:20,445][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 10:43:20,445][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 10:43:20,446][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 10:43:28,623][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.09, 127.0.0.1:49841]
+[2023-08-08 10:43:28,694][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 10:43:28,695][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.06, 127.0.0.1:49841]
+[2023-08-08 10:43:28,882][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:49841]
+[2023-08-08 10:43:28,959][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.10, 127.0.0.1:49846]
+[2023-08-08 10:43:44,699][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 10:43:45,530][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.89, 127.0.0.1:49846]
+[2023-08-08 10:43:45,553][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:49846]
+[2023-08-08 10:43:45,658][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyOTI0LCJpYXQiOjE2OTE0NjI2MjQsImp0aSI6IjA1M2UzYjUxNTM3NzRjOGY5ZmQ1ZWNkMmIwYmNjOTljIiwidXNlcl9pZCI6MX0.VDzwSXpbPvYHCaSiqn-03j8brWdSP77s_we2MjEWiYM/ [127.0.0.1:49924]
+[2023-08-08 10:43:45,689][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyOTI0LCJpYXQiOjE2OTE0NjI2MjQsImp0aSI6IjA1M2UzYjUxNTM3NzRjOGY5ZmQ1ZWNkMmIwYmNjOTljIiwidXNlcl9pZCI6MX0.VDzwSXpbPvYHCaSiqn-03j8brWdSP77s_we2MjEWiYM/ [127.0.0.1:49924]
+[2023-08-08 10:44:15,636][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 10:44:16,182][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 10:44:16,182][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 10:44:16,182][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 10:44:22,624][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.07, 127.0.0.1:50083]
+[2023-08-08 10:44:22,742][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:50083]
+[2023-08-08 10:44:25,734][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:50105]
+[2023-08-08 10:44:25,846][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:50105]
+[2023-08-08 10:44:25,894][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.07, 127.0.0.1:50106]
+[2023-08-08 10:44:39,377][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 10:44:40,066][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.75, 127.0.0.1:50106]
+[2023-08-08 10:44:40,089][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:50106]
+[2023-08-08 10:44:40,141][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:50106]
+[2023-08-08 10:44:40,327][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyOTc5LCJpYXQiOjE2OTE0NjI2NzksImp0aSI6IjhkNTFjOWEyYTQ1NTRjY2I4NGZhMWY1M2VhZmVlZjE4IiwidXNlcl9pZCI6MX0.u4Qs8z14sFjrrbfYq5kcM9p0WYk9A8ia8yzV9pAQNUc/ [127.0.0.1:50178]
+[2023-08-08 10:44:40,366][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDYyOTc5LCJpYXQiOjE2OTE0NjI2NzksImp0aSI6IjhkNTFjOWEyYTQ1NTRjY2I4NGZhMWY1M2VhZmVlZjE4IiwidXNlcl9pZCI6MX0.u4Qs8z14sFjrrbfYq5kcM9p0WYk9A8ia8yzV9pAQNUc/ [127.0.0.1:50178]
+[2023-08-08 10:49:51,786][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 10:49:52,788][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 10:51:34,484][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 10:51:36,059][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 10:59:50,505][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:04:01,973][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:04:02,746][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:04:02,746][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:04:02,747][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:04:08,467][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/logout/ 200 [0.00, 127.0.0.1:54922]
+[2023-08-08 11:04:08,554][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.08, 127.0.0.1:54922]
+[2023-08-08 11:04:08,576][django.request.log_response():224] [WARNING] Not Found: /token/refresh/
+[2023-08-08 11:04:08,576][django.channels.server.log_action():155] [WARNING] HTTP POST /token/refresh/ 404 [0.02, 127.0.0.1:54922]
+[2023-08-08 11:04:38,225][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:04:39,160][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:04:39,698][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:04:39,698][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:04:39,699][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:04:45,287][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.08, 127.0.0.1:55081]
+[2023-08-08 11:04:45,305][django.request.log_response():224] [WARNING] Not Found: /token/refresh/
+[2023-08-08 11:04:45,306][django.channels.server.log_action():155] [WARNING] HTTP POST /token/refresh/ 404 [0.01, 127.0.0.1:55081]
+[2023-08-08 11:05:10,985][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/urls.py changed, reloading.
+[2023-08-08 11:05:11,947][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:05:12,510][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:05:12,511][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:05:12,512][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:05:18,038][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.07, 127.0.0.1:55217]
+[2023-08-08 11:05:18,104][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 11:05:18,105][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.06, 127.0.0.1:55217]
+[2023-08-08 11:05:18,170][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:55217]
+[2023-08-08 11:05:18,174][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/captcha/ 200 [0.01, 127.0.0.1:55224]
+[2023-08-08 11:05:18,193][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:55217]
+[2023-08-08 11:05:18,274][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.10, 127.0.0.1:55224]
+[2023-08-08 11:05:28,804][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:55224]
+[2023-08-08 11:05:28,864][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.06, 127.0.0.1:55224]
+[2023-08-08 11:05:28,959][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.04, 127.0.0.1:55224]
+[2023-08-08 11:05:41,368][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.04, 127.0.0.1:55224]
+[2023-08-08 11:05:41,410][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.04, 127.0.0.1:55224]
+[2023-08-08 11:08:06,394][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:08:07,828][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:08:08,604][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:08:08,605][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:08:08,605][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:08:13,813][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:55970]
+[2023-08-08 11:08:13,886][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:55970]
+[2023-08-08 11:08:48,133][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:08:49,157][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:08:49,735][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:08:49,735][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:08:49,736][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:09:00,330][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.07, 127.0.0.1:56163]
+[2023-08-08 11:09:00,416][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:56163]
+[2023-08-08 11:10:06,461][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:10:07,565][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:10:08,166][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:10:08,166][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:10:08,167][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:15:19,251][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:15:20,652][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:15:21,409][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:15:21,409][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:15:21,410][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:15:28,770][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.07, 127.0.0.1:57760]
+[2023-08-08 11:15:28,865][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.09, 127.0.0.1:57760]
+[2023-08-08 11:15:40,437][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:15:41,841][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:15:42,515][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:15:42,515][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:15:42,516][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:15:54,035][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.07, 127.0.0.1:57868]
+[2023-08-08 11:15:54,125][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:57868]
+[2023-08-08 11:16:06,778][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:16:07,804][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:16:08,363][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:16:08,363][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:16:08,364][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:16:14,811][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:57960]
+[2023-08-08 11:16:14,878][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:57960]
+[2023-08-08 11:16:42,954][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:16:44,180][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:16:44,765][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:16:44,766][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:16:44,766][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:16:50,880][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:58112]
+[2023-08-08 11:16:50,955][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:58112]
+[2023-08-08 11:17:10,928][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 11:17:11,881][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:17:12,418][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:17:12,418][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:17:12,419][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:17:18,752][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:58228]
+[2023-08-08 11:17:18,828][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:58228]
+[2023-08-08 11:19:01,935][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:19:02,692][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:19:02,692][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:19:02,693][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:19:12,768][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 11:19:13,787][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.08, 127.0.0.1:58700]
+[2023-08-08 11:19:13,799][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:58700]
+[2023-08-08 11:19:13,817][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:58700]
+[2023-08-08 11:19:13,980][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY1MDUyLCJpYXQiOjE2OTE0NjQ3NTIsImp0aSI6ImJlNDkyMDFhMDA1MDRkNjc4MTZlMWFjMzAwMWNlNmE5IiwidXNlcl9pZCI6MX0._pGjv4mh6Tk3NUzFAyKmqswspkxmqU0nrnFpu679EQY/ [127.0.0.1:58708]
+[2023-08-08 11:19:14,023][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY1MDUyLCJpYXQiOjE2OTE0NjQ3NTIsImp0aSI6ImJlNDkyMDFhMDA1MDRkNjc4MTZlMWFjMzAwMWNlNmE5IiwidXNlcl9pZCI6MX0._pGjv4mh6Tk3NUzFAyKmqswspkxmqU0nrnFpu679EQY/ [127.0.0.1:58708]
+[2023-08-08 11:21:02,014][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 11:21:02,765][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 11:21:02,765][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 11:21:02,766][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 11:21:12,113][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.09, 127.0.0.1:59201]
+[2023-08-08 11:21:12,243][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:59201]
+[2023-08-08 11:21:12,298][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.07, 127.0.0.1:59209]
+[2023-08-08 11:21:15,658][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:59209]
+[2023-08-08 11:21:15,670][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:59209]
+[2023-08-08 11:21:15,816][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:59209]
+[2023-08-08 11:21:15,862][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.07, 127.0.0.1:59201]
+[2023-08-08 11:21:33,349][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 11:21:34,105][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.86, 127.0.0.1:59201]
+[2023-08-08 11:21:34,129][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:59201]
+[2023-08-08 11:21:34,153][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.00, 127.0.0.1:59201]
+[2023-08-08 11:21:34,200][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:59201]
+[2023-08-08 11:21:34,530][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY1MTkzLCJpYXQiOjE2OTE0NjQ4OTMsImp0aSI6IjM3YTFmNDEyZjg5YjRhMmE5NDAxMWE4YmIzMDIwYTgwIiwidXNlcl9pZCI6MX0.lIVf0FC21GVIJXmY5H0gFT8-wP8gy5ELt4PU8GG9iuA/ [127.0.0.1:59313]
+[2023-08-08 11:21:34,609][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY1MTkzLCJpYXQiOjE2OTE0NjQ4OTMsImp0aSI6IjM3YTFmNDEyZjg5YjRhMmE5NDAxMWE4YmIzMDIwYTgwIiwidXNlcl9pZCI6MX0.lIVf0FC21GVIJXmY5H0gFT8-wP8gy5ELt4PU8GG9iuA/ [127.0.0.1:59313]
+[2023-08-08 11:23:06,632][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY1MTkzLCJpYXQiOjE2OTE0NjQ4OTMsImp0aSI6IjM3YTFmNDEyZjg5YjRhMmE5NDAxMWE4YmIzMDIwYTgwIiwidXNlcl9pZCI6MX0.lIVf0FC21GVIJXmY5H0gFT8-wP8gy5ELt4PU8GG9iuA/ [127.0.0.1:59313]
+[2023-08-08 12:19:58,515][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 12:20:00,406][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 12:20:01,209][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 12:20:01,210][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 12:20:01,210][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 12:20:08,720][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.08, 127.0.0.1:55163]
+[2023-08-08 12:20:08,775][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /token/refresh/ 200 [0.00, 127.0.0.1:55163]
+[2023-08-08 12:20:08,829][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 12:20:08,831][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.05, 127.0.0.1:55163]
+[2023-08-08 12:20:09,017][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:55163]
+[2023-08-08 12:20:09,107][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.11, 127.0.0.1:55169]
+[2023-08-08 12:20:25,213][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 12:20:26,192][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.05, 127.0.0.1:55169]
+[2023-08-08 12:20:26,230][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:55169]
+[2023-08-08 12:20:26,393][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4NzI1LCJpYXQiOjE2OTE0Njg0MjUsImp0aSI6ImMzZjU1YjI5YjFkNTQ5ODY4MzI0YzExMDdkNGViMGQ5IiwidXNlcl9pZCI6MX0.kJP-kPqS2ID6GA5eA73oqNOFuccDKeqD2QV3JOsLMho/ [127.0.0.1:55245]
+[2023-08-08 12:20:26,429][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4NzI1LCJpYXQiOjE2OTE0Njg0MjUsImp0aSI6ImMzZjU1YjI5YjFkNTQ5ODY4MzI0YzExMDdkNGViMGQ5IiwidXNlcl9pZCI6MX0.kJP-kPqS2ID6GA5eA73oqNOFuccDKeqD2QV3JOsLMho/ [127.0.0.1:55245]
+[2023-08-08 12:21:44,117][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 12:21:45,539][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 12:21:46,357][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 12:21:46,357][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 12:21:46,358][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 12:21:52,132][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.08, 127.0.0.1:55600]
+[2023-08-08 12:21:52,215][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:55600]
+[2023-08-08 12:21:52,305][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.08, 127.0.0.1:55600]
+[2023-08-08 12:21:55,830][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55600]
+[2023-08-08 12:21:55,955][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:55600]
+[2023-08-08 12:21:56,018][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.09, 127.0.0.1:55626]
+[2023-08-08 12:22:09,246][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 12:22:10,010][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 125, in validate
+    cache.set('token', json.dumps(data), 100)
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type SoftDeleteQuerySet is not JSON serializable
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_simplejwt/views.py", line 43, in post
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 125, in validate
+    cache.set('token', json.dumps(data), 100)
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type SoftDeleteQuerySet is not JSON serializable
+[2023-08-08 12:22:10,066][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.88, 127.0.0.1:55626]
+[2023-08-08 12:22:10,109][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.04, 127.0.0.1:55626]
+[2023-08-08 12:22:24,243][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 12:22:25,814][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 12:22:26,571][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 12:22:26,571][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 12:22:26,572][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 12:22:32,007][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 12:22:32,739][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.80, 127.0.0.1:55785]
+[2023-08-08 12:22:32,761][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:55785]
+[2023-08-08 12:22:32,815][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:55785]
+[2023-08-08 12:22:32,948][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:55798]
+[2023-08-08 12:22:32,993][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:55798]
+[2023-08-08 12:25:23,503][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:55798]
+[2023-08-08 12:25:24,779][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:56500]
+[2023-08-08 12:25:24,865][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:56500]
+[2023-08-08 12:25:24,879][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:56500]
+[2023-08-08 12:25:24,893][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:56504]
+[2023-08-08 12:25:24,924][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:56505]
+[2023-08-08 12:25:25,033][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56509]
+[2023-08-08 12:25:25,125][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.24, 127.0.0.1:56500]
+[2023-08-08 12:25:25,127][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56509]
+[2023-08-08 12:26:01,165][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56509]
+[2023-08-08 12:26:02,016][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:56500]
+[2023-08-08 12:26:02,060][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:56500]
+[2023-08-08 12:26:02,095][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:56500]
+[2023-08-08 12:26:02,102][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:56505]
+[2023-08-08 12:26:02,196][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.12, 127.0.0.1:56504]
+[2023-08-08 12:26:02,280][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56674]
+[2023-08-08 12:26:02,283][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56674]
+[2023-08-08 12:26:28,406][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56674]
+[2023-08-08 12:26:28,795][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:56504]
+[2023-08-08 12:26:28,843][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:56504]
+[2023-08-08 12:26:28,866][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:56504]
+[2023-08-08 12:26:28,873][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:56505]
+[2023-08-08 12:26:28,904][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:56500]
+[2023-08-08 12:26:28,967][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56799]
+[2023-08-08 12:26:28,970][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56799]
+[2023-08-08 12:27:55,799][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY4ODUyLCJpYXQiOjE2OTE0Njg1NTIsImp0aSI6IjgwZmE5NDgzODc1MTRmYTA5ZWM5Y2E4Zjc3ZmIwMzllIiwidXNlcl9pZCI6MX0.a_JN6riKl7z0arOp1Q3PrjKuSIWBJ3EuvxZTR8e7g2Q/ [127.0.0.1:56799]
+[2023-08-08 12:27:58,633][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:57172]
+[2023-08-08 12:27:58,667][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:57172]
+[2023-08-08 12:27:58,749][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 12:27:58,750][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.06, 127.0.0.1:57172]
+[2023-08-08 12:27:58,808][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:57172]
+[2023-08-08 12:27:58,885][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.09, 127.0.0.1:57177]
+[2023-08-08 12:28:13,866][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 12:28:16,210][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [2.40, 127.0.0.1:57177]
+[2023-08-08 12:28:16,230][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:57177]
+[2023-08-08 12:28:16,281][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:57177]
+[2023-08-08 12:28:16,462][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY5MTk0LCJpYXQiOjE2OTE0Njg4OTQsImp0aSI6ImE5NTg2MGI2NTg1MDQzNmU4MmFlODBkMGFiNDc1ODE3IiwidXNlcl9pZCI6MX0.Iwca0SFTh8ckTa-VBocbwNRas9jDX80WnIHXyKGKBGg/ [127.0.0.1:57256]
+[2023-08-08 12:28:16,466][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY5MTk0LCJpYXQiOjE2OTE0Njg4OTQsImp0aSI6ImE5NTg2MGI2NTg1MDQzNmU4MmFlODBkMGFiNDc1ODE3IiwidXNlcl9pZCI6MX0.Iwca0SFTh8ckTa-VBocbwNRas9jDX80WnIHXyKGKBGg/ [127.0.0.1:57256]
+[2023-08-08 12:30:35,387][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.05, 127.0.0.1:57834]
+[2023-08-08 12:30:35,466][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:57834]
+[2023-08-08 12:30:35,532][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.05, 127.0.0.1:57834]
+[2023-08-08 12:30:35,566][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY5MTk0LCJpYXQiOjE2OTE0Njg4OTQsImp0aSI6ImE5NTg2MGI2NTg1MDQzNmU4MmFlODBkMGFiNDc1ODE3IiwidXNlcl9pZCI6MX0.Iwca0SFTh8ckTa-VBocbwNRas9jDX80WnIHXyKGKBGg/ [127.0.0.1:57256]
+[2023-08-08 12:30:38,280][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:57834]
+[2023-08-08 12:30:38,372][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:57834]
+[2023-08-08 12:30:38,416][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:57856]
+[2023-08-08 12:30:58,405][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 12:30:59,182][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.83, 127.0.0.1:57856]
+[2023-08-08 12:30:59,201][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:57856]
+[2023-08-08 12:30:59,251][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:57856]
+[2023-08-08 12:30:59,441][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY5MzU4LCJpYXQiOjE2OTE0NjkwNTgsImp0aSI6IjA4ZGZjZGQ5MzIyZjQ5NWNiZGJhNDRiZjM2ZmM2N2FmIiwidXNlcl9pZCI6MX0.J_vL9EvGzl2jTyyyui_Hx3sNFpnvjoS8P-bT1ONCaNk/ [127.0.0.1:57953]
+[2023-08-08 12:30:59,445][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY5MzU4LCJpYXQiOjE2OTE0NjkwNTgsImp0aSI6IjA4ZGZjZGQ5MzIyZjQ5NWNiZGJhNDRiZjM2ZmM2N2FmIiwidXNlcl9pZCI6MX0.J_vL9EvGzl2jTyyyui_Hx3sNFpnvjoS8P-bT1ONCaNk/ [127.0.0.1:57953]
+[2023-08-08 12:33:10,442][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 12:33:12,011][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 12:33:12,761][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 12:33:12,761][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 12:33:12,762][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 12:33:27,649][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.07, 127.0.0.1:58565]
+[2023-08-08 12:33:27,732][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:58565]
+[2023-08-08 12:33:27,814][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.06, 127.0.0.1:58565]
+[2023-08-08 12:33:30,611][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:58565]
+[2023-08-08 12:33:30,708][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:58565]
+[2023-08-08 12:33:30,747][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.05, 127.0.0.1:58587]
+[2023-08-08 12:33:48,239][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 12:33:49,022][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.86, 127.0.0.1:58587]
+[2023-08-08 12:33:49,044][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:58587]
+[2023-08-08 12:33:49,103][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:58587]
+[2023-08-08 12:33:49,277][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY5NTI4LCJpYXQiOjE2OTE0NjkyMjgsImp0aSI6IjViZmE3YWEzYzI5YTQyYTNhM2Y4ZDVlYTQwOGY1OTdkIiwidXNlcl9pZCI6MX0.xehd2YFEC2TeeVEySnE0fOxA5ua-cYOfyPHQIFNv3HQ/ [127.0.0.1:58674]
+[2023-08-08 12:33:49,347][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDY5NTI4LCJpYXQiOjE2OTE0NjkyMjgsImp0aSI6IjViZmE3YWEzYzI5YTQyYTNhM2Y4ZDVlYTQwOGY1OTdkIiwidXNlcl9pZCI6MX0.xehd2YFEC2TeeVEySnE0fOxA5ua-cYOfyPHQIFNv3HQ/ [127.0.0.1:58674]
+[2023-08-08 12:34:52,641][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 12:34:54,091][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 12:34:54,856][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 12:34:54,856][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 12:34:54,857][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 14:54:50,804][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 14:54:52,534][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 14:54:53,311][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 14:54:53,311][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 14:54:53,312][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 14:55:13,608][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:61908]
+[2023-08-08 14:55:13,667][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:61908]
+[2023-08-08 14:55:13,752][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 14:55:13,753][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.07, 127.0.0.1:61908]
+[2023-08-08 14:55:13,817][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:61908]
+[2023-08-08 14:55:13,874][django.channels.server.log_action():147] [INFO] HTTP GET /api/captcha/ 200 [0.07, 127.0.0.1:61916]
+[2023-08-08 14:55:41,097][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 14:55:42,066][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 14:55:42,630][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 14:55:42,630][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 14:55:42,631][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 14:55:56,872][apps.utils.backends.authenticate():22] [INFO] superadmin 正在使用本地登录...
+[2023-08-08 14:55:58,110][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.30, 127.0.0.1:62097]
+[2023-08-08 14:55:58,132][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:62097]
+[2023-08-08 14:55:58,187][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:62097]
+[2023-08-08 14:55:58,394][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDc4MDU3LCJpYXQiOjE2OTE0Nzc3NTcsImp0aSI6ImMzZTE2N2VmOWM4NDQxNmU4MDkzMzUwYWEwNDFiMWRhIiwidXNlcl9pZCI6MX0.LP_G0mz23VLOBzGacI64y6Xh37xs_aoe4FwgCmMbEzg/ [127.0.0.1:62112]
+[2023-08-08 14:55:58,464][django.channels.server.log_action():164] [INFO] WebSocket CONNECT /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkxNDc4MDU3LCJpYXQiOjE2OTE0Nzc3NTcsImp0aSI6ImMzZTE2N2VmOWM4NDQxNmU4MDkzMzUwYWEwNDFiMWRhIiwidXNlcl9pZCI6MX0.LP_G0mz23VLOBzGacI64y6Xh37xs_aoe4FwgCmMbEzg/ [127.0.0.1:62112]
+[2023-08-08 15:00:32,209][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 15:00:33,560][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 15:00:34,366][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 15:00:34,366][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 15:00:34,367][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:07:48,572][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 16:07:50,377][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:07:51,195][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:07:51,196][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:07:51,196][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:09:32,616][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:09:33,594][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:10:53,630][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 16:10:54,597][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:13:32,906][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/jwt/api_jws.py changed, reloading.
+[2023-08-08 16:13:34,474][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:13:56,511][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:14:00,145][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/jwt/utils.py changed, reloading.
+[2023-08-08 16:14:01,257][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:16:43,097][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:17:19,005][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 16:17:19,910][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:20:48,435][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:20:49,436][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:20:50,120][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:20:50,120][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:20:50,121][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:21:12,512][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/logout/ 200 [0.00, 127.0.0.1:65444]
+[2023-08-08 16:21:12,598][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.08, 127.0.0.1:65444]
+[2023-08-08 16:21:20,996][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:65444]
+[2023-08-08 16:21:21,005][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65444]
+[2023-08-08 16:21:21,106][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:65444]
+[2023-08-08 16:21:21,117][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:65444]
+[2023-08-08 16:22:01,757][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65444]
+[2023-08-08 16:22:01,829][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:65444]
+[2023-08-08 16:22:01,834][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/captcha/ 200 [0.01, 127.0.0.1:49281]
+[2023-08-08 16:22:01,855][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:65444]
+[2023-08-08 16:22:01,887][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:22:01,888][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.05, 127.0.0.1:49281]
+[2023-08-08 16:22:18,862][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:49281]
+[2023-08-08 16:22:18,925][django.request.log_response():224] [ERROR] Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 63, in view
+    self = cls(**initkwargs)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 72, in __init__
+    super().__init__(kwargs)
+TypeError: View.__init__() takes 1 positional argument but 2 were given
+[2023-08-08 16:22:18,929][django.channels.server.log_action():160] [ERROR] HTTP POST /api/login/ 500 [0.07, 127.0.0.1:49281]
+[2023-08-08 16:22:18,947][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:22:18,947][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:49281]
+[2023-08-08 16:22:47,329][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:22:48,788][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:22:49,583][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:22:49,584][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:22:49,585][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:22:55,395][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 74, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 74, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-08-08 16:22:55,452][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:49503]
+[2023-08-08 16:22:55,476][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:22:55,477][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:49503]
+[2023-08-08 16:23:09,521][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:23:10,486][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:23:11,087][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:23:11,087][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:23:11,088][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:23:17,939][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 105, in post
+    jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/settings.py", line 214, in __getattr__
+    raise AttributeError("Invalid API setting: '%s'" % attr)
+AttributeError: Invalid API setting: 'JWT_PAYLOAD_HANDLER'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 105, in post
+    jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/settings.py", line 214, in __getattr__
+    raise AttributeError("Invalid API setting: '%s'" % attr)
+AttributeError: Invalid API setting: 'JWT_PAYLOAD_HANDLER'
+[2023-08-08 16:23:17,996][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.78, 127.0.0.1:49593]
+[2023-08-08 16:23:18,016][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:23:18,016][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:49593]
+[2023-08-08 16:24:49,633][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:24:51,283][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:24:52,022][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:24:52,022][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:24:52,023][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:25:15,048][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+[2023-08-08 16:25:15,111][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.67, 127.0.0.1:50072]
+[2023-08-08 16:25:15,139][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:25:15,140][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:50072]
+[2023-08-08 16:30:04,337][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py changed, reloading.
+[2023-08-08 16:30:05,717][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:30:06,495][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:30:06,495][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:30:06,496][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:30:13,829][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 16:30:13,884][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.48, 127.0.0.1:51296]
+[2023-08-08 16:30:13,907][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:30:13,907][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:51296]
+[2023-08-08 16:30:51,381][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py changed, reloading.
+[2023-08-08 16:30:52,793][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:30:53,570][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:30:53,570][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:30:53,570][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:30:59,203][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 16:30:59,263][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [2.42, 127.0.0.1:51487]
+[2023-08-08 16:30:59,284][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:30:59,284][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:51487]
+[2023-08-08 16:31:09,466][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 16:31:10,399][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:31:10,991][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:31:10,991][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:31:10,993][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:31:19,492][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+[2023-08-08 16:31:19,545][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [5.44, 127.0.0.1:51563]
+[2023-08-08 16:31:19,565][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:31:19,565][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:51563]
+[2023-08-08 16:31:32,102][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py changed, reloading.
+[2023-08-08 16:31:33,180][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:31:33,793][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:31:33,793][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:31:33,794][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:31:37,061][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+[2023-08-08 16:31:37,120][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.45, 127.0.0.1:51661]
+[2023-08-08 16:31:37,200][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:31:37,201][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:51661]
+[2023-08-08 16:31:53,834][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 16:31:54,857][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:31:55,429][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:31:55,429][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:31:55,430][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:32:03,947][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 16:32:04,002][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.45, 127.0.0.1:51776]
+[2023-08-08 16:32:04,035][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:32:04,036][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:51776]
+[2023-08-08 16:34:41,347][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py changed, reloading.
+[2023-08-08 16:34:43,017][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:34:43,768][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:34:43,768][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:34:43,769][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:34:50,088][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+[2023-08-08 16:34:50,146][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.46, 127.0.0.1:52491]
+[2023-08-08 16:34:50,189][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:34:50,190][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:52491]
+[2023-08-08 16:35:05,837][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:35:06,841][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:35:07,412][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:35:07,412][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:35:07,413][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:35:13,323][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+[2023-08-08 16:35:13,379][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.46, 127.0.0.1:52590]
+[2023-08-08 16:35:13,408][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:35:13,409][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:52590]
+[2023-08-08 16:37:25,138][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:37:26,208][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:37:26,778][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:37:26,778][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:37:26,779][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:37:32,662][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    payload.secret = uuid4()
+    ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'secret'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    payload.secret = uuid4()
+    ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'secret'
+[2023-08-08 16:37:32,717][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.92, 127.0.0.1:53154]
+[2023-08-08 16:37:32,737][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:37:32,737][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:53154]
+[2023-08-08 16:37:45,790][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 16:37:46,779][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:37:47,360][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:37:47,360][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:37:47,361][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:37:53,012][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 42, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+[2023-08-08 16:37:53,069][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.90, 127.0.0.1:53245]
+[2023-08-08 16:37:53,095][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:37:53,096][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:53245]
+[2023-08-08 16:38:02,235][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py changed, reloading.
+[2023-08-08 16:38:03,225][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:38:03,795][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:38:03,795][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:38:03,797][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:38:06,855][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 43, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 43, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+[2023-08-08 16:38:06,910][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.63, 127.0.0.1:53308]
+[2023-08-08 16:38:06,932][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:38:06,933][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:53308]
+[2023-08-08 16:38:34,080][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py changed, reloading.
+[2023-08-08 16:38:35,558][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:38:36,340][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:38:36,340][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:38:36,341][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 16:38:41,861][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 43, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 109, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 27, in jwt_get_secret_key
+    key = str(api_settings.JWT_GET_USER_SECRET_KEY(user))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 43, in jwt_get_user_secret_key
+    return str(user.secret)
+               ^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'secret'
+[2023-08-08 16:38:41,916][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.43, 127.0.0.1:53456]
+[2023-08-08 16:38:41,942][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 16:38:41,943][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:53456]
+[2023-08-08 16:39:04,701][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py changed, reloading.
+[2023-08-08 16:39:05,720][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 16:39:06,280][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 16:39:06,280][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 16:39:06,281][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:03:48,388][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 17:03:50,049][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:04:07,564][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 17:04:08,825][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:04:09,766][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:04:09,766][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:04:09,767][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:04:42,960][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:04:44,413][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:04:45,194][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:04:45,194][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:04:45,195][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:04:57,397][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:04:57,428][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.76, 127.0.0.1:55538]
+[2023-08-08 17:04:57,466][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:04:57,467][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.03, 127.0.0.1:55538]
+[2023-08-08 17:15:19,004][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:15:20,613][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:15:21,405][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:15:21,405][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:15:21,405][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:15:28,008][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+[2023-08-08 17:15:28,066][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.17, 127.0.0.1:58262]
+[2023-08-08 17:15:28,093][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:15:28,094][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:58262]
+[2023-08-08 17:16:00,097][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:16:01,030][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:16:01,571][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:16:01,589][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:16:01,591][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:16:21,918][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:16:21,953][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.42, 127.0.0.1:58484]
+[2023-08-08 17:16:21,983][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:16:21,984][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:58484]
+[2023-08-08 17:16:43,346][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:16:44,637][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:16:45,255][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:16:45,255][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:16:45,256][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:16:53,288][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(json.dumps(payload))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 26, in jwt_get_secret_key
+    user = User.objects.get(pk=payload.get('user_id'))
+                               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(json.dumps(payload))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 26, in jwt_get_secret_key
+    user = User.objects.get(pk=payload.get('user_id'))
+                               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+[2023-08-08 17:16:53,325][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [4.56, 127.0.0.1:58603]
+[2023-08-08 17:16:53,388][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:16:53,388][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:58603]
+[2023-08-08 17:17:21,846][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:17:22,853][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:17:23,436][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:17:23,437][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:17:23,437][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:20:22,496][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:20:23,545][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:20:24,085][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:20:24,085][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:20:24,086][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:20:29,947][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:20:30,008][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:59514]
+[2023-08-08 17:20:30,028][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:20:30,029][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:59514]
+[2023-08-08 17:21:55,376][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/__init__.py changed, reloading.
+[2023-08-08 17:21:56,408][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:21:56,936][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:21:56,936][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:21:56,937][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:22:09,134][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:22:09,207][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.09, 127.0.0.1:59928]
+[2023-08-08 17:22:09,252][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:22:09,253][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:59928]
+[2023-08-08 17:25:38,358][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 17:25:39,590][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:25:40,080][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:25:40,080][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:25:40,081][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:26:36,018][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 17:26:37,129][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:26:47,555][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 17:26:48,475][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:26:48,997][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:26:48,997][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:26:48,998][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:26:59,448][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 96, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:26:59,513][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.09, 127.0.0.1:61122]
+[2023-08-08 17:26:59,536][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:26:59,537][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:61122]
+[2023-08-08 17:28:45,074][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:28:46,570][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:28:47,286][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:28:47,286][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:28:47,286][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:28:51,122][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 97, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 97, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:28:51,181][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:61580]
+[2023-08-08 17:28:51,205][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:28:51,205][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:61580]
+[2023-08-08 17:29:10,301][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:29:11,303][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:29:11,822][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:29:11,822][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:29:11,823][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:29:18,199][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:29:19,180][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:29:19,688][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:29:19,706][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:29:19,707][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:29:24,223][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 101, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 101, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:29:24,283][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:61721]
+[2023-08-08 17:29:24,306][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:29:24,306][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:61721]
+[2023-08-08 17:29:45,824][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:29:46,815][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:29:47,319][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:29:47,319][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:29:47,319][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:29:49,953][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 101, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 101, in jwt_encode_handler
+    ).decode('utf-8')
+      ^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-08 17:29:50,016][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:61826]
+[2023-08-08 17:29:50,036][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:29:50,037][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:61826]
+[2023-08-08 17:30:00,025][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:30:00,976][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:30:01,477][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:30:01,477][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:30:01,478][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:30:03,514][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 92, in jwt_encode_handler
+    print(type(encode(
+               ^^^^^^
+NameError: name 'encode' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 108, in post
+    token = jwt_encode_handler(payload)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 92, in jwt_encode_handler
+    print(type(encode(
+               ^^^^^^
+NameError: name 'encode' is not defined
+[2023-08-08 17:30:03,572][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:61887]
+[2023-08-08 17:30:03,593][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:30:03,594][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:61887]
+[2023-08-08 17:30:10,096][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:30:11,056][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:30:11,570][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:30:11,571][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:30:11,571][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:30:21,064][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:30:22,046][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:30:22,558][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:30:22,558][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:30:22,559][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:30:24,931][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 110, in post
+    session_id = jwt_get_session_id(token)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 30, in jwt_get_session_id
+    payload = jwt.decode(token, None, False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 116, in decode_complete
+    raise DecodeError(
+jwt.exceptions.DecodeError: It is required that you pass in a value for the "algorithms" argument when calling decode().
+[2023-08-08 17:30:24,990][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.08, 127.0.0.1:61979]
+[2023-08-08 17:30:25,013][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:30:25,014][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:61979]
+[2023-08-08 17:36:23,322][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/jwt/api_jws.py changed, reloading.
+[2023-08-08 17:36:24,887][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:36:25,725][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:36:25,726][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:36:25,727][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:36:45,541][django.utils.autoreload.trigger_reload():251] [INFO] /usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py changed, reloading.
+[2023-08-08 17:36:46,539][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:36:47,112][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:36:47,112][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:36:47,113][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:36:55,205][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.82, 127.0.0.1:63840]
+[2023-08-08 17:36:55,229][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:63840]
+[2023-08-08 17:36:55,258][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:36:55,259][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:63840]
+[2023-08-08 17:47:54,019][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:47:55,432][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:47:56,147][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:47:56,147][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:47:56,148][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:48:53,092][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:48:54,510][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:48:55,244][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:48:55,244][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:48:55,245][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:49:25,376][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:49:26,358][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:49:26,908][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:49:26,908][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:49:26,908][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:49:32,381][django.request.log_response():224] [ERROR] Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+[2023-08-08 17:49:32,389][django.channels.server.log_action():160] [ERROR] HTTP POST /api/login/ 500 [0.88, 127.0.0.1:65332]
+[2023-08-08 17:49:32,417][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:49:32,418][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:65332]
+[2023-08-08 17:50:31,537][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:50:32,980][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:50:33,673][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:50:33,673][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:50:33,674][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:50:37,508][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.53, 127.0.0.1:49224]
+[2023-08-08 17:50:37,523][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:49224]
+[2023-08-08 17:50:37,554][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:50:37,556][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:49224]
+[2023-08-08 17:53:08,935][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:53:10,410][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:53:11,141][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:53:11,141][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:53:11,142][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:53:17,554][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:53:18,542][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:53:19,149][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:53:19,149][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:53:19,149][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:53:24,993][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.57, 127.0.0.1:49910]
+[2023-08-08 17:53:25,007][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:49910]
+[2023-08-08 17:53:25,032][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:53:25,032][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:49910]
+[2023-08-08 17:53:48,513][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 17:53:49,876][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 17:53:50,464][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 17:53:50,464][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 17:53:50,465][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 17:54:03,869][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:50082]
+[2023-08-08 17:54:03,887][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:50083]
+[2023-08-08 17:54:27,332][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:50083]
+[2023-08-08 17:54:27,506][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.07, 127.0.0.1:50083]
+[2023-08-08 17:54:27,531][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:54:27,532][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.09, 127.0.0.1:50082]
+[2023-08-08 17:54:37,215][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.57, 127.0.0.1:50082]
+[2023-08-08 17:54:37,227][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:50082]
+[2023-08-08 17:54:37,244][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:54:37,245][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:50082]
+[2023-08-08 17:57:49,778][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:51007]
+[2023-08-08 17:57:49,887][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:51007]
+[2023-08-08 17:57:49,899][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:57:49,900][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.04, 127.0.0.1:51008]
+[2023-08-08 17:58:38,758][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:51008]
+[2023-08-08 17:58:38,883][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.06, 127.0.0.1:51008]
+[2023-08-08 17:58:38,899][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:58:38,899][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.07, 127.0.0.1:51007]
+[2023-08-08 17:58:51,082][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.56, 127.0.0.1:51007]
+[2023-08-08 17:58:51,099][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:51007]
+[2023-08-08 17:58:51,117][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:58:51,117][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:51007]
+[2023-08-08 17:59:20,085][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:51007]
+[2023-08-08 17:59:20,160][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:51007]
+[2023-08-08 17:59:20,178][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:59:20,180][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.06, 127.0.0.1:51008]
+[2023-08-08 17:59:31,346][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [2.05, 127.0.0.1:51008]
+[2023-08-08 17:59:31,359][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:51008]
+[2023-08-08 17:59:31,381][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 17:59:31,382][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.01, 127.0.0.1:51008]
+[2023-08-08 18:00:16,864][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:51008]
+[2023-08-08 18:00:16,964][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:51008]
+[2023-08-08 18:00:16,977][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 18:00:16,978][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.04, 127.0.0.1:51007]
+[2023-08-08 18:00:34,903][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 18:00:36,673][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:00:37,471][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:00:37,471][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:00:37,472][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:00:55,714][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [5.53, 127.0.0.1:51783]
+[2023-08-08 18:00:55,730][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:51783]
+[2023-08-08 18:00:55,757][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 18:00:55,757][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:51783]
+[2023-08-08 18:01:15,409][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:51783]
+[2023-08-08 18:01:15,529][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:51783]
+[2023-08-08 18:01:15,541][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 18:01:15,542][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.03, 127.0.0.1:51893]
+[2023-08-08 18:02:42,442][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 18:02:44,319][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:02:45,030][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:02:45,030][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:02:45,032][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:06:59,325][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 18:07:00,809][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:07:01,559][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:07:01,559][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:07:01,560][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:07:34,786][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 18:07:35,739][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:07:36,265][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:07:36,265][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:07:36,266][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:07:51,853][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.80, 127.0.0.1:53510]
+[2023-08-08 18:07:51,872][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:53510]
+[2023-08-08 18:07:51,917][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 18:07:51,917][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:53510]
+[2023-08-08 18:13:33,027][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/user.py changed, reloading.
+[2023-08-08 18:13:34,611][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:13:35,377][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:13:35,377][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:13:35,378][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:13:40,864][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.46, 127.0.0.1:54942]
+[2023-08-08 18:13:40,879][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:54942]
+[2023-08-08 18:13:40,919][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 18:13:40,920][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.03, 127.0.0.1:54942]
+[2023-08-08 18:13:53,371][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/user.py changed, reloading.
+[2023-08-08 18:13:54,380][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:13:54,920][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:13:54,920][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:13:54,920][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:17:48,593][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:56091]
+[2023-08-08 18:20:18,395][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 18:20:19,982][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:20:20,823][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:20:20,823][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:20:20,824][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:20:38,623][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 18:20:39,652][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:20:48,170][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 18:20:49,096][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:22:38,996][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:23:55,568][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 18:23:56,905][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:23:57,656][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:23:57,657][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:23:57,657][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:24:30,926][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 18:24:31,957][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:24:32,467][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:24:32,467][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:24:32,468][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:25:08,111][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:57916]

@@ -27,9 +27,10 @@ from application import settings
 from apps.admin.views.dictionary import InitDictionaryViewSet
 from apps.admin.views.login import (
     LoginView,
-    CaptchaView,
+    # CaptchaView,
     ApiLogin,
-    LogoutView, CustomTokenRefreshView,
+    LogoutView,
+    CustomTokenRefreshView,
 )
 from apps.admin.views.system_config import InitSettingsViewSet
 from apps.utils.swagger import CustomOpenAPISchemaGenerator
@@ -80,7 +81,7 @@ urlpatterns = (
             re_path(
                 r"^api-auth/", include("rest_framework.urls", namespace="rest_framework")
             ),
-            path("api/captcha/", CaptchaView.as_view()),
+            # path("api/captcha/", CaptchaView.as_view()),
             path("api/init/dictionary/", InitDictionaryViewSet.as_view()),
             path("api/init/settings/", InitSettingsViewSet.as_view()),
             path("apiLogin/", ApiLogin.as_view()),
