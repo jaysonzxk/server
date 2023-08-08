@@ -5858,3 +5858,598 @@ AttributeError: 'MegCenter' object has no attribute 'room_name'
 [2023-08-08 21:10:55,701][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
 [2023-08-08 21:10:55,701][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
 [2023-08-08 21:10:55,702][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:12:51,096][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.81, 127.0.0.1:63669]
+[2023-08-08 21:12:51,134][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:63669]
+[2023-08-08 21:12:51,196][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:63669]
+[2023-08-08 21:14:51,980][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 21:14:53,729][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:14:54,522][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:14:54,523][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:14:54,524][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:16:20,465][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 21:16:21,973][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:16:33,034][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 21:16:34,616][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:18:46,266][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 21:18:47,642][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:18:48,379][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:18:48,380][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:18:48,380][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:20:09,210][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/user.py changed, reloading.
+[2023-08-08 21:20:10,499][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:20:11,129][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:20:11,129][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:20:11,130][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:21:45,368][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/user.py changed, reloading.
+[2023-08-08 21:21:46,328][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:21:46,852][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:21:46,853][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:21:46,854][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:24:01,315][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/user.py changed, reloading.
+[2023-08-08 21:24:02,319][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:24:02,843][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:24:02,844][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:24:02,844][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:24:24,227][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:50162]
+[2023-08-08 21:24:24,320][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:50162]
+[2023-08-08 21:24:24,705][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.25, 127.0.0.1:50162]
+[2023-08-08 21:24:24,716][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.26, 127.0.0.1:50167]
+[2023-08-08 21:24:24,774][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.32, 127.0.0.1:50168]
+[2023-08-08 21:24:37,289][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/member/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:50162]
+[2023-08-08 21:24:37,381][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.09, 127.0.0.1:50162]
+[2023-08-08 21:25:52,882][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:50536]
+[2023-08-08 21:27:08,638][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:50847]
+[2023-08-08 21:29:39,439][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 21:29:41,293][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:29:42,062][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:29:42,062][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:29:42,063][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:30:24,660][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-08 21:30:25,889][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:30:26,450][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:30:26,450][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:30:26,451][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:30:42,930][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.23, 127.0.0.1:51740]
+[2023-08-08 21:31:27,623][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:51740]
+[2023-08-08 21:31:45,511][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:51740]
+[2023-08-08 21:32:21,073][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.05, 127.0.0.1:51740]
+[2023-08-08 21:32:34,536][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.08, 127.0.0.1:51740]
+[2023-08-08 21:33:40,023][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:52473]
+[2023-08-08 21:35:31,699][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:35:33,352][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:35:34,217][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:35:34,217][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:35:34,218][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:35:54,071][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:35:55,073][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:35:55,597][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:35:55,597][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:35:55,598][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:38:49,517][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:38:50,857][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:38:51,609][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:38:51,609][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:38:51,609][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:40:55,696][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:40:57,377][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:40:58,160][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:40:58,160][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:40:58,161][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:45:48,130][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.39, 127.0.0.1:55505]
+[2023-08-08 21:46:29,602][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:55505]
+[2023-08-08 21:47:08,846][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/member/ 200 [0.00, 127.0.0.1:55505]
+[2023-08-08 21:47:09,203][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.35, 127.0.0.1:55505]
+[2023-08-08 21:47:09,293][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:55505]
+[2023-08-08 21:48:29,981][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:48:31,739][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:48:32,510][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:48:32,510][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:48:32,510][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:48:53,724][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.38, 127.0.0.1:56275]
+[2023-08-08 21:48:54,002][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.25, 127.0.0.1:56275]
+[2023-08-08 21:49:58,748][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:50:00,209][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:50:00,929][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:50:00,929][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:50:00,929][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:56:07,849][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:56:09,534][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:56:10,299][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:56:10,299][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:56:10,300][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:56:35,304][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:56:36,326][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:56:36,875][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:56:36,876][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:56:36,877][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:56:39,218][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:56:40,186][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:56:40,705][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:56:40,705][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:56:40,706][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:57:36,395][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.32, 127.0.0.1:58651]
+[2023-08-08 21:57:52,270][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:57:53,588][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:57:54,326][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:57:54,327][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:57:54,327][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:58:03,661][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.32, 127.0.0.1:58769]
+[2023-08-08 21:58:11,166][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:58:12,147][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:58:12,689][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:58:12,690][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:58:12,690][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:58:20,035][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.33, 127.0.0.1:58845]
+[2023-08-08 21:58:37,826][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:58:38,815][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:58:39,342][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:58:39,342][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:58:39,343][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:58:46,876][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.31, 127.0.0.1:58964]
+[2023-08-08 21:58:56,020][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.29, 127.0.0.1:59004]
+[2023-08-08 21:59:31,454][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 21:59:32,914][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:59:33,659][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:59:33,660][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:59:33,661][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:59:40,103][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/member/6/ 200 [0.00, 127.0.0.1:59191]
+[2023-08-08 21:59:40,366][django.channels.server.log_action():147] [INFO] HTTP DELETE /admin/member/6/ 200 [0.26, 127.0.0.1:59191]
+[2023-08-08 21:59:40,518][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.10, 127.0.0.1:59191]
+[2023-08-08 21:59:47,381][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/member/multiple_delete/ 200 [0.00, 127.0.0.1:59191]
+[2023-08-08 21:59:47,590][django.channels.server.log_action():147] [INFO] HTTP DELETE /admin/member/multiple_delete/ 200 [0.21, 127.0.0.1:59191]
+[2023-08-08 21:59:47,650][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:59191]
+[2023-08-08 21:59:55,332][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.07, 127.0.0.1:59257]
+[2023-08-08 22:00:00,866][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'test2' for key 'username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 114, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'test2' for key 'username'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'test2' for key 'username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 114, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'test2' for key 'username'")
+[2023-08-08 22:00:00,895][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.24, 127.0.0.1:59257]
+[2023-08-08 22:00:07,888][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:59191]
+[2023-08-08 22:00:32,512][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.29, 127.0.0.1:59257]
+[2023-08-08 22:00:36,438][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.05, 127.0.0.1:59191]
+[2023-08-08 22:13:07,092][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.36, 127.0.0.1:60454]
+[2023-08-08 22:13:18,493][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.08, 127.0.0.1:60454]
+[2023-08-08 22:13:50,369][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.08, 127.0.0.1:60454]
+[2023-08-08 22:15:17,429][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.40, 127.0.0.1:61002]
+[2023-08-08 22:15:45,962][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:61002]
+[2023-08-08 22:15:53,117][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:61002]
+[2023-08-08 22:15:53,152][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:61158]
+[2023-08-08 22:15:53,530][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:61158]
+[2023-08-08 22:15:53,549][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:61002]
+[2023-08-08 22:15:53,593][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:61162]
+[2023-08-08 22:15:53,925][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:61162]
+[2023-08-08 22:17:24,958][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:17:26,561][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:17:27,257][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:17:27,257][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:17:27,259][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:25:59,077][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:26:00,602][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:26:01,416][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:26:01,417][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:26:01,419][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:26:38,830][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:26:39,810][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:26:40,361][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:26:40,361][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:26:40,362][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:26:53,311][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 116, in save
+    user_id = Users.objects.filter(inviteCode=data.get('parentInviteCode')).first().id
+                                              ^^^^^^^^
+AttributeError: 'Users' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 116, in save
+    user_id = Users.objects.filter(inviteCode=data.get('parentInviteCode')).first().id
+                                              ^^^^^^^^
+AttributeError: 'Users' object has no attribute 'get'
+[2023-08-08 22:26:53,345][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.34, 127.0.0.1:63491]
+[2023-08-08 22:28:25,983][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:28:27,433][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:28:28,155][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:28:28,155][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:28:28,156][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:28:33,084][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.10, 127.0.0.1:63906]
+[2023-08-08 22:28:43,150][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 117, in save
+    user_id = Users.objects.filter(inviteCode=data.get('parentInviteCode')).first().id
+                                              ^^^^^^^^
+AttributeError: 'Users' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 117, in save
+    user_id = Users.objects.filter(inviteCode=data.get('parentInviteCode')).first().id
+                                              ^^^^^^^^
+AttributeError: 'Users' object has no attribute 'get'
+[2023-08-08 22:28:43,181][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.25, 127.0.0.1:63906]
+[2023-08-08 22:29:02,546][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:29:03,557][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:29:04,119][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:29:04,120][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:29:04,120][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:29:11,410][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 118, in save
+    user_id = Users.objects.filter(inviteCode=data.get('parentInviteCode')).first().id
+                                              ^^^^^^^^
+AttributeError: 'Users' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 118, in save
+    user_id = Users.objects.filter(inviteCode=data.get('parentInviteCode')).first().id
+                                              ^^^^^^^^
+AttributeError: 'Users' object has no attribute 'get'
+[2023-08-08 22:29:11,457][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.30, 127.0.0.1:64067]
+[2023-08-08 22:30:11,620][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:30:12,659][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:30:13,228][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:30:13,228][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:30:13,229][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:30:20,156][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+TypeError: MemberCreateSerializer.save() missing 1 required positional argument: 'request'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+TypeError: MemberCreateSerializer.save() missing 1 required positional argument: 'request'
+[2023-08-08 22:30:20,191][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.24, 127.0.0.1:64347]
+[2023-08-08 22:30:41,440][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:30:42,416][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:30:42,960][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:30:42,960][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:30:42,961][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:30:51,487][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+TypeError: MemberCreateSerializer.save() missing 1 required positional argument: 'request'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+TypeError: MemberCreateSerializer.save() missing 1 required positional argument: 'request'
+[2023-08-08 22:30:51,519][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.24, 127.0.0.1:64484]
+[2023-08-08 22:32:14,347][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:32:15,340][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:32:15,902][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:32:15,902][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:32:15,903][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:32:23,032][django.request.log_response():224] [ERROR] Internal Server Error: /admin/member/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'bool'>`
+[2023-08-08 22:32:23,037][django.channels.server.log_action():160] [ERROR] HTTP POST /admin/member/ 500 [0.12, 127.0.0.1:64850]
+[2023-08-08 22:32:37,922][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:32:38,892][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:32:39,403][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:32:39,403][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:32:39,404][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:32:46,363][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.07, 127.0.0.1:64952]
+[2023-08-08 22:32:57,276][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-08 22:32:58,723][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 22:32:59,442][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 22:32:59,443][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 22:32:59,443][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 22:33:06,538][django.channels.server.log_action():147] [INFO] HTTP POST /admin/member/ 200 [0.07, 127.0.0.1:65039]

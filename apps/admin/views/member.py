@@ -1,6 +1,7 @@
 import hashlib
 
 from django.contrib.auth.hashers import make_password, check_password
+from django.utils.baseconv import base64
 from django_restql.fields import DynamicSerializerMethodField
 from rest_framework import serializers
 from rest_framework.decorators import action, permission_classes
@@ -108,12 +109,18 @@ class MemberCreateSerializer(CustomModelSerializer):
             return make_password(value)
         return value
 
-    def save(self, **kwargs):
-        data = super().save(**kwargs)
-        data.dept_belong_id = data.dept_id
-        data.save()
-        data.post.set(self.initial_data.get("post", []))
-        return data
+    # def save(self, request):
+    #     print(request)
+    #     # print(request)
+    #     # data = super().save(**request)
+    #     # inviteCode = base64.encode(str(data.mobile))
+    #     # user_id = Users.objects.filter(inviteCode=data.get('parentInviteCode')).first().id
+    #     # data.parent = user_id
+    #     # data.dept_belong_id = data.dept_id
+    #     # data.inviteCode = inviteCode.upper()
+    #     # data.save()
+    #     # data.post.set(self.initial_data.get("post", []))
+    #     return True
 
     class Meta:
         model = Users
@@ -298,6 +305,10 @@ class MemberViewSet(CustomModelViewSet):
         "dept": {"title": "部门", "choices": {"queryset": Dept.objects.filter(status=True), "values_name": "name"}},
         "role": {"title": "角色", "choices": {"queryset": Role.objects.filter(status=True), "values_name": "name"}},
     }
+
+    def create(self, request, *args, **kwargs):
+        print(request.data)
+        return DetailResponse()
 
     @action(methods=["GET"], detail=False, permission_classes=[IsAuthenticated])
     def user_info(self, request):

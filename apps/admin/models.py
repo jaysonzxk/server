@@ -40,6 +40,14 @@ class Users(CoreModel, AbstractUser):
     user_type = models.IntegerField(
         choices=USER_TYPE, default=0, verbose_name="用户类型", null=True, blank=True, help_text="用户类型"
     )
+    parent = models.ForeignKey(to='admin.Users', verbose_name="上级", on_delete=models.PROTECT,
+                               db_constraint=False,
+                               null=True,
+                               blank=True,
+                               help_text="上级",
+                               related_name='parentId')
+    inviteCode = models.CharField(max_length=225, verbose_name="邀请码", null=True, blank=True, help_text="邀请码")
+    points = models.IntegerField(verbose_name="积分", null=True, blank=True, default=0, help_text="积分")
     post = models.ManyToManyField(to="Post", blank=True, verbose_name="关联岗位", db_constraint=False,
                                   help_text="关联岗位")
     role = models.ManyToManyField(to="Role", blank=True, verbose_name="关联角色", db_constraint=False,
@@ -304,7 +312,7 @@ def media_file_name(instance, filename):
 
 class FileList(CoreModel):
     name = models.CharField(max_length=200, null=True, blank=True, verbose_name="名称", help_text="名称")
-    url = models.FileField(upload_to=media_file_name, null=True, blank=True,)
+    url = models.FileField(upload_to=media_file_name, null=True, blank=True, )
     file_url = models.CharField(max_length=255, blank=True, verbose_name="文件地址", help_text="文件地址")
     engine = models.CharField(max_length=100, default='local', blank=True, verbose_name="引擎", help_text="引擎")
     mime_type = models.CharField(max_length=100, blank=True, verbose_name="Mime类型", help_text="Mime类型")
@@ -320,7 +328,7 @@ class FileList(CoreModel):
         if not self.size:
             self.size = self.url.size
         if not self.file_url:
-            url = media_file_name(self,self.name)
+            url = media_file_name(self, self.name)
             self.file_url = f'media/{url}'
         super(FileList, self).save(*args, **kwargs)
 
@@ -444,7 +452,7 @@ class SystemConfig(CoreModel):
         dispatch.refresh_system_config()
         from application.websocketConfig import websocket_push
         websocket_push("apps", message={"sender": 'admin', "contentType": 'SYSTEM',
-                                           "content": '系统配置有变化~', "systemConfig": True})
+                                        "content": '系统配置有变化~', "systemConfig": True})
 
         return res
 

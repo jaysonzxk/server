@@ -33,6 +33,7 @@ class UserSerializer(CustomModelSerializer):
     """
     dept_name = serializers.CharField(source='dept.name', read_only=True)
     role_info = DynamicSerializerMethodField()
+    username = serializers.CharField(source='user.name', read_only=True)
 
     class Meta:
         model = Users
