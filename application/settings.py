@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
+import datetime
 import os
 import sys
 from pathlib import Path
@@ -326,7 +326,7 @@ CACHES = {
 
 JWT_AUTH = {
     'JWT_ALLOW_REFRESH': True,
-    # 'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=30),  # JWT有效时间24小时
+    # 'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=100),
     'JWT_AUTH_HEADER_PREFIX': 'JWT',  # JWT的Header认证头以'JWT '开始
     'JWT_AUTH_COOKIE': 'AUTH_JWT',
     'JWT_VERIFY_EXPIRATION': True,

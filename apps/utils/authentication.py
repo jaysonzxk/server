@@ -93,7 +93,7 @@ class RedisOpAuthJwtAuthentication(OpAuthJwtAuthentication):
 
     def authenticate(self, request):
         res = super().authenticate(request)
-        if res and getattr(settings, "REDIS_ENABLE", False):
+        if res and getattr(settings, "REDIS_ENABLE", True):
             user, token = res
             session_id = jwt_get_session_id(token)
             key = f"{self.prefix}_{session_id}_{user.username}"

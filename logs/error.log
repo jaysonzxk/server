@@ -2030,3 +2030,223 @@ Traceback (most recent call last):
     assert isinstance(response, HttpResponseBase), (
 AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
 [2023-08-08 17:49:32,389][django.channels.server.log_action():160] [ERROR] HTTP POST /api/login/ 500 [0.88, 127.0.0.1:65332]
+[2023-08-08 20:38:01,282][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'
+[2023-08-08 20:38:46,403][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'
+[2023-08-08 20:42:03,051][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'
+[2023-08-08 20:43:53,356][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'

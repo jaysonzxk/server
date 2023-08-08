@@ -28,7 +28,7 @@ from rest_framework_simplejwt.views import TokenRefreshView
 from apps.utils.jwt_util import jwt_get_session_id, jwt_response_payload_handler
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from application import dispatch
+from application import dispatch, redis_connect
 from apps.admin.models import Users
 from apps.utils.json_response import DetailResponse, SuccessResponse, ErrorResponse
 from apps.utils.request_util import save_login_log
@@ -38,6 +38,31 @@ from apps.utils.validator import CustomValidationError
 logger = logging.getLogger(__name__)
 
 User = get_user_model()
+
+
+class CaptchaView(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    @swagger_auto_schema(
+        responses={"200": openapi.Response("获取成功")},
+        security=[],
+        operation_id="captcha-get",
+        operation_description="验证码获取",
+    )
+    def get(self, request):
+        data = {}
+        if dispatch.get_system_config_values("base.captcha_state"):
+            hashkey = CaptchaStore.generate_key()
+            id = CaptchaStore.objects.filter(hashkey=hashkey).first().id
+            imgage = captcha_image(request, hashkey)
+            # 将图片转换为base64
+            image_base = base64.b64encode(imgage.content)
+            data = {
+                "key": id,
+                "image_base": "data:image/png;base64," + image_base.decode("utf-8"),
+            }
+        return DetailResponse(data=data)
 
 
 class LogoutView(APIView):
@@ -109,7 +134,7 @@ class LoginView(ObtainJSONWebToken):
             _dict = {'id': user.id, 'username': user.username, 'email': user.email, 'token': token}
             session_id = jwt_get_session_id(token)
             key = f"{self.prefix}_{session_id}_{user.username}"
-            cache.set(key, json.dumps(_dict), 100)
+            cache.set(key, json.dumps(_dict), 2592000)  # 一个月到期
             # response_data = jwt_response_payload_handler(token, user, request)
             res = {'access': token, **data}
             save_login_log(request)

@@ -5436,3 +5436,425 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 [2023-08-08 18:24:32,467][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
 [2023-08-08 18:24:32,468][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
 [2023-08-08 18:25:08,111][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:57916]
+[2023-08-08 18:27:56,335][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 18:27:57,957][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:27:58,685][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:27:58,685][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:27:58,686][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:29:03,674][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:58889]
+[2023-08-08 18:39:29,783][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.08, 127.0.0.1:61424]
+[2023-08-08 18:39:31,077][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:61424]
+[2023-08-08 18:39:32,094][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:61424]
+[2023-08-08 18:39:40,537][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:61424]
+[2023-08-08 18:42:16,550][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:62115]
+[2023-08-08 18:42:24,597][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:62115]
+[2023-08-08 18:42:28,741][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:62115]
+[2023-08-08 18:47:17,304][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 18:47:19,005][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:47:19,833][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:47:19,834][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:47:19,835][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 18:47:27,304][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:63387]
+[2023-08-08 18:47:31,502][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 18:47:32,625][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 18:47:33,140][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 18:47:33,140][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 18:47:33,141][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 19:52:43,024][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.10, 127.0.0.1:61036]
+[2023-08-08 20:15:51,936][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:50825]
+[2023-08-08 20:16:18,669][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:50825]
+[2023-08-08 20:19:21,474][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:51689]
+[2023-08-08 20:20:09,790][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:51689]
+[2023-08-08 20:27:53,322][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.09, 127.0.0.1:53800]
+[2023-08-08 20:28:10,738][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:53800]
+[2023-08-08 20:29:06,940][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 20:29:08,566][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 20:29:09,303][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 20:29:09,303][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 20:29:09,304][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 20:29:16,396][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:54138]
+[2023-08-08 20:30:57,070][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 20:30:58,445][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 20:30:59,238][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 20:30:59,239][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 20:30:59,239][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 20:31:14,031][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:54629]
+[2023-08-08 20:31:14,044][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:54629]
+[2023-08-08 20:31:14,075][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:54629]
+[2023-08-08 20:31:14,144][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.07, 127.0.0.1:54629]
+[2023-08-08 20:31:14,156][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:54629]
+[2023-08-08 20:31:14,161][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:54633]
+[2023-08-08 20:31:14,167][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:54634]
+[2023-08-08 20:31:14,373][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.21, 127.0.0.1:54629]
+[2023-08-08 20:31:14,386][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.22, 127.0.0.1:54633]
+[2023-08-08 20:31:14,446][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.28, 127.0.0.1:54634]
+[2023-08-08 20:31:14,606][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:54634]
+[2023-08-08 20:32:09,094][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:54634]
+[2023-08-08 20:32:09,104][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:54634]
+[2023-08-08 20:32:09,288][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:54634]
+[2023-08-08 20:32:09,322][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:54634]
+[2023-08-08 20:32:09,506][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:54634]
+[2023-08-08 20:32:09,522][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:54633]
+[2023-08-08 20:32:09,572][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:54629]
+[2023-08-08 20:32:09,770][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:54629]
+[2023-08-08 20:32:29,985][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:54629]
+[2023-08-08 20:32:30,056][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:54629]
+[2023-08-08 20:34:03,487][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:55360]
+[2023-08-08 20:34:03,495][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55360]
+[2023-08-08 20:34:03,556][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.00, 127.0.0.1:55360]
+[2023-08-08 20:34:03,580][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:55360]
+[2023-08-08 20:35:16,583][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55676]
+[2023-08-08 20:35:16,651][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:55676]
+[2023-08-08 20:37:39,919][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.06, 127.0.0.1:56263]
+[2023-08-08 20:37:39,983][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:56263]
+[2023-08-08 20:37:39,987][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/captcha/ 200 [0.05, 127.0.0.1:56265]
+[2023-08-08 20:37:40,026][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 20:37:40,027][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.04, 127.0.0.1:56265]
+[2023-08-08 20:37:59,161][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:56265]
+[2023-08-08 20:38:00,089][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.92, 127.0.0.1:56265]
+[2023-08-08 20:38:00,098][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:56265]
+[2023-08-08 20:38:00,121][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:56265]
+[2023-08-08 20:38:00,151][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:56265]
+[2023-08-08 20:38:00,202][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:56265]
+[2023-08-08 20:38:00,403][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiZmY4YTA2NGQtY2Y4OC00NjEzLWI4ZmYtZGJjM2ViNmE3YTFmIiwib3JpZ19pYXQiOjE2OTE0OTgyNzl9.UKYem5EbrBFVKvpT9d8UTJH06qF_LixzkKJpLnZQyQU/ [127.0.0.1:56360]
+[2023-08-08 20:38:01,282][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'
+[2023-08-08 20:38:01,290][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiZmY4YTA2NGQtY2Y4OC00NjEzLWI4ZmYtZGJjM2ViNmE3YTFmIiwib3JpZ19pYXQiOjE2OTE0OTgyNzl9.UKYem5EbrBFVKvpT9d8UTJH06qF_LixzkKJpLnZQyQU/ [127.0.0.1:56360]
+[2023-08-08 20:38:45,559][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:56265]
+[2023-08-08 20:38:45,657][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:56265]
+[2023-08-08 20:38:45,821][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:56265]
+[2023-08-08 20:38:45,840][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:56554]
+[2023-08-08 20:38:45,887][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:56555]
+[2023-08-08 20:38:45,913][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.09, 127.0.0.1:56265]
+[2023-08-08 20:38:46,050][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiZmY4YTA2NGQtY2Y4OC00NjEzLWI4ZmYtZGJjM2ViNmE3YTFmIiwib3JpZ19pYXQiOjE2OTE0OTgyNzl9.UKYem5EbrBFVKvpT9d8UTJH06qF_LixzkKJpLnZQyQU/ [127.0.0.1:56560]
+[2023-08-08 20:38:46,403][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'
+[2023-08-08 20:38:46,405][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiZmY4YTA2NGQtY2Y4OC00NjEzLWI4ZmYtZGJjM2ViNmE3YTFmIiwib3JpZ19pYXQiOjE2OTE0OTgyNzl9.UKYem5EbrBFVKvpT9d8UTJH06qF_LixzkKJpLnZQyQU/ [127.0.0.1:56560]
+[2023-08-08 20:39:57,613][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 20:39:59,234][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 20:39:59,951][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 20:39:59,951][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 20:39:59,952][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 20:41:21,707][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 20:41:23,251][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 20:41:23,951][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 20:41:23,952][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 20:41:23,952][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 20:41:30,157][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/logout/ 200 [0.00, 127.0.0.1:57238]
+[2023-08-08 20:41:30,259][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.10, 127.0.0.1:57238]
+[2023-08-08 20:41:30,443][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 20:41:33,072][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:57257]
+[2023-08-08 20:41:33,431][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:57257]
+[2023-08-08 20:41:33,465][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 20:41:33,466][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.06, 127.0.0.1:57258]
+[2023-08-08 20:42:02,032][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.54, 127.0.0.1:57258]
+[2023-08-08 20:42:02,062][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:57258]
+[2023-08-08 20:42:02,123][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:57258]
+[2023-08-08 20:42:02,304][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiMzRhOGZjMjktMjNlZC00OWJhLWIxZTMtNWFlYjczYzBkOTBlIiwib3JpZ19pYXQiOjE2OTE0OTg1MjB9.Dv5DLBHLvNwg1IF2ERjRv-FntkbwyADBoFgiN7luSxk/ [127.0.0.1:57388]
+[2023-08-08 20:42:03,051][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'
+[2023-08-08 20:42:03,060][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiMzRhOGZjMjktMjNlZC00OWJhLWIxZTMtNWFlYjczYzBkOTBlIiwib3JpZ19pYXQiOjE2OTE0OTg1MjB9.Dv5DLBHLvNwg1IF2ERjRv-FntkbwyADBoFgiN7luSxk/ [127.0.0.1:57388]
+[2023-08-08 20:43:52,423][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:57843]
+[2023-08-08 20:43:52,475][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:57843]
+[2023-08-08 20:43:52,844][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.29, 127.0.0.1:57843]
+[2023-08-08 20:43:52,858][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.30, 127.0.0.1:57848]
+[2023-08-08 20:43:52,907][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.35, 127.0.0.1:57849]
+[2023-08-08 20:43:53,067][django.channels.server.log_action():168] [INFO] WebSocket HANDSHAKING /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiMzRhOGZjMjktMjNlZC00OWJhLWIxZTMtNWFlYjczYzBkOTBlIiwib3JpZ19pYXQiOjE2OTE0OTg1MjB9.Dv5DLBHLvNwg1IF2ERjRv-FntkbwyADBoFgiN7luSxk/ [127.0.0.1:57855]
+[2023-08-08 20:43:53,356][daphne.server.application_checker():290] [ERROR] Exception inside application: 'MegCenter' object has no attribute 'room_name'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 59, in connect
+    decoded_result = jwt.decode(self.service_uid, settings.SECRET_KEY, algorithms=["HS256"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jwt.py", line 91, in decode
+    decoded = super(PyJWT, self).decode(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 155, in decode
+    self._verify_signature(payload, signing_input, header, signature,
+  File "/usr/local/lib/python3.11/site-packages/jwt/api_jws.py", line 223, in _verify_signature
+    raise InvalidSignatureError('Signature verification failed')
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/channels/staticfiles.py", line 44, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 71, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 47, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/sessions.py", line 263, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/middleware.py", line 26, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/routing.py", line 150, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/usr/local/lib/python3.11/site-packages/channels/utils.py", line 51, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.11/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.11/site-packages/channels/generic/websocket.py", line 173, in websocket_connect
+    await self.connect()
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 83, in connect
+    await self.disconnect(None)
+  File "/Users/mac/Desktop/work/work2/server/application/websocketConfig.py", line 87, in disconnect
+    await self.channel_layer.group_discard(self.room_name, self.channel_name)
+                                           ^^^^^^^^^^^^^^
+AttributeError: 'MegCenter' object has no attribute 'room_name'
+[2023-08-08 20:43:53,358][django.channels.server.log_action():166] [INFO] WebSocket DISCONNECT /ws/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InN1cGVyYWRtaW4iLCJzZXNzaW9uX2lkIjoiMzRhOGZjMjktMjNlZC00OWJhLWIxZTMtNWFlYjczYzBkOTBlIiwib3JpZ19pYXQiOjE2OTE0OTg1MjB9.Dv5DLBHLvNwg1IF2ERjRv-FntkbwyADBoFgiN7luSxk/ [127.0.0.1:57855]
+[2023-08-08 20:45:08,793][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:58167]
+[2023-08-08 20:45:08,923][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:58167]
+[2023-08-08 20:45:09,165][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:58167]
+[2023-08-08 20:45:09,182][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:58174]
+[2023-08-08 20:45:09,230][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:58176]
+[2023-08-08 20:45:25,802][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:58176]
+[2023-08-08 20:45:25,927][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:58176]
+[2023-08-08 20:45:26,043][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:58176]
+[2023-08-08 20:45:26,058][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:58174]
+[2023-08-08 20:45:26,109][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:58167]
+[2023-08-08 21:01:25,685][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/settings.py changed, reloading.
+[2023-08-08 21:01:27,470][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:01:28,294][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:01:28,295][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:01:28,295][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:05:06,579][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 21:05:08,208][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:05:08,979][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:05:08,980][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:05:08,980][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:05:15,591][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:61714]
+[2023-08-08 21:05:15,714][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.07, 127.0.0.1:61714]
+[2023-08-08 21:05:16,030][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.23, 127.0.0.1:61714]
+[2023-08-08 21:05:16,046][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.24, 127.0.0.1:61718]
+[2023-08-08 21:05:16,084][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.28, 127.0.0.1:61719]
+[2023-08-08 21:05:19,669][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 21:05:21,101][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:05:21,789][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:05:21,789][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:05:21,790][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:05:27,153][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 21:05:28,106][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:05:28,684][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:05:28,685][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:05:28,685][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:05:35,082][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:61816]
+[2023-08-08 21:05:35,217][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:61816]
+[2023-08-08 21:05:35,522][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.23, 127.0.0.1:61816]
+[2023-08-08 21:05:35,539][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.24, 127.0.0.1:61824]
+[2023-08-08 21:05:35,587][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.29, 127.0.0.1:61825]
+[2023-08-08 21:06:42,330][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 21:06:43,834][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:06:44,539][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:06:44,539][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:06:44,541][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:06:54,004][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 21:06:54,951][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:06:55,445][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:06:55,445][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:06:55,446][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:07:01,327][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62191]
+[2023-08-08 21:07:01,388][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:62191]
+[2023-08-08 21:07:01,475][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /token/refresh/ 200 [0.00, 127.0.0.1:62191]
+[2023-08-08 21:07:01,554][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 21:07:01,555][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.08, 127.0.0.1:62191]
+[2023-08-08 21:07:01,621][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:62191]
+[2023-08-08 21:07:01,640][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 21:07:01,641][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.04, 127.0.0.1:62196]
+[2023-08-08 21:07:19,562][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/authentication.py changed, reloading.
+[2023-08-08 21:07:20,554][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:07:21,072][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:07:21,073][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:07:21,073][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-08 21:07:31,813][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.90, 127.0.0.1:62318]
+[2023-08-08 21:07:31,851][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:62318]
+[2023-08-08 21:07:31,932][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:62318]
+[2023-08-08 21:09:07,071][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62728]
+[2023-08-08 21:09:07,114][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:62728]
+[2023-08-08 21:09:07,368][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.18, 127.0.0.1:62728]
+[2023-08-08 21:09:07,377][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.19, 127.0.0.1:62732]
+[2023-08-08 21:09:07,418][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.23, 127.0.0.1:62733]
+[2023-08-08 21:09:19,029][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62733]
+[2023-08-08 21:09:19,061][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.01, 127.0.0.1:62733]
+[2023-08-08 21:09:19,209][django.request.log_response():224] [WARNING] Unauthorized: /token/refresh/
+[2023-08-08 21:09:19,210][django.channels.server.log_action():157] [WARNING] HTTP POST /token/refresh/ 401 [0.07, 127.0.0.1:62733]
+[2023-08-08 21:09:19,373][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:62733]
+[2023-08-08 21:09:19,393][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-08 21:09:19,393][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.04, 127.0.0.1:62732]
+[2023-08-08 21:10:53,557][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/login.py changed, reloading.
+[2023-08-08 21:10:55,002][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-08 21:10:55,701][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-08 21:10:55,701][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-08 21:10:55,702][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
