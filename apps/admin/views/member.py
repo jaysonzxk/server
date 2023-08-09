@@ -11,6 +11,7 @@ from application import dispatch
 from apps.admin.models import Users, Role, Dept
 from apps.admin.views.role import RoleSerializer
 from apps.admin.models import VipCard
+from apps.admin.views.user import UserSerializer
 from apps.utils.json_response import ErrorResponse, DetailResponse
 from apps.utils.serializers import CustomModelSerializer
 from apps.utils.validator import CustomUniqueValidator
@@ -36,6 +37,7 @@ class MemberSerializer(CustomModelSerializer):
 
     # dept_name = serializers.CharField(source='dept.name', read_only=True)
     # role_info = DynamicSerializerMethodField()
+    parent = serializers.CharField(read_only=True)
 
     class Meta:
         model = Users
@@ -93,9 +95,18 @@ class MemberCreateSerializer(CustomModelSerializer):
     username = serializers.CharField(
         max_length=50,
         validators=[
-            CustomUniqueValidator(queryset=Users.objects.all(), message="账号必须唯一")
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1), message="账号已存在")
         ],
     )
+    mobile = serializers.CharField(
+        max_length=50,
+        validators=[
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1),
+                                  message="手机号已存在")
+        ],
+        # allow_blank=True
+    )
+
     password = serializers.CharField(
         required=False,
     )
@@ -139,16 +150,16 @@ class MemberUpdateSerializer(CustomModelSerializer):
     username = serializers.CharField(
         max_length=50,
         validators=[
-            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1), message="账号已存在")
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1), message="账号已存在")
         ],
     )
     # password = serializers.CharField(required=False, allow_blank=True)
     mobile = serializers.CharField(
         max_length=50,
         validators=[
-            CustomUniqueValidator(queryset=Users.objects.all(), message="手机号必须唯一")
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1), message="手机号已存在")
         ],
-        allow_blank=True
+        # allow_blank=True
     )
 
     def save(self, **kwargs):
@@ -307,8 +318,18 @@ class MemberViewSet(CustomModelViewSet):
     }
 
     def create(self, request, *args, **kwargs):
-        print(request.data)
-        return DetailResponse()
+        if request.data.get('parentInviteCode'):
+            try:
+                parent = Users.objects.filter(inviteCode=request.data.get('parentInviteCode')).first().id
+                request.data['parent'] = parent
+            except Exception as e:
+                return ErrorResponse(msg='邀请码不存在')
+        inviteCode = base64.encode(str(request.data.get('mobile')))  # 邀请码
+        request.data['inviteCode'] = inviteCode.upper()
+        serializer = self.get_serializer(data=request.data, request=request)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        return DetailResponse(data=serializer.data, msg="新增成功")
 
     @action(methods=["GET"], detail=False, permission_classes=[IsAuthenticated])
     def user_info(self, request):
