@@ -108,7 +108,7 @@ class UserVipSerializer(CustomModelSerializer):
     """
     用户vip商品-序列化器
     """
-    username = serializers.CharField(source='user.name', read_only=True)
+    user = serializers.CharField(source='user.username', read_only=True)
     vipCard = serializers.CharField(source='vipCard.name', read_only=True)
 
     class Meta:

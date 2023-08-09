@@ -38,6 +38,7 @@ class MemberSerializer(CustomModelSerializer):
     # dept_name = serializers.CharField(source='dept.name', read_only=True)
     # role_info = DynamicSerializerMethodField()
     parent = serializers.CharField(read_only=True)
+    userVip = serializers.CharField(read_only=True)
 
     class Meta:
         model = Users
