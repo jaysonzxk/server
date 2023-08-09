@@ -209,7 +209,7 @@ def save_login_log(request, login_type=1):
     """
     ip = get_request_ip(request=request)
     analysis_data = get_ip_analysis(ip)
-    analysis_data['username'] = request.user.username
+    analysis_data['username'] = request.data.username
     analysis_data['ip'] = ip
     analysis_data['agent'] = str(parse(request.META['HTTP_USER_AGENT']))
     analysis_data['browser'] = get_browser(request)
