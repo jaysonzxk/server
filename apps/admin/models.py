@@ -601,3 +601,58 @@ class UserAddr(CoreModel):
 
     def __str__(self):
         return self.user.username
+
+
+class Banners(CoreModel):
+    """ 轮播图 """
+    name = models.CharField(max_length=100, verbose_name='轮播图名称', null=True, blank=True, help_text='轮播图名称')
+    jumpType = models.IntegerField(verbose_name='跳转类型', null=True, blank=True, help_text='跳转类型', default=0)
+    jumpUrl = models.CharField(max_length=225, verbose_name='跳转地址', null=True, blank=True, help_text='跳转地址')
+    file = models.CharField(max_length=255, verbose_name="图片地址", null=True, blank=True, help_text="图片地址")
+    isDefault = models.IntegerField(verbose_name='是否默认', null=True, blank=True, help_text='是否默认', default=1)
+    sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "banners"
+        verbose_name = "轮播图"
+        verbose_name_plural = verbose_name
+        ordering = ("sort",)
+
+    def __str__(self):
+        return self.name
+
+
+class Notice(CoreModel):
+    """ 公告 """
+    name = models.CharField(max_length=100, verbose_name='公告名称', null=True, blank=True, help_text='公告名称')
+    content = models.CharField(max_length=1000, verbose_name="内容", null=True, blank=True, help_text="内容")
+    sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "notice"
+        verbose_name = "公告"
+        verbose_name_plural = verbose_name
+        ordering = ("sort",)
+
+    def __str__(self):
+        return self.name
+
+
+class Marquee(CoreModel):
+    """ 跑马灯 """
+    name = models.CharField(max_length=100, verbose_name='跑马灯名称', null=True, blank=True, help_text='跑马灯名称')
+    content = models.CharField(max_length=1000, verbose_name="内容", null=True, blank=True, help_text="内容")
+    sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+    locationId = models.IntegerField(verbose_name='位置ID', null=True, blank=True, help_text='位置ID')
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "marquee"
+        verbose_name = "跑马灯"
+        verbose_name_plural = verbose_name
+        ordering = ("sort",)
+
+    def __str__(self):
+        return self.name

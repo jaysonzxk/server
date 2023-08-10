@@ -96,7 +96,8 @@ class MemberCreateSerializer(CustomModelSerializer):
     username = serializers.CharField(
         max_length=50,
         validators=[
-            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1), message="账号已存在")
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1),
+                                  message="账号已存在")
         ],
     )
     mobile = serializers.CharField(
@@ -151,24 +152,26 @@ class MemberUpdateSerializer(CustomModelSerializer):
     username = serializers.CharField(
         max_length=50,
         validators=[
-            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1), message="账号已存在")
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1),
+                                  message="账号已存在")
         ],
     )
     # password = serializers.CharField(required=False, allow_blank=True)
     mobile = serializers.CharField(
         max_length=50,
         validators=[
-            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1), message="手机号已存在")
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1).exclude(is_deleted=1),
+                                  message="手机号已存在")
         ],
         # allow_blank=True
     )
 
-    def save(self, **kwargs):
-        data = super().save(**kwargs)
-        data.dept_belong_id = data.dept_id
-        data.save()
-        data.post.set(self.initial_data.get("post", []))
-        return data
+    # def save(self, **kwargs):
+    #     data = super().save(**kwargs)
+    #     data.dept_belong_id = data.dept_id
+    #     data.save()
+    #     data.post.set(self.initial_data.get("post", []))
+    #     return data
 
     class Meta:
         model = Users
@@ -332,6 +335,22 @@ class MemberViewSet(CustomModelViewSet):
         self.perform_create(serializer)
         return DetailResponse(data=serializer.data, msg="新增成功")
 
+    def update(self, request, *args, **kwargs):
+        data = request.data
+        if data.get('parent'):
+            parent_id = Users.objects.filter(username=data.get('parent')).first().id
+            data['parent'] = parent_id
+        partial = kwargs.pop('partial', False)
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+        serializer.is_valid(raise_exception=True)
+        self.perform_update(serializer)
+        if getattr(instance, '_prefetched_objects_cache', None):
+            # If 'prefetch_related' has been applied to a queryset, we need to
+            # forcibly invalidate the prefetch cache on the instance.
+            instance._prefetched_objects_cache = {}
+        return DetailResponse(msg="更新成功")
+
     @action(methods=["GET"], detail=False, permission_classes=[IsAuthenticated])
     def user_info(self, request):
         """获取当前用户信息"""
@@ -422,7 +441,3 @@ class MemberViewSet(CustomModelViewSet):
                 return DetailResponse(data=None, msg="修改成功")
         else:
             return ErrorResponse(msg="未获取到用户")
-
-
-
-

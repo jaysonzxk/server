@@ -3,15 +3,18 @@ from rest_framework import routers
 
 from apps.admin.views.api_white_list import ApiWhiteListViewSet
 from apps.admin.views.area import AreaViewSet
+from apps.admin.views.banners import BannersViewSet
 from apps.admin.views.clause import PrivacyView, TermsServiceView
 from apps.admin.views.datav import DataVViewSet
 from apps.admin.views.dept import DeptViewSet
 from apps.admin.views.dictionary import DictionaryViewSet
 from apps.admin.views.file_list import FileViewSet
 from apps.admin.views.login_log import LoginLogViewSet
+from apps.admin.views.marquee import MarqueeViewSet
 from apps.admin.views.menu import MenuViewSet
 from apps.admin.views.menu_button import MenuButtonViewSet
 from apps.admin.views.message_center import MessageCenterViewSet
+from apps.admin.views.notice import NoticeViewSet
 from apps.admin.views.operation_log import OperationLogViewSet
 from apps.admin.views.role import RoleViewSet
 from apps.admin.views.system_config import SystemConfigViewSet
@@ -30,6 +33,9 @@ system_url.register(r'member', MemberViewSet)
 system_url.register(r'vip', VipViewSet)
 system_url.register(r'user_vip', UserVipViewSet)
 system_url.register(r'user_addr', UserAddrViewSet)
+system_url.register(r'banners', BannersViewSet)
+system_url.register(r'notice', NoticeViewSet)
+system_url.register(r'marquee', MarqueeViewSet)
 system_url.register(r'operation_log', OperationLogViewSet)
 system_url.register(r'dictionary', DictionaryViewSet)
 system_url.register(r'area', AreaViewSet)

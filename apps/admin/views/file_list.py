@@ -35,20 +35,20 @@ class FileSerializer(CustomModelSerializer):
         validated_data['mime_type'] = file.content_type
         if file_backup:
             validated_data['url'] = file
-        if file_engine == 'oss':
-            from dvadmin_cloud_storage.views.aliyun import ali_oss_upload
-            file_path = ali_oss_upload(file)
-            if file_path:
-                validated_data['file_url'] = file_path
-            else:
-                raise ValueError("上传失败")
-        elif file_engine == 'cos':
-            from dvadmin_cloud_storage.views.tencent import tencent_cos_upload
-            file_path = tencent_cos_upload(file)
-            if file_path:
-                validated_data['file_url'] = file_path
-            else:
-                raise ValueError("上传失败")
+        # if file_engine == 'oss':
+        #     from dvadmin_cloud_storage.views.aliyun import ali_oss_upload
+        #     file_path = ali_oss_upload(file)
+        #     if file_path:
+        #         validated_data['file_url'] = file_path
+        #     else:
+        #         raise ValueError("上传失败")
+        # elif file_engine == 'cos':
+        #     from dvadmin_cloud_storage.views.tencent import tencent_cos_upload
+        #     file_path = tencent_cos_upload(file)
+        #     if file_path:
+        #         validated_data['file_url'] = file_path
+        #     else:
+        #         raise ValueError("上传失败")
         else:
             validated_data['url'] = file
         # 审计字段

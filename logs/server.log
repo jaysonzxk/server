@@ -7335,3 +7335,1543 @@ django.db.utils.IntegrityError: (1062, "Duplicate entry 'test4' for key 'usernam
 [2023-08-09 11:09:38,375][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
 [2023-08-09 11:09:51,292][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.26, 127.0.0.1:61115]
 [2023-08-09 11:10:20,296][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:61115]
+[2023-08-09 11:21:56,993][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.18, 127.0.0.1:62935]
+[2023-08-09 11:23:58,929][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-09 11:24:00,724][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:24:01,435][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:24:01,436][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:24:01,436][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:25:02,098][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/vip/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:63696]
+[2023-08-09 11:25:02,347][django.channels.server.log_action():147] [INFO] HTTP GET /admin/vip/?user_type=1&limit=20&page=1 200 [0.25, 127.0.0.1:63696]
+[2023-08-09 11:25:17,730][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.10, 127.0.0.1:63696]
+[2023-08-09 11:25:38,608][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:63696]
+[2023-08-09 11:25:38,653][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:63696]
+[2023-08-09 11:26:02,180][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:63696]
+[2023-08-09 11:26:42,989][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-09 11:26:44,499][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:26:45,249][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:26:45,249][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:26:45,250][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:26:48,035][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.16, 127.0.0.1:64128]
+[2023-08-09 11:26:55,893][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/vip.py changed, reloading.
+[2023-08-09 11:26:57,004][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:26:57,788][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:26:57,788][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:26:57,790][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:26:58,944][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.24, 127.0.0.1:64177]
+[2023-08-09 11:27:18,707][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_vip/?user_type=1&limit=20&page=1 200 [0.09, 127.0.0.1:64177]
+[2023-08-09 11:28:47,476][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/?user_type=0&limit=20&page=1 200 [0.00, 127.0.0.1:64615]
+[2023-08-09 11:28:47,595][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/?user_type=0&limit=20&page=1 200 [0.12, 127.0.0.1:64615]
+[2023-08-09 11:29:03,104][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/?user_type=0&limit=20&page=1 200 [0.08, 127.0.0.1:64615]
+[2023-08-09 11:30:19,781][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/user.py changed, reloading.
+[2023-08-09 11:30:21,417][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:30:22,133][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:30:22,134][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:30:22,134][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:30:24,729][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/?user_type=0&limit=20&page=1 200 [0.35, 127.0.0.1:65011]
+[2023-08-09 11:30:37,318][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/user.py changed, reloading.
+[2023-08-09 11:30:38,348][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:30:38,901][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:30:38,902][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:30:38,903][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:30:41,482][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/?user_type=0&limit=20&page=1 200 [0.22, 127.0.0.1:65087]
+[2023-08-09 11:31:01,058][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/?limit=20&page=1 200 [0.00, 127.0.0.1:65087]
+[2023-08-09 11:31:01,107][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/?limit=20&page=1 200 [0.05, 127.0.0.1:65087]
+[2023-08-09 11:31:07,649][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/?lazy=1 200 [0.00, 127.0.0.1:65087]
+[2023-08-09 11:31:07,689][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/?lazy=1 200 [0.03, 127.0.0.1:65087]
+[2023-08-09 11:31:09,329][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/?parent=1 200 [0.00, 127.0.0.1:65087]
+[2023-08-09 11:31:09,364][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/?parent=1 200 [0.03, 127.0.0.1:65087]
+[2023-08-09 11:31:12,029][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/?limit=20&page=1 200 [0.05, 127.0.0.1:65087]
+[2023-08-09 11:31:15,049][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/ 200 [0.00, 127.0.0.1:65087]
+[2023-08-09 11:31:15,093][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/ 200 [0.04, 127.0.0.1:65087]
+[2023-08-09 11:31:15,105][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/data_scope_dept/ 200 [0.00, 127.0.0.1:65087]
+[2023-08-09 11:31:15,110][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/role_get_menu/ 200 [0.01, 127.0.0.1:65235]
+[2023-08-09 11:31:15,114][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/data_scope/ 200 [0.01, 127.0.0.1:65236]
+[2023-08-09 11:31:15,134][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/data_scope_dept/ 200 [0.03, 127.0.0.1:65087]
+[2023-08-09 11:31:15,216][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/role_get_menu/ 200 [0.10, 127.0.0.1:65235]
+[2023-08-09 11:31:15,237][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/data_scope/ 200 [0.12, 127.0.0.1:65236]
+[2023-08-09 11:32:08,371][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/1/ 200 [0.00, 127.0.0.1:65236]
+[2023-08-09 11:32:08,595][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/role/1/ 200 [0.22, 127.0.0.1:65236]
+[2023-08-09 11:32:18,767][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/logout/ 200 [0.00, 127.0.0.1:65236]
+[2023-08-09 11:32:18,835][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.07, 127.0.0.1:65236]
+[2023-08-09 11:32:18,949][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.00, 127.0.0.1:65236]
+[2023-08-09 11:32:18,952][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/captcha/ 200 [0.00, 127.0.0.1:65504]
+[2023-08-09 11:32:18,960][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:65236]
+[2023-08-09 11:32:18,971][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-09 11:32:18,971][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:65504]
+[2023-08-09 11:32:20,937][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:65504]
+[2023-08-09 11:32:20,945][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65504]
+[2023-08-09 11:32:21,035][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:65504]
+[2023-08-09 11:32:21,045][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-09 11:32:21,046][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.04, 127.0.0.1:65236]
+[2023-08-09 11:32:26,715][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:65236]
+[2023-08-09 11:32:28,495][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.78, 127.0.0.1:65236]
+[2023-08-09 11:32:28,503][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:65236]
+[2023-08-09 11:32:28,523][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:65236]
+[2023-08-09 11:32:28,540][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.00, 127.0.0.1:65236]
+[2023-08-09 11:32:28,568][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.03, 127.0.0.1:65236]
+[2023-08-09 11:32:39,903][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.06, 127.0.0.1:65236]
+[2023-08-09 11:32:39,986][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:65236]
+[2023-08-09 11:32:39,997][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-09 11:32:39,998][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:65504]
+[2023-08-09 11:32:41,335][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65504]
+[2023-08-09 11:32:41,426][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:65504]
+[2023-08-09 11:32:41,439][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-09 11:32:41,440][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.03, 127.0.0.1:65236]
+[2023-08-09 11:32:48,317][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.47, 127.0.0.1:65236]
+[2023-08-09 11:32:48,337][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:65236]
+[2023-08-09 11:32:48,381][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.03, 127.0.0.1:65236]
+[2023-08-09 11:32:53,415][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user_addr/?limit=20&page=1 200 [0.00, 127.0.0.1:65236]
+[2023-08-09 11:32:53,459][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user_addr/?limit=20&page=1 200 [0.04, 127.0.0.1:65236]
+[2023-08-09 11:33:04,742][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.13, 127.0.0.1:65236]
+[2023-08-09 11:33:04,820][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-09 11:33:05,722][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:49360]
+[2023-08-09 11:33:05,780][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:49360]
+[2023-08-09 11:33:05,788][django.request.log_response():224] [WARNING] Not Found: /api/captcha/
+[2023-08-09 11:33:05,789][django.channels.server.log_action():155] [WARNING] HTTP GET /api/captcha/ 404 [0.02, 127.0.0.1:49361]
+[2023-08-09 11:33:35,410][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:49361]
+[2023-08-09 11:33:40,859][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:49361]
+[2023-08-09 11:33:40,909][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:49361]
+[2023-08-09 11:33:48,424][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.40, 127.0.0.1:49361]
+[2023-08-09 11:33:48,467][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:49361]
+[2023-08-09 11:33:48,530][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:49361]
+[2023-08-09 11:33:53,933][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/?user_type=0&limit=20&page=1 200 [0.08, 127.0.0.1:49361]
+[2023-08-09 11:33:59,530][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/ 200 [0.05, 127.0.0.1:49361]
+[2023-08-09 11:33:59,533][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/?page=1&limit=10 200 [0.05, 127.0.0.1:49360]
+[2023-08-09 11:33:59,536][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:49601]
+[2023-08-09 11:33:59,577][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/?page=1&limit=10 200 [0.04, 127.0.0.1:49360]
+[2023-08-09 11:33:59,598][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.06, 127.0.0.1:49601]
+[2023-08-09 11:34:03,895][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/ 200 [0.04, 127.0.0.1:49601]
+[2023-08-09 11:34:03,928][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/?page=1&limit=10 200 [0.07, 127.0.0.1:49360]
+[2023-08-09 11:34:11,633][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/3/ 200 [0.00, 127.0.0.1:49360]
+[2023-08-09 11:34:11,804][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/user/3/ 200 [0.17, 127.0.0.1:49360]
+[2023-08-09 11:34:11,908][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/?user_type=0&limit=20&page=1 200 [0.06, 127.0.0.1:49360]
+[2023-08-09 11:37:44,560][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/operation_log/?limit=20&page=1 200 [0.00, 127.0.0.1:50527]
+[2023-08-09 11:37:44,635][django.channels.server.log_action():147] [INFO] HTTP GET /admin/operation_log/?limit=20&page=1 200 [0.07, 127.0.0.1:50527]
+[2023-08-09 11:37:58,743][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/login_log/?limit=20&page=1 200 [0.01, 127.0.0.1:50527]
+[2023-08-09 11:37:58,934][django.channels.server.log_action():147] [INFO] HTTP GET /admin/login_log/?limit=20&page=1 200 [0.16, 127.0.0.1:50527]
+[2023-08-09 11:39:00,427][django.channels.server.log_action():147] [INFO] HTTP GET /admin/login_log/?limit=20&page=1 200 [0.07, 127.0.0.1:50838]
+[2023-08-09 11:41:40,222][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/request_util.py changed, reloading.
+[2023-08-09 11:41:41,894][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:41:42,689][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:41:42,689][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:41:42,690][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:41:48,967][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.09, 127.0.0.1:51531]
+[2023-08-09 11:41:49,197][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:51531]
+[2023-08-09 11:41:52,183][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:51531]
+[2023-08-09 11:41:52,328][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:51531]
+[2023-08-09 11:42:11,064][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.74, 127.0.0.1:51531]
+[2023-08-09 11:42:11,097][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:51531]
+[2023-08-09 11:42:11,162][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:51531]
+[2023-08-09 11:42:39,032][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/request_util.py changed, reloading.
+[2023-08-09 11:42:40,499][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:42:41,243][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:42:41,245][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:42:41,245][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:43:11,437][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/request_util.py changed, reloading.
+[2023-08-09 11:43:12,871][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:43:13,571][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:43:13,573][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:43:13,574][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:43:37,073][django.channels.server.log_action():147] [INFO] HTTP POST /api/logout/ 200 [0.09, 127.0.0.1:52001]
+[2023-08-09 11:43:37,164][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:52001]
+[2023-08-09 11:43:39,142][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:52001]
+[2023-08-09 11:43:39,227][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:52001]
+[2023-08-09 11:43:49,171][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 140, in post
+    save_login_log(request)
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/request_util.py", line 212, in save_login_log
+    analysis_data['username'] = request.data.username
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'username'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/login.py", line 140, in post
+    save_login_log(request)
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/request_util.py", line 212, in save_login_log
+    analysis_data['username'] = request.data.username
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'username'
+[2023-08-09 11:43:49,204][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.38, 127.0.0.1:52001]
+[2023-08-09 11:44:03,871][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/request_util.py changed, reloading.
+[2023-08-09 11:44:05,387][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:44:06,091][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:44:06,092][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:44:06,092][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:44:09,856][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.48, 127.0.0.1:52149]
+[2023-08-09 11:44:09,882][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:52149]
+[2023-08-09 11:44:09,939][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.04, 127.0.0.1:52149]
+[2023-08-09 11:44:16,835][django.channels.server.log_action():147] [INFO] HTTP GET /admin/login_log/?limit=20&page=1 200 [0.22, 127.0.0.1:52149]
+[2023-08-09 11:45:45,911][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 11:45:47,316][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:45:47,928][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:45:47,928][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:45:47,929][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 11:47:59,446][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 11:48:00,936][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:50:19,481][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 11:50:20,444][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:52:41,458][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 11:52:42,870][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:53:11,498][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 11:53:13,015][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:53:41,496][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 11:53:42,619][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 11:53:43,203][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 11:53:43,203][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 11:53:43,204][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 12:41:34,182][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.02, 127.0.0.1:62420]
+[2023-08-09 12:41:34,455][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.27, 127.0.0.1:62420]
+[2023-08-09 12:41:58,705][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/operation_log/?limit=20&page=1 200 [0.00, 127.0.0.1:62420]
+[2023-08-09 12:41:58,821][django.channels.server.log_action():147] [INFO] HTTP GET /admin/operation_log/?limit=20&page=1 200 [0.10, 127.0.0.1:62420]
+[2023-08-09 12:42:04,842][django.channels.server.log_action():147] [INFO] HTTP GET /admin/login_log/?limit=20&page=1 200 [0.07, 127.0.0.1:62420]
+[2023-08-09 12:42:15,361][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/file/?limit=20&page=1 200 [0.00, 127.0.0.1:62420]
+[2023-08-09 12:42:15,390][django.channels.server.log_action():147] [INFO] HTTP GET /admin/file/?limit=20&page=1 200 [0.03, 127.0.0.1:62420]
+[2023-08-09 12:42:24,688][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?limit=999&parent__isnull=1 200 [0.00, 127.0.0.1:62420]
+[2023-08-09 12:42:24,742][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?limit=999&parent__isnull=1 200 [0.05, 127.0.0.1:62420]
+[2023-08-09 12:42:24,793][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?parent=1&limit=999 200 [0.00, 127.0.0.1:62420]
+[2023-08-09 12:42:24,796][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/system_config/?parent__isnull=1&limit=999 200 [0.01, 127.0.0.1:62637]
+[2023-08-09 12:42:24,830][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent=1&limit=999 200 [0.03, 127.0.0.1:62637]
+[2023-08-09 12:42:24,871][django.channels.server.log_action():147] [INFO] HTTP GET /admin/system_config/?parent__isnull=1&limit=999 200 [0.07, 127.0.0.1:62420]
+[2023-08-09 12:42:33,657][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.04, 127.0.0.1:62420]
+[2023-08-09 12:43:04,272][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/area/?limit=100&page=1&level=1 200 [0.00, 127.0.0.1:62420]
+[2023-08-09 12:43:04,296][django.channels.server.log_action():147] [INFO] HTTP GET /admin/area/?limit=100&page=1&level=1 200 [0.02, 127.0.0.1:62420]
+[2023-08-09 12:43:07,518][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.04, 127.0.0.1:62420]
+[2023-08-09 15:26:33,872][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/urls.py changed, reloading.
+[2023-08-09 15:26:35,822][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 15:26:36,695][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 15:26:36,696][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 15:26:36,697][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 15:34:21,780][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:56839]
+[2023-08-09 15:34:21,785][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.02, 127.0.0.1:56840]
+[2023-08-09 15:34:21,878][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.10, 127.0.0.1:56839]
+[2023-08-09 15:34:21,898][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.11, 127.0.0.1:56840]
+[2023-08-09 15:34:32,770][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:56903]
+[2023-08-09 15:34:32,841][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:56903]
+[2023-08-09 15:34:33,095][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.18, 127.0.0.1:56903]
+[2023-08-09 15:34:33,109][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.19, 127.0.0.1:56907]
+[2023-08-09 15:34:33,154][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.24, 127.0.0.1:56908]
+[2023-08-09 15:34:33,251][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:56908]
+[2023-08-09 15:34:47,085][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [2.17, 127.0.0.1:56908]
+[2023-08-09 15:34:47,110][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:56908]
+[2023-08-09 15:34:56,250][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/?user_type=0&limit=20&page=1 200 [0.00, 127.0.0.1:56908]
+[2023-08-09 15:34:56,372][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/?user_type=0&limit=20&page=1 200 [0.10, 127.0.0.1:56908]
+[2023-08-09 15:35:01,795][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/ 200 [0.00, 127.0.0.1:56908]
+[2023-08-09 15:35:01,797][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/role/?page=1&limit=10 200 [0.01, 127.0.0.1:56907]
+[2023-08-09 15:35:01,847][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/ 200 [0.05, 127.0.0.1:56908]
+[2023-08-09 15:35:02,026][django.channels.server.log_action():147] [INFO] HTTP GET /admin/role/?page=1&limit=10 200 [0.23, 127.0.0.1:56907]
+[2023-08-09 15:35:02,044][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.23, 127.0.0.1:56903]
+[2023-08-09 15:35:22,836][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/member/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:56903]
+[2023-08-09 15:35:22,908][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:56903]
+[2023-08-09 15:41:17,199][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:58577]
+[2023-08-09 15:41:17,260][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:58577]
+[2023-08-09 15:41:17,437][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:58577]
+[2023-08-09 15:41:17,453][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:58582]
+[2023-08-09 15:41:17,494][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:58583]
+[2023-08-09 15:41:17,835][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.08, 127.0.0.1:58583]
+[2023-08-09 15:43:56,840][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:59253]
+[2023-08-09 15:43:56,933][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:59253]
+[2023-08-09 15:43:56,973][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:59253]
+[2023-08-09 15:43:56,984][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:59257]
+[2023-08-09 15:43:57,024][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:59258]
+[2023-08-09 15:43:57,414][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.09, 127.0.0.1:59258]
+[2023-08-09 16:05:55,784][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:64622]
+[2023-08-09 16:05:55,882][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.09, 127.0.0.1:64622]
+[2023-08-09 16:05:55,888][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.06, 127.0.0.1:64624]
+[2023-08-09 16:05:55,945][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:64624]
+[2023-08-09 16:05:56,096][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:64624]
+[2023-08-09 16:05:56,102][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:64622]
+[2023-08-09 16:05:56,108][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.02, 127.0.0.1:64628]
+[2023-08-09 16:05:56,140][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:64624]
+[2023-08-09 16:05:56,159][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:64622]
+[2023-08-09 16:05:56,245][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.13, 127.0.0.1:64628]
+[2023-08-09 16:05:56,750][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.11, 127.0.0.1:64628]
+[2023-08-09 16:09:51,435][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:49193]
+[2023-08-09 16:09:51,549][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:49193]
+[2023-08-09 16:09:51,669][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:49193]
+[2023-08-09 16:09:51,690][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:49199]
+[2023-08-09 16:09:51,769][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.13, 127.0.0.1:49200]
+[2023-08-09 16:09:52,189][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.09, 127.0.0.1:49200]
+[2023-08-09 16:12:20,656][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:49813]
+[2023-08-09 16:12:20,742][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:49813]
+[2023-08-09 16:12:20,869][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:49813]
+[2023-08-09 16:12:20,882][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:49818]
+[2023-08-09 16:12:20,929][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:49819]
+[2023-08-09 16:12:21,380][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.11, 127.0.0.1:49819]
+[2023-08-09 16:12:36,330][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/system/file/ 200 [0.00, 127.0.0.1:49819]
+[2023-08-09 16:12:36,467][django.request.log_response():224] [WARNING] Not Found: /api/system/file/
+[2023-08-09 16:12:36,469][django.channels.server.log_action():155] [WARNING] HTTP POST /api/system/file/ 404 [0.06, 127.0.0.1:49819]
+[2023-08-09 16:25:40,120][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:53041]
+[2023-08-09 16:25:40,208][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:53041]
+[2023-08-09 16:25:40,326][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:53041]
+[2023-08-09 16:25:40,341][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:53046]
+[2023-08-09 16:25:40,395][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.11, 127.0.0.1:53047]
+[2023-08-09 16:25:40,903][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.08, 127.0.0.1:53047]
+[2023-08-09 16:39:24,777][django.request.log_response():224] [WARNING] Not Found: /api/system/file/
+[2023-08-09 16:39:24,779][django.channels.server.log_action():155] [WARNING] HTTP POST /api/system/file/ 404 [0.03, 127.0.0.1:54664]
+[2023-08-09 16:40:44,070][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/file_list.py changed, reloading.
+[2023-08-09 16:40:46,135][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 16:40:47,038][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 16:40:47,039][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 16:40:47,039][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 16:47:36,829][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/member/25/ 200 [0.00, 127.0.0.1:56647]
+[2023-08-09 16:47:37,159][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/member/25/ 200 [0.33, 127.0.0.1:56647]
+[2023-08-09 16:49:54,162][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.16, 127.0.0.1:57204]
+[2023-08-09 16:50:09,270][django.request.log_response():224] [WARNING] Not Found: /api/system/file/
+[2023-08-09 16:50:09,271][django.channels.server.log_action():155] [WARNING] HTTP POST /api/system/file/ 404 [0.02, 127.0.0.1:57204]
+[2023-08-09 16:51:20,409][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/member/25/ 200 [0.13, 127.0.0.1:57546]
+[2023-08-09 16:55:33,385][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-09 16:55:35,176][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 16:55:35,994][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 16:55:35,994][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 16:55:35,995][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 16:55:46,723][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 341, in update
+    instance.update(data)
+TypeError: QuerySet.update() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 341, in update
+    instance.update(data)
+TypeError: QuerySet.update() takes 1 positional argument but 2 were given
+[2023-08-09 16:55:46,756][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/member/25/ 200 [0.10, 127.0.0.1:58626]
+[2023-08-09 16:55:56,934][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-09 16:55:57,999][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 16:55:58,572][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 16:55:58,573][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 16:55:58,573][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 16:56:05,667][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 341, in update
+    instance.update(data)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'update'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 341, in update
+    instance.update(data)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'update'
+[2023-08-09 16:56:05,700][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/member/25/ 200 [0.08, 127.0.0.1:58708]
+[2023-08-09 16:56:24,735][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-09 16:56:25,773][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 16:56:26,361][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 16:56:26,361][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 16:56:26,362][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 16:56:32,969][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 341, in update
+    instance.update()
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'update'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/member.py", line 341, in update
+    instance.update()
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Users' object has no attribute 'update'
+[2023-08-09 16:56:33,002][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/member/25/ 200 [0.08, 127.0.0.1:58821]
+[2023-08-09 16:57:30,758][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-09 16:57:31,799][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 16:57:32,364][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 16:57:32,364][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 16:57:32,366][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 16:57:37,121][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/member/25/ 200 [0.29, 127.0.0.1:59085]
+[2023-08-09 16:57:37,227][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:59085]
+[2023-08-09 16:57:59,592][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/member.py changed, reloading.
+[2023-08-09 16:58:00,586][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 16:58:01,159][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 16:58:01,159][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 16:58:01,160][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 17:00:25,386][django.request.log_response():224] [WARNING] Not Found: /api/system/file/
+[2023-08-09 17:00:25,387][django.channels.server.log_action():155] [WARNING] HTTP POST /api/system/file/ 404 [0.04, 127.0.0.1:59772]
+[2023-08-09 17:33:39,241][django.request.log_response():224] [WARNING] Not Found: /api/system/file/
+[2023-08-09 17:33:39,263][django.channels.server.log_action():155] [WARNING] HTTP POST /api/system/file/ 404 [0.04, 127.0.0.1:65204]
+[2023-08-09 17:34:07,550][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.15, 127.0.0.1:65204]
+[2023-08-09 17:34:07,587][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.11, 127.0.0.1:65328]
+[2023-08-09 17:34:07,931][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.30, 127.0.0.1:65328]
+[2023-08-09 17:34:07,946][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.31, 127.0.0.1:65204]
+[2023-08-09 17:34:07,987][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.35, 127.0.0.1:65332]
+[2023-08-09 17:34:08,384][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.12, 127.0.0.1:65332]
+[2023-08-09 17:34:24,180][django.channels.server.log_action():147] [INFO] HTTP OPTIONS //admin/file/ 200 [0.01, 127.0.0.1:65332]
+[2023-08-09 17:34:24,200][django.request.log_response():224] [WARNING] Not Found: //admin/file/
+[2023-08-09 17:34:24,200][django.channels.server.log_action():155] [WARNING] HTTP POST //admin/file/ 404 [0.01, 127.0.0.1:65332]
+[2023-08-09 17:34:35,125][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65332]
+[2023-08-09 17:34:35,229][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:65332]
+[2023-08-09 17:34:35,361][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:65332]
+[2023-08-09 17:34:35,378][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:65328]
+[2023-08-09 17:34:35,423][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:65204]
+[2023-08-09 17:34:35,848][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.11, 127.0.0.1:65204]
+[2023-08-09 17:34:45,457][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/file/ 200 [0.00, 127.0.0.1:65204]
+[2023-08-09 17:34:45,603][django.channels.server.log_action():147] [INFO] HTTP POST /admin/file/ 200 [0.14, 127.0.0.1:65204]
+[2023-08-09 17:35:20,219][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/member/25/ 200 [0.36, 127.0.0.1:65204]
+[2023-08-09 17:35:20,394][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.08, 127.0.0.1:65204]
+[2023-08-09 17:35:20,509][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/6/b/6beb21dd12f63a67ad37d848ef1caeac 200 [0.01, 127.0.0.1:49255]
+[2023-08-09 17:35:38,794][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.05, 127.0.0.1:65204]
+[2023-08-09 17:35:55,227][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/file/?limit=20&page=1 200 [0.00, 127.0.0.1:65204]
+[2023-08-09 17:35:55,259][django.channels.server.log_action():147] [INFO] HTTP GET /admin/file/?limit=20&page=1 200 [0.03, 127.0.0.1:65204]
+[2023-08-09 17:36:16,364][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.11, 127.0.0.1:65204]
+[2023-08-09 17:36:28,555][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65204]
+[2023-08-09 17:36:28,739][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:65204]
+[2023-08-09 17:36:28,860][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:65204]
+[2023-08-09 17:36:28,879][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:49536]
+[2023-08-09 17:36:28,917][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:49537]
+[2023-08-09 17:36:29,341][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.10, 127.0.0.1:49537]
+[2023-08-09 17:36:29,486][django.channels.server.log_action():151] [INFO] HTTP GET /media/files/6/b/6beb21dd12f63a67ad37d848ef1caeac 304 [0.01, 127.0.0.1:49546]
+[2023-08-09 17:42:15,685][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:50988]
+[2023-08-09 17:42:15,715][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:50988]
+[2023-08-09 17:42:15,745][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:50988]
+[2023-08-09 17:42:15,761][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:50993]
+[2023-08-09 17:42:15,797][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:50994]
+[2023-08-09 17:42:16,134][django.channels.server.log_action():147] [INFO] HTTP GET /admin/member/?user_type=1&limit=20&page=1 200 [0.08, 127.0.0.1:50994]
+[2023-08-09 17:42:16,271][django.channels.server.log_action():151] [INFO] HTTP GET /media/files/6/b/6beb21dd12f63a67ad37d848ef1caeac 304 [0.00, 127.0.0.1:51002]
+[2023-08-09 17:42:23,368][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/ 200 [0.00, 127.0.0.1:50994]
+[2023-08-09 17:42:23,409][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.04, 127.0.0.1:50994]
+[2023-08-09 17:42:24,885][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.00, 127.0.0.1:50994]
+[2023-08-09 17:42:24,934][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:50994]
+[2023-08-09 17:42:57,866][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.11, 127.0.0.1:50994]
+[2023-08-09 17:42:57,998][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.04, 127.0.0.1:50994]
+[2023-08-09 17:43:01,847][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:50994]
+[2023-08-09 17:43:01,930][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:50994]
+[2023-08-09 17:43:02,072][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:50994]
+[2023-08-09 17:43:02,084][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:50988]
+[2023-08-09 17:43:02,132][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:50993]
+[2023-08-09 17:43:02,468][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:50993]
+[2023-08-09 17:43:07,413][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.07, 127.0.0.1:50993]
+[2023-08-09 17:43:47,968][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.09, 127.0.0.1:50993]
+[2023-08-09 17:43:48,113][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.04, 127.0.0.1:50993]
+[2023-08-09 17:48:57,712][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:52675]
+[2023-08-09 17:48:57,732][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:52675]
+[2023-08-09 17:48:57,819][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:52675]
+[2023-08-09 17:48:57,833][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:52679]
+[2023-08-09 17:48:57,870][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:52680]
+[2023-08-09 17:48:58,191][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:52680]
+[2023-08-09 17:49:01,222][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/banners/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:52680]
+[2023-08-09 17:49:01,250][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:52680]
+[2023-08-09 17:49:34,758][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:52680]
+[2023-08-09 17:49:35,983][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=24 200 [0.00, 127.0.0.1:52680]
+[2023-08-09 17:49:36,009][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=24 200 [0.02, 127.0.0.1:52680]
+[2023-08-09 17:49:37,419][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=25 200 [0.00, 127.0.0.1:52680]
+[2023-08-09 17:49:37,440][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.02, 127.0.0.1:52680]
+[2023-08-09 17:49:39,184][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /swagger.json 200 [0.00, 127.0.0.1:52680]
+[2023-08-09 17:49:39,274][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 17:49:39,279][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 17:49:40,054][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.87, 127.0.0.1:52680]
+[2023-08-09 17:49:51,479][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/ 200 [0.00, 127.0.0.1:52680]
+[2023-08-09 17:49:51,581][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:52680]
+[2023-08-09 17:49:51,637][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.02, 127.0.0.1:52680]
+[2023-08-09 17:49:56,102][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:52680]
+[2023-08-09 17:49:56,140][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:52680]
+[2023-08-09 17:49:56,255][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:52680]
+[2023-08-09 17:49:56,266][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:52675]
+[2023-08-09 17:49:56,304][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:52679]
+[2023-08-09 17:49:56,548][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.02, 127.0.0.1:52679]
+[2023-08-09 17:49:56,719][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 17:49:56,720][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 17:49:57,559][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.96, 127.0.0.1:52679]
+[2023-08-09 17:50:00,918][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:52679]
+[2023-08-09 18:18:54,975][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:59931]
+[2023-08-09 18:47:12,144][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.08, 127.0.0.1:64838]
+[2023-08-09 18:47:14,996][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:64838]
+[2023-08-09 19:52:37,695][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:50383]
+[2023-08-09 19:52:37,755][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.06, 127.0.0.1:50383]
+[2023-08-09 19:52:37,759][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.05, 127.0.0.1:50384]
+[2023-08-09 19:52:37,793][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:50384]
+[2023-08-09 19:52:37,870][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:50384]
+[2023-08-09 19:52:37,875][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:50383]
+[2023-08-09 19:52:37,878][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.02, 127.0.0.1:50388]
+[2023-08-09 19:52:37,901][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:50384]
+[2023-08-09 19:52:37,920][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:50383]
+[2023-08-09 19:52:37,968][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:50388]
+[2023-08-09 19:52:38,324][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:50388]
+[2023-08-09 19:52:41,251][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.07, 127.0.0.1:50388]
+[2023-08-09 19:53:18,763][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.16, 127.0.0.1:50388]
+[2023-08-09 19:53:18,977][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:50388]
+[2023-08-09 19:54:09,442][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:50388]
+[2023-08-09 19:54:09,490][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:50388]
+[2023-08-09 19:54:09,528][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:50388]
+[2023-08-09 19:54:09,540][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:50781]
+[2023-08-09 19:54:09,593][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:50782]
+[2023-08-09 19:54:09,894][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:50782]
+[2023-08-09 19:54:19,476][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.07, 127.0.0.1:50782]
+[2023-08-09 19:54:53,711][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.12, 127.0.0.1:50782]
+[2023-08-09 19:54:53,929][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:50782]
+[2023-08-09 19:54:57,514][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=24 200 [0.03, 127.0.0.1:50782]
+[2023-08-09 19:55:00,585][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.03, 127.0.0.1:50782]
+[2023-08-09 19:55:00,754][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 19:55:00,758][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 19:55:01,573][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.96, 127.0.0.1:50782]
+[2023-08-09 19:55:22,553][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.11, 127.0.0.1:50782]
+[2023-08-09 19:55:22,614][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.02, 127.0.0.1:50782]
+[2023-08-09 19:55:34,191][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:50782]
+[2023-08-09 19:55:34,254][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.02, 127.0.0.1:50782]
+[2023-08-09 19:55:45,400][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.11, 127.0.0.1:50782]
+[2023-08-09 19:55:45,472][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.03, 127.0.0.1:50782]
+[2023-08-09 19:55:56,416][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:50782]
+[2023-08-09 19:55:56,482][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.02, 127.0.0.1:50782]
+[2023-08-09 19:56:01,111][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:50782]
+[2023-08-09 19:56:01,189][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:50782]
+[2023-08-09 19:56:01,276][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:50782]
+[2023-08-09 19:56:01,289][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:51261]
+[2023-08-09 19:56:01,332][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:51262]
+[2023-08-09 19:56:01,577][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=25 200 [0.02, 127.0.0.1:51262]
+[2023-08-09 19:56:01,771][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 19:56:01,772][drf_yasg.inspectors.base.call_view_method():44] [WARNING] view's BannersViewSet raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+           ^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'context'
+[2023-08-09 19:56:02,769][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [1.10, 127.0.0.1:51262]
+[2023-08-09 19:56:08,990][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:51262]
+[2023-08-09 19:56:10,379][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:51262]
+[2023-08-09 20:21:24,688][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 20:21:26,758][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 20:21:27,706][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 20:21:27,706][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 20:21:27,707][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 20:22:57,986][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 20:22:59,162][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 20:35:56,099][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 20:35:57,536][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 20:35:58,344][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 20:35:58,344][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 20:35:58,345][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 20:47:36,733][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 20:47:38,159][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 20:47:38,921][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 20:47:38,921][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 20:47:38,922][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 21:28:38,025][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 21:28:39,571][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 21:45:24,136][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 21:45:25,738][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 21:45:26,555][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 21:45:26,555][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 21:45:26,556][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 21:47:07,101][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-09 21:47:08,150][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 21:47:08,749][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 21:47:08,750][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 21:47:08,750][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 21:50:47,061][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/urls.py changed, reloading.
+[2023-08-09 21:50:48,458][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-09 21:50:49,241][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-09 21:50:49,241][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-09 21:50:49,242][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-09 21:52:55,434][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/notice/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:62333]
+[2023-08-09 21:52:55,629][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.19, 127.0.0.1:62333]
+[2023-08-09 21:52:57,428][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:62333]
+[2023-08-09 21:52:57,454][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:62333]
+[2023-08-09 21:52:58,202][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/banners/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:62333]
+[2023-08-09 21:52:58,227][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:62333]
+[2023-08-09 21:53:24,782][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.06, 127.0.0.1:62333]
+[2023-08-09 21:54:34,888][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:62745]
+[2023-08-09 21:54:58,251][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:62745]
+[2023-08-09 21:55:15,895][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.00, 127.0.0.1:62745]
+[2023-08-09 21:55:15,964][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.07, 127.0.0.1:62745]
+[2023-08-09 21:55:40,095][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/ 200 [0.00, 127.0.0.1:62745]
+[2023-08-09 21:55:40,252][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.15, 127.0.0.1:62745]
+[2023-08-09 21:55:40,364][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.05, 127.0.0.1:62745]
+[2023-08-09 21:55:40,372][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:63014]
+[2023-08-09 21:55:51,106][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=1&parent=56 200 [0.00, 127.0.0.1:63014]
+[2023-08-09 21:55:51,132][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=56 200 [0.02, 127.0.0.1:63014]
+[2023-08-09 21:56:15,150][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.11, 127.0.0.1:63014]
+[2023-08-09 21:56:15,200][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=56 200 [0.02, 127.0.0.1:63014]
+[2023-08-09 21:56:15,206][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:62745]
+[2023-08-09 21:57:12,872][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.11, 127.0.0.1:62745]
+[2023-08-09 21:57:12,899][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:62745]
+[2023-08-09 21:57:12,924][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=56 200 [0.03, 127.0.0.1:63014]
+[2023-08-09 21:57:12,931][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:62745]
+[2023-08-09 22:03:12,090][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:64848]
+[2023-08-09 22:04:07,603][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:64848]
+[2023-08-09 22:04:23,617][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:64848]
+[2023-08-10 10:17:33,316][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.41, 127.0.0.1:56661]
+[2023-08-10 10:17:42,884][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:56661]
+[2023-08-10 10:28:07,616][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 10:28:09,361][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:28:10,184][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:28:10,184][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:28:10,185][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:29:20,042][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:58710]
+[2023-08-10 10:29:20,084][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.01, 127.0.0.1:58710]
+[2023-08-10 10:29:20,178][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.09, 127.0.0.1:58710]
+[2023-08-10 10:29:20,388][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:58710]
+[2023-08-10 10:29:20,393][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:58713]
+[2023-08-10 10:29:20,397][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:58714]
+[2023-08-10 10:29:20,592][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.20, 127.0.0.1:58710]
+[2023-08-10 10:29:20,604][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.21, 127.0.0.1:58713]
+[2023-08-10 10:29:20,669][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.27, 127.0.0.1:58714]
+[2023-08-10 10:29:21,052][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:58714]
+[2023-08-10 10:30:03,157][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:58714]
+[2023-08-10 10:30:22,910][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:58714]
+[2023-08-10 10:30:32,263][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:58714]
+[2023-08-10 10:30:41,425][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/banners/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:58714]
+[2023-08-10 10:30:41,468][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:58714]
+[2023-08-10 10:30:47,995][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:58714]
+[2023-08-10 10:31:03,509][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:58714]
+[2023-08-10 10:31:19,325][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:58714]
+[2023-08-10 10:31:42,872][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.04, 127.0.0.1:58714]
+[2023-08-10 10:31:53,902][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:58714]
+[2023-08-10 10:32:19,909][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:58714]
+[2023-08-10 10:33:01,005][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:58714]
+[2023-08-10 10:33:08,529][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/file/ 200 [0.00, 127.0.0.1:58714]
+[2023-08-10 10:33:08,675][django.channels.server.log_action():147] [INFO] HTTP POST /admin/file/ 200 [0.12, 127.0.0.1:58714]
+[2023-08-10 10:33:08,840][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 200 [0.01, 127.0.0.1:59664]
+[2023-08-10 10:33:44,243][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/banners/ 200 [0.00, 127.0.0.1:58714]
+[2023-08-10 10:33:44,330][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 32, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 32, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+[2023-08-10 10:33:44,504][django.channels.server.log_action():147] [INFO] HTTP POST /admin/banners/ 200 [0.26, 127.0.0.1:58714]
+[2023-08-10 10:34:59,976][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:60110]
+[2023-08-10 10:35:07,603][django.channels.server.log_action():147] [INFO] HTTP POST /admin/file/ 200 [0.14, 127.0.0.1:60110]
+[2023-08-10 10:35:07,627][django.channels.server.log_action():151] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 304 [0.01, 127.0.0.1:60142]
+[2023-08-10 10:35:24,549][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 32, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 75, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 32, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 79, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.11/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.11/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'file' in 'field list'")
+[2023-08-10 10:35:24,582][django.channels.server.log_action():147] [INFO] HTTP POST /admin/banners/ 200 [0.08, 127.0.0.1:60110]
+[2023-08-10 10:39:02,920][django.channels.server.log_action():147] [INFO] HTTP POST /admin/banners/ 200 [0.15, 127.0.0.1:61094]
+[2023-08-10 10:39:02,992][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:61094]
+[2023-08-10 10:40:13,282][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:61386]
+[2023-08-10 10:40:36,275][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:61386]
+[2023-08-10 10:41:14,014][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:61386]
+[2023-08-10 10:41:17,544][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/banners/1/ 200 [0.00, 127.0.0.1:61386]
+[2023-08-10 10:41:17,586][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:41:17,618][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.07, 127.0.0.1:61386]
+[2023-08-10 10:41:40,271][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:41:40,302][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.08, 127.0.0.1:61386]
+[2023-08-10 10:42:39,352][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:61386]
+[2023-08-10 10:43:00,278][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:43:00,309][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.07, 127.0.0.1:61386]
+[2023-08-10 10:46:12,964][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:46:14,487][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:46:15,213][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:46:15,213][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:46:15,213][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:46:20,200][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.08, 127.0.0.1:62881]
+[2023-08-10 10:46:20,465][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.21, 127.0.0.1:62881]
+[2023-08-10 10:47:16,525][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:47:17,481][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:47:17,999][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:47:18,000][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:47:18,000][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:47:36,177][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 102, in update
+    serializer = self.get_serializer(instance, data=data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 102, in update
+    serializer = self.get_serializer(instance, data=data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:47:36,211][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.20, 127.0.0.1:63192]
+[2023-08-10 10:48:52,886][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 102, in update
+    serializer = self.get_serializer(instance, data=data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 102, in update
+    serializer = self.get_serializer(instance, data=data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:48:52,926][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.09, 127.0.0.1:63501]
+[2023-08-10 10:52:30,383][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:52:31,871][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:52:32,597][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:52:32,597][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:52:32,598][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:52:40,024][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:52:41,375][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:52:42,111][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:52:42,112][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:52:42,112][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:52:53,119][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:52:53,148][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.44, 127.0.0.1:64457]
+[2023-08-10 10:54:09,726][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:54:11,282][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:54:12,026][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:54:12,026][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:54:12,027][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:54:16,350][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 101, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py", line 101, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:54:16,381][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.21, 127.0.0.1:64798]
+[2023-08-10 10:54:32,105][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:54:33,122][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:54:33,643][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:54:33,644][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:54:33,644][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:54:37,281][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 95, in update
+    serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/viewset.py", line 70, in get_serializer
+    return serializer_class(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Banners() got an unexpected keyword argument 'data'
+[2023-08-10 10:54:37,311][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.20, 127.0.0.1:64887]
+[2023-08-10 10:54:43,252][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:54:44,266][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:54:44,817][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:54:44,818][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:54:44,818][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:55:41,851][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/banners.py changed, reloading.
+[2023-08-10 10:55:42,802][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:55:43,317][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:55:43,317][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:55:43,317][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:55:48,250][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.26, 127.0.0.1:65179]
+[2023-08-10 10:55:48,333][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:65179]
+[2023-08-10 10:56:00,649][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/banners/1/ 200 [0.12, 127.0.0.1:65179]
+[2023-08-10 10:56:00,697][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:65179]
+[2023-08-10 10:56:28,780][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:65179]
+[2023-08-10 10:56:37,439][django.channels.server.log_action():147] [INFO] HTTP GET /admin/banners/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:65179]
+[2023-08-10 10:57:47,738][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/notice.py changed, reloading.
+[2023-08-10 10:57:48,724][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:57:49,256][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:57:49,257][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:57:49,257][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:57:57,712][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/marquee.py changed, reloading.
+[2023-08-10 10:57:58,699][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:57:59,244][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:57:59,244][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:57:59,244][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 10:59:41,734][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 10:59:42,692][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 10:59:43,246][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 10:59:43,246][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 10:59:43,247][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 11:01:23,857][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:01:24,893][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:01:25,466][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 11:01:25,466][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 11:01:25,467][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 11:02:20,264][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/notice/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:50411]
+[2023-08-10 11:02:20,699][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.43, 127.0.0.1:50411]
+[2023-08-10 11:02:38,086][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:50411]
+[2023-08-10 11:02:38,093][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:50411]
+[2023-08-10 11:02:38,129][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:50411]
+[2023-08-10 11:02:38,259][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:50411]
+[2023-08-10 11:02:38,283][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.01, 127.0.0.1:50411]
+[2023-08-10 11:02:38,334][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.06, 127.0.0.1:50500]
+[2023-08-10 11:02:38,616][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:50500]
+[2023-08-10 11:03:01,688][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:50500]
+[2023-08-10 11:03:40,903][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:50500]
+[2023-08-10 11:03:51,621][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.03, 127.0.0.1:50500]
+[2023-08-10 11:03:53,532][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:50500]
+[2023-08-10 11:04:06,692][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?user_type=1&limit=20&page=1 200 [0.02, 127.0.0.1:50500]
+[2023-08-10 11:04:24,218][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/notice/?limit=20&page=1 200 [0.00, 127.0.0.1:50500]
+[2023-08-10 11:04:24,250][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.03, 127.0.0.1:50500]
+[2023-08-10 11:06:17,162][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.02, 127.0.0.1:51405]
+[2023-08-10 11:06:31,706][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.02, 127.0.0.1:51405]
+[2023-08-10 11:06:38,151][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.03, 127.0.0.1:51405]
+[2023-08-10 11:07:12,536][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.09, 127.0.0.1:51405]
+[2023-08-10 11:07:26,209][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/ 200 [0.00, 127.0.0.1:51405]
+[2023-08-10 11:07:26,265][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:51405]
+[2023-08-10 11:07:29,143][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=24 200 [0.00, 127.0.0.1:51405]
+[2023-08-10 11:07:29,177][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=24 200 [0.03, 127.0.0.1:51405]
+[2023-08-10 11:07:32,728][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=26 200 [0.00, 127.0.0.1:51405]
+[2023-08-10 11:07:32,749][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=26 200 [0.02, 127.0.0.1:51405]
+[2023-08-10 11:07:34,160][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /swagger.json 200 [0.00, 127.0.0.1:51405]
+[2023-08-10 11:07:34,967][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.81, 127.0.0.1:51405]
+[2023-08-10 11:08:01,816][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/ 200 [0.00, 127.0.0.1:51405]
+[2023-08-10 11:08:01,910][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:51405]
+[2023-08-10 11:08:01,970][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=26 200 [0.02, 127.0.0.1:51405]
+[2023-08-10 11:08:16,359][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:51405]
+[2023-08-10 11:08:16,416][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=26 200 [0.02, 127.0.0.1:51405]
+[2023-08-10 11:08:32,804][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:51405]
+[2023-08-10 11:08:32,873][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=26 200 [0.03, 127.0.0.1:51405]
+[2023-08-10 11:08:46,562][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:51405]
+[2023-08-10 11:08:46,629][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=26 200 [0.02, 127.0.0.1:51405]
+[2023-08-10 11:09:00,318][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:51405]
+[2023-08-10 11:09:00,380][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=26 200 [0.02, 127.0.0.1:51405]
+[2023-08-10 11:09:12,405][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:51405]
+[2023-08-10 11:09:12,424][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:52139]
+[2023-08-10 11:09:12,508][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:52139]
+[2023-08-10 11:09:12,523][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:51405]
+[2023-08-10 11:09:12,567][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:52143]
+[2023-08-10 11:09:12,815][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=26 200 [0.03, 127.0.0.1:52143]
+[2023-08-10 11:09:13,809][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.90, 127.0.0.1:52143]
+[2023-08-10 11:09:14,547][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.02, 127.0.0.1:52143]
+[2023-08-10 11:09:33,473][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.03, 127.0.0.1:52143]
+[2023-08-10 11:10:15,115][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/notice/ 200 [0.00, 127.0.0.1:52143]
+[2023-08-10 11:10:15,248][django.channels.server.log_action():147] [INFO] HTTP POST /admin/notice/ 200 [0.13, 127.0.0.1:52143]
+[2023-08-10 11:10:15,360][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.02, 127.0.0.1:52143]
+[2023-08-10 11:10:43,366][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.03, 127.0.0.1:52143]
+[2023-08-10 11:10:52,237][django.channels.server.log_action():147] [INFO] HTTP GET /admin/notice/?limit=20&page=1 200 [0.04, 127.0.0.1:52143]
+[2023-08-10 11:11:53,938][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:11:55,642][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:11:56,375][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 11:11:56,376][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 11:11:56,376][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 11:20:44,439][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?limit=20&page=1 200 [0.01, 127.0.0.1:54925]
+[2023-08-10 11:20:44,709][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.27, 127.0.0.1:54925]
+[2023-08-10 11:21:39,199][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.03, 127.0.0.1:54925]
+[2023-08-10 11:21:48,625][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.07, 127.0.0.1:54925]
+[2023-08-10 11:21:50,361][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=24 200 [0.04, 127.0.0.1:54925]
+[2023-08-10 11:21:54,241][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=27 200 [0.00, 127.0.0.1:54925]
+[2023-08-10 11:21:54,262][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=27 200 [0.02, 127.0.0.1:54925]
+[2023-08-10 11:22:08,302][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:54925]
+[2023-08-10 11:22:08,359][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=27 200 [0.02, 127.0.0.1:54925]
+[2023-08-10 11:22:19,368][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:54925]
+[2023-08-10 11:22:19,425][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=27 200 [0.02, 127.0.0.1:54925]
+[2023-08-10 11:22:31,847][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:54925]
+[2023-08-10 11:22:31,909][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=27 200 [0.02, 127.0.0.1:54925]
+[2023-08-10 11:22:45,779][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:54925]
+[2023-08-10 11:22:45,844][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=27 200 [0.02, 127.0.0.1:54925]
+[2023-08-10 11:22:56,937][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:54925]
+[2023-08-10 11:22:57,009][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=27 200 [0.02, 127.0.0.1:54925]
+[2023-08-10 11:23:00,326][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.02, 127.0.0.1:54925]
+[2023-08-10 11:23:03,968][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:54925]
+[2023-08-10 11:23:03,994][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:55514]
+[2023-08-10 11:23:04,077][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:55514]
+[2023-08-10 11:23:04,091][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:54925]
+[2023-08-10 11:23:04,249][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.19, 127.0.0.1:55517]
+[2023-08-10 11:23:04,486][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:22,766][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/ 200 [0.00, 127.0.0.1:55517]
+[2023-08-10 11:23:22,891][django.channels.server.log_action():147] [INFO] HTTP POST /admin/marquee/ 200 [0.12, 127.0.0.1:55517]
+[2023-08-10 11:23:22,940][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:34,550][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:39,897][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:43,379][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?status=0&limit=20&page=1 200 [0.00, 127.0.0.1:55517]
+[2023-08-10 11:23:43,400][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?status=0&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:43,452][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?status=0&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:45,277][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?status=1&limit=20&page=1 200 [0.00, 127.0.0.1:55517]
+[2023-08-10 11:23:45,296][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?status=1&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:47,026][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:50,662][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?name=s&limit=20&page=1 200 [0.00, 127.0.0.1:55517]
+[2023-08-10 11:23:50,685][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=s&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:52,742][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=s&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:53,208][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=s&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:23:53,458][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=s&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:24:23,005][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=s&limit=20&page=1 200 [0.03, 127.0.0.1:55517]
+[2023-08-10 11:24:43,254][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?name=testq&limit=20&page=1 200 [0.00, 127.0.0.1:55517]
+[2023-08-10 11:24:43,276][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=testq&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
+[2023-08-10 11:24:46,764][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?name=test&limit=20&page=1 200 [0.00, 127.0.0.1:55517]
+[2023-08-10 11:24:46,795][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=test&limit=20&page=1 200 [0.03, 127.0.0.1:55517]
