@@ -716,7 +716,8 @@ class MasterCheckIn(CoreModel):
     )
     city = models.CharField(max_length=100, verbose_name='入住城市', null=True, blank=True, help_text='入住城市')
     reviewStatus = models.IntegerField(verbose_name='审核状态', null=True, blank=True, help_text='审核状态', default=0)
-    failureReason = models.CharField(max_length=100, verbose_name='失败原因', null=True, blank=True, help_text='失败原因')
+    failureReason = models.CharField(max_length=100, verbose_name='失败原因', null=True, blank=True,
+                                     help_text='失败原因')
     store = models.CharField(max_length=100, verbose_name='店面名称', null=True, blank=True, help_text='店面名称')
     sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
@@ -731,60 +732,139 @@ class MasterCheckIn(CoreModel):
         return self.name
 
 
-# class Master(CoreModel):
-#     """ 师傅 """
-#     username = models.CharField(max_length=100, verbose_name='用户名', null=True, blank=True, help_text='用户名')
-#     name = models.CharField(max_length=100, verbose_name='师傅姓名', null=True, blank=True, help_text='师傅姓名')
-#     city = models.CharField(max_length=100, verbose_name='入住城市', null=True, blank=True, help_text='入住城市')
-#     mobile = models.CharField(max_length=100, verbose_name='手机号', null=True, blank=True, help_text='手机号')
-#     balance = models.DecimalField(max_length=10, verbose_name='余额', null=True, blank=True, help_text='余额',
-#                                   decimal_places=2,
-#                                   max_digits=5,
-#                                   default=0)
-#     collectNum = models.IntegerField(verbose_name='被收藏数', null=True, blank=True, help_text='被收藏数', default=0)
-#     orderNum = models.IntegerField(verbose_name='已完成订单数', null=True, blank=True, help_text='已完成订单数',
-#                                    default=0)
-#     starLevel = models.IntegerField(verbose_name='级别', null=True, blank=True, help_text='级别', default=5)
-#     commissionRate = models.DecimalField(max_length=10, verbose_name='抽点比例', null=True, blank=True, help_text='抽点比例',
-#                                          decimal_places=2,
-#                                          max_digits=5,
-#                                          default=0.7)
-#     sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
-#     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
-#
-#     class Meta:
-#         db_table = table_prefix + "master"
-#         verbose_name = "师傅"
-#         verbose_name_plural = verbose_name
-#         ordering = ("sort",)
-#
-#     def __str__(self):
-#         return self.name
+class PayChannel(CoreModel):
+    """ 支付渠道 """
+    name = models.CharField(max_length=100, verbose_name='渠道名称', null=True, blank=True, help_text='渠道名称')
+    minQuota = models.DecimalField(max_length=10, verbose_name='最小限额', null=True, blank=True, help_text='最小限额',
+                                   decimal_places=2,
+                                   max_digits=5,
+                                   default=0)
+    maxQuota = models.DecimalField(max_length=10, verbose_name='最大限额', null=True, blank=True, help_text='最大限额',
+                                   decimal_places=2,
+                                   max_digits=15,
+                                   default=0)
+    payKey = models.CharField(max_length=100, verbose_name='渠道key', null=True, blank=True, help_text='渠道key')
+    sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "pay_channel"
+        verbose_name = "支付渠道"
+        verbose_name_plural = verbose_name
+        ordering = ("sort",)
+
+    def __str__(self):
+        return self.name
 
 
-# class ServiceOrder(CoreModel):
-#     """ 服务订单 """
-#     oderNo = models.CharField(max_length=100, verbose_name='订单编号', null=True, blank=True, help_text='订单编号')
-#     project = models.ForeignKey(to='admin.Project', verbose_name="关联项目",
-#                                 on_delete=models.PROTECT,
-#                                 db_constraint=False,
-#                                 null=True,
-#                                 blank=True,
-#                                 help_text="关联项目",
-#                                 related_name='project')
-#     user = models.ForeignKey(to='admin.Users', verbose_name="关联用户",
-#                              on_delete=models.PROTECT,
-#                              db_constraint=False,
-#                              null=True,
-#                              blank=True,
-#                              help_text="关联用户",
-#                              related_name='user')
-#     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
-#
-#     class Meta:
-#         db_table = table_prefix + "service_order"
-#         verbose_name = "服务订单"
-#         verbose_name_plural = verbose_name
-#
-#     def __str__(self):
-#         return self.oderNo
+class ServiceOrder(CoreModel):
+    """ 服务订单 """
+    oderNo = models.CharField(max_length=100, verbose_name='订单编号', null=True, blank=True, help_text='订单编号')
+    project = models.ForeignKey(to='admin.Project', verbose_name="关联项目",
+                                on_delete=models.PROTECT,
+                                db_constraint=False,
+                                null=True,
+                                blank=True,
+                                help_text="关联项目",
+                                related_name='server_project')
+    user = models.ForeignKey(to='admin.Users', verbose_name="关联用户",
+                             on_delete=models.PROTECT,
+                             db_constraint=False,
+                             null=True,
+                             blank=True,
+                             help_text="关联用户",
+                             related_name='user_oder')
+    master = models.ForeignKey(to='admin.Users', verbose_name="关联技师",
+                               on_delete=models.PROTECT,
+                               db_constraint=False,
+                               null=True,
+                               blank=True,
+                               help_text="关联技师",
+                               related_name='master_order')
+    addr = models.ForeignKey(to='admin.UserAddr', verbose_name="关联用户地址",
+                             on_delete=models.PROTECT,
+                             db_constraint=False,
+                             null=True,
+                             blank=True,
+                             help_text="关联用户地址",
+                             related_name='order_user_addr')
+    payOrder = models.ForeignKey(to='admin.PayOrder', verbose_name="关联支付订单",
+                                 on_delete=models.PROTECT,
+                                 db_constraint=False,
+                                 null=True,
+                                 blank=True,
+                                 help_text="关联支付订单",
+                                 related_name='pay_order')
+    orderStatus = models.IntegerField(verbose_name='服务订单状态', null=True, blank=True, help_text='服务订单状态',
+                                      default=0)
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "service_order"
+        verbose_name = "服务订单"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.oderNo
+
+
+class PayOrder(CoreModel):
+    """ 支付订单 """
+    oderNo = models.CharField(max_length=100, verbose_name='支付单编号', null=True, blank=True, help_text='支付单编号')
+    user = models.ForeignKey(to='admin.Users', verbose_name="关联用户",
+                             on_delete=models.PROTECT,
+                             db_constraint=False,
+                             null=True,
+                             blank=True,
+                             help_text="关联用户",
+                             related_name='user_pay_oder')
+    payChannel = models.ForeignKey(to='admin.PayChannel', verbose_name="关联支付渠道",
+                                   on_delete=models.PROTECT,
+                                   db_constraint=False,
+                                   null=True,
+                                   blank=True,
+                                   help_text="关联支付渠道",
+                                   related_name='payChannel_order')
+    amount = models.DecimalField(max_length=10, verbose_name='支付金额', null=True, blank=True, help_text='支付金额',
+                                 decimal_places=2,
+                                 max_digits=5,
+                                 default=0)
+    orderStatus = models.IntegerField(verbose_name='支付状态', null=True, blank=True, help_text='支付状态',
+                                      default=0)
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "pay_order"
+        verbose_name = "支付订单"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.oderNo
+
+
+class MasterProject(CoreModel):
+    """ 技师服务项目 """
+    user = models.ForeignKey(to='admin.Users', verbose_name="技师",
+                             on_delete=models.PROTECT,
+                             db_constraint=False,
+                             null=True,
+                             blank=True,
+                             help_text="技师",
+                             related_name='master_project')
+    project = models.ForeignKey(to='admin.Project', verbose_name="项目",
+                                   on_delete=models.PROTECT,
+                                   db_constraint=False,
+                                   null=True,
+                                   blank=True,
+                                   help_text="项目",
+                                   related_name='project_master')
+
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "master_project"
+        verbose_name = "技师服务项目"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.user.username

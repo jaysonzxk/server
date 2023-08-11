@@ -110,8 +110,25 @@ class MasterCheckInViewSet(CustomModelViewSet):
                 serializer = self.get_serializer(data=request.data, request=request)
                 serializer.is_valid(raise_exception=True)
                 self.perform_create(serializer)
+
                 return DetailResponse(data=serializer.data, msg="新增成功")
             except Exception as e:
-                print(e)
                 return ErrorResponse(msg='参数错误')
         return ErrorResponse(msg='技师不存在')
+
+    def update(self, request, *args, **kwargs):
+        data = request.data
+        partial = kwargs.pop('partial', False)
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, data=request.data, request=request, partial=partial)
+        serializer.is_valid(raise_exception=True)
+        if data.get('reviewStatus') == 1:
+            instance = Users.objects.filter(mobile=data.get('mobile')).first()
+            instance.isCheckIn = 1
+            instance.save()
+        self.perform_update(serializer)
+        if getattr(instance, '_prefetched_objects_cache', None):
+            # If 'prefetch_related' has been applied to a queryset, we need to
+            # forcibly invalidate the prefetch cache on the instance.
+            instance._prefetched_objects_cache = {}
+        return DetailResponse(data=serializer.data, msg="更新成功")

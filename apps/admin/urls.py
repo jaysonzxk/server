@@ -13,13 +13,17 @@ from apps.admin.views.login_log import LoginLogViewSet
 from apps.admin.views.marquee import MarqueeViewSet
 from apps.admin.views.master import MasterViewSet
 from apps.admin.views.master_check_in import MasterCheckInViewSet
+from apps.admin.views.master_project import MasterProjectViewSet
 from apps.admin.views.menu import MenuViewSet
 from apps.admin.views.menu_button import MenuButtonViewSet
 from apps.admin.views.message_center import MessageCenterViewSet
 from apps.admin.views.notice import NoticeViewSet
 from apps.admin.views.operation_log import OperationLogViewSet
+from apps.admin.views.pay_channel import PayChannelViewSet
+from apps.admin.views.pay_order import PayOrderViewSet
 from apps.admin.views.project import ProjectViewSet
 from apps.admin.views.role import RoleViewSet
+from apps.admin.views.service_order import ServiceOrderViewSet
 from apps.admin.views.system_config import SystemConfigViewSet
 from apps.admin.views.user import UserViewSet
 from apps.admin.views.member import MemberViewSet
@@ -34,6 +38,7 @@ system_url.register(r'dept', DeptViewSet)
 system_url.register(r'user', UserViewSet)
 system_url.register(r'member', MemberViewSet)
 system_url.register(r'master', MasterViewSet)
+system_url.register(r'masterProject', MasterProjectViewSet)
 system_url.register(r'vip', VipViewSet)
 system_url.register(r'user_vip', UserVipViewSet)
 system_url.register(r'user_addr', UserAddrViewSet)
@@ -42,6 +47,9 @@ system_url.register(r'notice', NoticeViewSet)
 system_url.register(r'marquee', MarqueeViewSet)
 system_url.register(r'project', ProjectViewSet)
 system_url.register(r'masterCheckIn', MasterCheckInViewSet)
+system_url.register(r'payChannel', PayChannelViewSet)
+system_url.register(r'payOrder', PayOrderViewSet)
+system_url.register(r'serviceOrder', ServiceOrderViewSet)
 system_url.register(r'operation_log', OperationLogViewSet)
 system_url.register(r'dictionary', DictionaryViewSet)
 system_url.register(r'area', AreaViewSet)

@@ -98,6 +98,7 @@ class RedisOpAuthJwtAuthentication(OpAuthJwtAuthentication):
             session_id = jwt_get_session_id(token)
             key = f"{self.prefix}_{session_id}_{user.username}"
             if cache.get(key):
+                print(cache.get(key))
                 redis_token = json.loads(cache.get(key)).get('token')
                 if redis_token == token:
                     return user, token
