@@ -11,11 +11,14 @@ from apps.admin.views.dictionary import DictionaryViewSet
 from apps.admin.views.file_list import FileViewSet
 from apps.admin.views.login_log import LoginLogViewSet
 from apps.admin.views.marquee import MarqueeViewSet
+from apps.admin.views.master import MasterViewSet
+from apps.admin.views.master_check_in import MasterCheckInViewSet
 from apps.admin.views.menu import MenuViewSet
 from apps.admin.views.menu_button import MenuButtonViewSet
 from apps.admin.views.message_center import MessageCenterViewSet
 from apps.admin.views.notice import NoticeViewSet
 from apps.admin.views.operation_log import OperationLogViewSet
+from apps.admin.views.project import ProjectViewSet
 from apps.admin.views.role import RoleViewSet
 from apps.admin.views.system_config import SystemConfigViewSet
 from apps.admin.views.user import UserViewSet
@@ -30,12 +33,15 @@ system_url.register(r'role', RoleViewSet)
 system_url.register(r'dept', DeptViewSet)
 system_url.register(r'user', UserViewSet)
 system_url.register(r'member', MemberViewSet)
+system_url.register(r'master', MasterViewSet)
 system_url.register(r'vip', VipViewSet)
 system_url.register(r'user_vip', UserVipViewSet)
 system_url.register(r'user_addr', UserAddrViewSet)
 system_url.register(r'banners', BannersViewSet)
 system_url.register(r'notice', NoticeViewSet)
 system_url.register(r'marquee', MarqueeViewSet)
+system_url.register(r'project', ProjectViewSet)
+system_url.register(r'masterCheckIn', MasterCheckInViewSet)
 system_url.register(r'operation_log', OperationLogViewSet)
 system_url.register(r'dictionary', DictionaryViewSet)
 system_url.register(r'area', AreaViewSet)

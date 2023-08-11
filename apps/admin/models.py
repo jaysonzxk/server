@@ -24,6 +24,7 @@ class Users(CoreModel, AbstractUser):
     mobile = models.CharField(max_length=255, verbose_name="电话", null=True, blank=True, help_text="电话")
     avatar = models.CharField(max_length=255, verbose_name="头像", null=True, blank=True, help_text="头像")
     name = models.CharField(max_length=40, verbose_name="姓名", help_text="姓名")
+    city = models.CharField(max_length=100, verbose_name='入住城市', null=True, blank=True, help_text='入住城市')
     GENDER_CHOICES = (
         (0, "未知"),
         (1, "男"),
@@ -40,6 +41,22 @@ class Users(CoreModel, AbstractUser):
     user_type = models.IntegerField(
         choices=USER_TYPE, default=0, verbose_name="用户类型", null=True, blank=True, help_text="用户类型"
     )
+    age = models.IntegerField(verbose_name='年龄', null=True, blank=True, help_text='年龄')
+    balance = models.DecimalField(max_length=10, verbose_name='余额', null=True, blank=True, help_text='余额',
+                                  decimal_places=2,
+                                  max_digits=5,
+                                  default=0)
+    isCheckIn = models.IntegerField(verbose_name='是否已入住', null=True, blank=True, help_text='是否已入住', default=0)
+    collectNum = models.IntegerField(verbose_name='被收藏数', null=True, blank=True, help_text='被收藏数', default=0)
+    orderNum = models.IntegerField(verbose_name='已完成订单数', null=True, blank=True, help_text='已完成订单数',
+                                   default=0)
+    starLevel = models.IntegerField(verbose_name='级别', null=True, blank=True, help_text='级别', default=5)
+    commissionRate = models.DecimalField(max_length=10, verbose_name='抽点比例', null=True, blank=True,
+                                         help_text='抽点比例',
+                                         decimal_places=2,
+                                         max_digits=5,
+                                         default=0.7)
+    sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
     parent = models.ForeignKey(to='admin.Users', verbose_name="上级", on_delete=models.PROTECT,
                                db_constraint=False,
                                null=True,
@@ -656,3 +673,118 @@ class Marquee(CoreModel):
 
     def __str__(self):
         return self.name
+
+
+class Project(CoreModel):
+    """ 服务项目 """
+    name = models.CharField(max_length=100, verbose_name='项目名称', null=True, blank=True, help_text='项目名称')
+    img = models.CharField(max_length=255, verbose_name="展示图", null=True, blank=True, help_text="展示图")
+    duration = models.IntegerField(verbose_name="时长", null=True, blank=True, help_text="时长")
+    price = models.DecimalField(max_length=10, verbose_name='现价', null=True, blank=True, help_text='现价',
+                                decimal_places=2,
+                                max_digits=5,
+                                default=0)
+    originPrice = models.DecimalField(max_length=10, verbose_name='原价', null=True, blank=True, help_text='原价',
+                                      decimal_places=2,
+                                      max_digits=5,
+                                      default=0)
+    sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "project"
+        verbose_name = "服务项目"
+        verbose_name_plural = verbose_name
+        ordering = ("sort",)
+
+    def __str__(self):
+        return self.name
+
+
+class MasterCheckIn(CoreModel):
+    """ 师傅入住 """
+    mobile = models.CharField(max_length=100, verbose_name='手机号', null=True, blank=True, help_text='手机号')
+    name = models.CharField(max_length=100, verbose_name='入住城市', null=True, blank=True, help_text='入住城市')
+    age = models.IntegerField(verbose_name='年龄', null=True, blank=True, help_text='年龄')
+    GENDER_CHOICES = (
+        (0, "未知"),
+        (1, "男"),
+        (2, "女"),
+    )
+    gender = models.IntegerField(
+        choices=GENDER_CHOICES, default=0, verbose_name="性别", null=True, blank=True, help_text="性别"
+    )
+    city = models.CharField(max_length=100, verbose_name='入住城市', null=True, blank=True, help_text='入住城市')
+    reviewStatus = models.IntegerField(verbose_name='审核状态', null=True, blank=True, help_text='审核状态', default=0)
+    failureReason = models.CharField(max_length=100, verbose_name='失败原因', null=True, blank=True, help_text='失败原因')
+    store = models.CharField(max_length=100, verbose_name='店面名称', null=True, blank=True, help_text='店面名称')
+    sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "master_check_in"
+        verbose_name = "师傅入住"
+        verbose_name_plural = verbose_name
+        ordering = ("sort",)
+
+    def __str__(self):
+        return self.name
+
+
+# class Master(CoreModel):
+#     """ 师傅 """
+#     username = models.CharField(max_length=100, verbose_name='用户名', null=True, blank=True, help_text='用户名')
+#     name = models.CharField(max_length=100, verbose_name='师傅姓名', null=True, blank=True, help_text='师傅姓名')
+#     city = models.CharField(max_length=100, verbose_name='入住城市', null=True, blank=True, help_text='入住城市')
+#     mobile = models.CharField(max_length=100, verbose_name='手机号', null=True, blank=True, help_text='手机号')
+#     balance = models.DecimalField(max_length=10, verbose_name='余额', null=True, blank=True, help_text='余额',
+#                                   decimal_places=2,
+#                                   max_digits=5,
+#                                   default=0)
+#     collectNum = models.IntegerField(verbose_name='被收藏数', null=True, blank=True, help_text='被收藏数', default=0)
+#     orderNum = models.IntegerField(verbose_name='已完成订单数', null=True, blank=True, help_text='已完成订单数',
+#                                    default=0)
+#     starLevel = models.IntegerField(verbose_name='级别', null=True, blank=True, help_text='级别', default=5)
+#     commissionRate = models.DecimalField(max_length=10, verbose_name='抽点比例', null=True, blank=True, help_text='抽点比例',
+#                                          decimal_places=2,
+#                                          max_digits=5,
+#                                          default=0.7)
+#     sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+#     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+#
+#     class Meta:
+#         db_table = table_prefix + "master"
+#         verbose_name = "师傅"
+#         verbose_name_plural = verbose_name
+#         ordering = ("sort",)
+#
+#     def __str__(self):
+#         return self.name
+
+
+# class ServiceOrder(CoreModel):
+#     """ 服务订单 """
+#     oderNo = models.CharField(max_length=100, verbose_name='订单编号', null=True, blank=True, help_text='订单编号')
+#     project = models.ForeignKey(to='admin.Project', verbose_name="关联项目",
+#                                 on_delete=models.PROTECT,
+#                                 db_constraint=False,
+#                                 null=True,
+#                                 blank=True,
+#                                 help_text="关联项目",
+#                                 related_name='project')
+#     user = models.ForeignKey(to='admin.Users', verbose_name="关联用户",
+#                              on_delete=models.PROTECT,
+#                              db_constraint=False,
+#                              null=True,
+#                              blank=True,
+#                              help_text="关联用户",
+#                              related_name='user')
+#     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+#
+#     class Meta:
+#         db_table = table_prefix + "service_order"
+#         verbose_name = "服务订单"
+#         verbose_name_plural = verbose_name
+#
+#     def __str__(self):
+#         return self.oderNo

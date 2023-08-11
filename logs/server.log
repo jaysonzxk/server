@@ -8875,3 +8875,913 @@ TypeError: Banners() got an unexpected keyword argument 'data'
 [2023-08-10 11:24:43,276][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=testq&limit=20&page=1 200 [0.02, 127.0.0.1:55517]
 [2023-08-10 11:24:46,764][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/marquee/?name=test&limit=20&page=1 200 [0.00, 127.0.0.1:55517]
 [2023-08-10 11:24:46,795][django.channels.server.log_action():147] [INFO] HTTP GET /admin/marquee/?name=test&limit=20&page=1 200 [0.03, 127.0.0.1:55517]
+[2023-08-10 11:45:37,164][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:45:39,017][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:45:39,780][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 11:45:39,781][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 11:45:39,781][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 11:46:07,887][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:46:08,937][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:47:11,650][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:47:12,854][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:47:17,866][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:47:19,060][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:48:03,362][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:48:04,465][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:49:29,745][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:49:30,901][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:49:56,554][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:49:57,591][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:50:27,236][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:50:28,231][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:50:48,446][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 11:50:49,500][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:50:50,119][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 11:50:50,119][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 11:50:50,120][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 11:53:47,036][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/urls.py changed, reloading.
+[2023-08-10 11:53:48,410][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 11:53:49,164][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 11:53:49,164][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 11:53:49,165][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 11:53:53,445][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/ 200 [0.00, 127.0.0.1:61962]
+[2023-08-10 11:53:53,779][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.33, 127.0.0.1:61962]
+[2023-08-10 11:53:58,372][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.00, 127.0.0.1:61962]
+[2023-08-10 11:53:58,425][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:61962]
+[2023-08-10 11:54:14,852][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.10, 127.0.0.1:61962]
+[2023-08-10 11:54:15,054][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:61962]
+[2023-08-10 11:55:46,662][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:62440]
+[2023-08-10 11:55:46,691][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:62441]
+[2023-08-10 11:55:46,798][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:62441]
+[2023-08-10 11:55:46,803][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.03, 127.0.0.1:62440]
+[2023-08-10 11:55:46,817][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:62445]
+[2023-08-10 11:55:46,875][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:62440]
+[2023-08-10 11:55:47,231][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.07, 127.0.0.1:62440]
+[2023-08-10 11:55:50,106][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.08, 127.0.0.1:62441]
+[2023-08-10 11:56:32,925][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.11, 127.0.0.1:62441]
+[2023-08-10 11:56:33,112][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:62441]
+[2023-08-10 11:56:36,584][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=28 200 [0.00, 127.0.0.1:62441]
+[2023-08-10 11:56:36,767][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=28 200 [0.18, 127.0.0.1:62441]
+[2023-08-10 11:56:39,235][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=29 200 [0.00, 127.0.0.1:62441]
+[2023-08-10 11:56:39,258][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=29 200 [0.02, 127.0.0.1:62441]
+[2023-08-10 11:56:41,514][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.91, 127.0.0.1:62441]
+[2023-08-10 11:56:51,177][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:62441]
+[2023-08-10 11:56:51,233][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=29 200 [0.02, 127.0.0.1:62441]
+[2023-08-10 11:57:03,680][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:62441]
+[2023-08-10 11:57:03,743][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=29 200 [0.02, 127.0.0.1:62441]
+[2023-08-10 11:57:12,899][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:62441]
+[2023-08-10 11:57:12,975][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=29 200 [0.03, 127.0.0.1:62441]
+[2023-08-10 11:57:21,895][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:62441]
+[2023-08-10 11:57:21,962][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=29 200 [0.02, 127.0.0.1:62441]
+[2023-08-10 11:57:31,630][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:62441]
+[2023-08-10 11:57:31,703][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=29 200 [0.02, 127.0.0.1:62441]
+[2023-08-10 11:57:34,911][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62441]
+[2023-08-10 11:57:34,984][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:62441]
+[2023-08-10 11:57:35,075][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:62441]
+[2023-08-10 11:57:35,084][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:62909]
+[2023-08-10 11:57:35,131][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:62910]
+[2023-08-10 11:57:35,391][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=29 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 11:57:36,417][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.94, 127.0.0.1:62910]
+[2023-08-10 11:58:03,119][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/project/?limit=20&page=1 200 [0.00, 127.0.0.1:62910]
+[2023-08-10 11:58:03,141][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 11:58:51,422][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.04, 127.0.0.1:62910]
+[2023-08-10 11:59:12,887][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 12:00:07,068][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 12:00:23,016][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 12:00:43,862][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 12:01:25,712][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 12:02:10,010][django.channels.server.log_action():147] [INFO] HTTP POST /admin/file/ 200 [0.10, 127.0.0.1:62910]
+[2023-08-10 12:02:10,041][django.channels.server.log_action():151] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 304 [0.01, 127.0.0.1:64036]
+[2023-08-10 12:02:15,118][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/project/ 200 [0.00, 127.0.0.1:62910]
+[2023-08-10 12:02:15,238][django.channels.server.log_action():147] [INFO] HTTP POST /admin/project/ 200 [0.12, 127.0.0.1:62910]
+[2023-08-10 12:02:15,300][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 12:02:39,948][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.02, 127.0.0.1:62910]
+[2023-08-10 12:03:55,862][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:03:57,922][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:03:58,646][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 12:03:58,647][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 12:03:58,647][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 12:04:14,376][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:04:15,776][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:04:31,928][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:04:33,282][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:07:29,277][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:07:30,690][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:08:23,014][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:08:24,157][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:09:43,153][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:09:44,483][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:09:45,091][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 12:09:45,091][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 12:09:45,092][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 12:10:02,985][django.channels.server.log_action():147] [INFO] HTTP POST /admin/file/ 200 [0.15, 127.0.0.1:49584]
+[2023-08-10 12:10:04,519][django.channels.server.log_action():147] [INFO] HTTP POST /admin/project/ 200 [0.11, 127.0.0.1:49584]
+[2023-08-10 12:10:04,746][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.19, 127.0.0.1:49584]
+[2023-08-10 12:10:39,289][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:10:40,799][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:12:11,217][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:12:12,105][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:13:12,846][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:13:13,976][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:15:42,020][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:15:43,158][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:15:55,119][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:15:56,223][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:34:02,501][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:34:04,285][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:34:59,111][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:35:00,204][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:35:55,567][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:35:56,478][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:38:35,630][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:38:36,740][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:39:02,157][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:39:03,558][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 12:41:04,180][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 12:41:05,205][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:32:42,725][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:32:44,514][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:36:21,679][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:36:23,081][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:37:22,738][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:37:23,987][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:37:51,521][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:37:52,628][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:38:29,434][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:38:30,587][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:39:28,574][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:39:29,755][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:41:43,378][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:41:44,599][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:46:59,750][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:47:01,320][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:47:18,606][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:47:19,857][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:47:48,768][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:47:49,699][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:47:50,262][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 15:47:50,262][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 15:47:50,263][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 15:51:23,255][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/urls.py changed, reloading.
+[2023-08-10 15:51:24,304][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:51:24,865][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 15:51:24,866][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 15:51:24,866][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 15:52:53,237][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:56488]
+[2023-08-10 15:52:53,274][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:56488]
+[2023-08-10 15:52:53,282][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.00, 127.0.0.1:56488]
+[2023-08-10 15:52:53,342][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.06, 127.0.0.1:56488]
+[2023-08-10 15:52:58,299][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/urls.py changed, reloading.
+[2023-08-10 15:52:59,820][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:53:00,629][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 15:53:00,629][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 15:53:00,629][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 15:54:13,087][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 15:54:14,641][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:54:15,367][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 15:54:15,367][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 15:54:15,367][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 15:58:33,030][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 15:58:34,547][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 15:58:35,300][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 15:58:35,300][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 15:58:35,301][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 16:01:11,481][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.01, 127.0.0.1:58530]
+[2023-08-10 16:01:12,287][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [0.80, 127.0.0.1:58530]
+[2023-08-10 16:01:12,303][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:58530]
+[2023-08-10 16:01:12,323][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:58530]
+[2023-08-10 16:01:12,387][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.05, 127.0.0.1:58530]
+[2023-08-10 16:01:20,840][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.00, 127.0.0.1:58530]
+[2023-08-10 16:01:21,081][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.24, 127.0.0.1:58530]
+[2023-08-10 16:01:41,302][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/ 200 [0.00, 127.0.0.1:58530]
+[2023-08-10 16:01:41,417][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.11, 127.0.0.1:58530]
+[2023-08-10 16:01:41,599][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.11, 127.0.0.1:58530]
+[2023-08-10 16:01:41,605][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.11, 127.0.0.1:58662]
+[2023-08-10 16:01:50,898][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=1&parent=59 200 [0.00, 127.0.0.1:58662]
+[2023-08-10 16:01:50,921][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=59 200 [0.02, 127.0.0.1:58662]
+[2023-08-10 16:02:17,327][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.13, 127.0.0.1:58662]
+[2023-08-10 16:02:17,378][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=59 200 [0.02, 127.0.0.1:58662]
+[2023-08-10 16:02:17,384][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:58530]
+[2023-08-10 16:02:34,574][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.11, 127.0.0.1:58530]
+[2023-08-10 16:02:34,627][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=59 200 [0.03, 127.0.0.1:58530]
+[2023-08-10 16:02:34,633][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:58662]
+[2023-08-10 16:02:38,691][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/60/ 200 [0.00, 127.0.0.1:58662]
+[2023-08-10 16:02:38,808][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/dictionary/60/ 200 [0.12, 127.0.0.1:58662]
+[2023-08-10 16:02:38,861][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=59 200 [0.03, 127.0.0.1:58662]
+[2023-08-10 16:02:38,868][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:58530]
+[2023-08-10 16:02:55,586][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.11, 127.0.0.1:58530]
+[2023-08-10 16:02:55,641][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=59 200 [0.03, 127.0.0.1:58530]
+[2023-08-10 16:02:55,647][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:58662]
+[2023-08-10 16:03:00,879][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/62/ 200 [0.01, 127.0.0.1:58662]
+[2023-08-10 16:03:01,027][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/dictionary/62/ 200 [0.14, 127.0.0.1:58662]
+[2023-08-10 16:03:01,100][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=59 200 [0.04, 127.0.0.1:58662]
+[2023-08-10 16:03:01,106][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:58530]
+[2023-08-10 16:07:21,939][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/ 200 [0.00, 127.0.0.1:60033]
+[2023-08-10 16:07:22,012][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.07, 127.0.0.1:60033]
+[2023-08-10 16:07:24,894][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.00, 127.0.0.1:60033]
+[2023-08-10 16:07:24,947][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.05, 127.0.0.1:60033]
+[2023-08-10 16:08:37,211][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.11, 127.0.0.1:60343]
+[2023-08-10 16:08:37,433][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:60343]
+[2023-08-10 16:08:40,981][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.06, 127.0.0.1:60343]
+[2023-08-10 16:09:48,816][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.10, 127.0.0.1:60633]
+[2023-08-10 16:09:49,054][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:60633]
+[2023-08-10 16:09:52,550][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=30 200 [0.00, 127.0.0.1:60633]
+[2023-08-10 16:09:52,576][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=30 200 [0.02, 127.0.0.1:60633]
+[2023-08-10 16:09:54,161][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=31 200 [0.00, 127.0.0.1:60633]
+[2023-08-10 16:09:54,181][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:60633]
+[2023-08-10 16:09:55,169][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /swagger.json 200 [0.00, 127.0.0.1:60633]
+[2023-08-10 16:09:56,024][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.85, 127.0.0.1:60633]
+[2023-08-10 16:10:05,422][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/ 200 [0.00, 127.0.0.1:60633]
+[2023-08-10 16:10:05,517][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:60633]
+[2023-08-10 16:10:05,570][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:60633]
+[2023-08-10 16:10:14,698][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:60633]
+[2023-08-10 16:10:14,754][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:60633]
+[2023-08-10 16:10:25,022][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:60633]
+[2023-08-10 16:10:25,086][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:60633]
+[2023-08-10 16:10:35,330][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:60633]
+[2023-08-10 16:10:35,394][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:60633]
+[2023-08-10 16:10:46,838][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:60633]
+[2023-08-10 16:10:46,905][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:60633]
+[2023-08-10 16:13:15,636][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.05, 127.0.0.1:61480]
+[2023-08-10 16:13:20,000][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=1&parent=4 200 [0.00, 127.0.0.1:61480]
+[2023-08-10 16:13:20,036][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=4 200 [0.03, 127.0.0.1:61480]
+[2023-08-10 16:14:20,506][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.12, 127.0.0.1:61744]
+[2023-08-10 16:14:20,618][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=4 200 [0.03, 127.0.0.1:61744]
+[2023-08-10 16:14:20,626][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:61746]
+[2023-08-10 16:15:09,831][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:61746]
+[2023-08-10 16:15:11,394][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=30 200 [0.03, 127.0.0.1:61746]
+[2023-08-10 16:15:13,338][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.03, 127.0.0.1:61746]
+[2023-08-10 16:15:14,360][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.97, 127.0.0.1:61746]
+[2023-08-10 16:16:15,372][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 16:16:17,016][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 16:16:17,756][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 16:16:17,756][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 16:16:17,757][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 16:19:15,377][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.11, 127.0.0.1:62945]
+[2023-08-10 16:19:15,621][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.19, 127.0.0.1:62945]
+[2023-08-10 16:19:27,209][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62945]
+[2023-08-10 16:19:27,269][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:62945]
+[2023-08-10 16:19:27,463][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:62945]
+[2023-08-10 16:19:27,480][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:63006]
+[2023-08-10 16:19:27,483][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.02, 127.0.0.1:62945]
+[2023-08-10 16:19:27,503][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:63007]
+[2023-08-10 16:19:27,548][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.06, 127.0.0.1:62945]
+[2023-08-10 16:19:27,813][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.03, 127.0.0.1:62945]
+[2023-08-10 16:19:28,990][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [1.07, 127.0.0.1:62945]
+[2023-08-10 16:19:33,065][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/?limit=20&page=1 200 [0.00, 127.0.0.1:62945]
+[2023-08-10 16:19:33,090][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:62945]
+[2023-08-10 16:22:49,171][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:63831]
+[2023-08-10 16:33:27,745][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.03, 127.0.0.1:65140]
+[2023-08-10 16:33:33,972][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.05, 127.0.0.1:65140]
+[2023-08-10 16:33:35,615][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=14 200 [0.00, 127.0.0.1:65140]
+[2023-08-10 16:33:35,643][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=14 200 [0.03, 127.0.0.1:65140]
+[2023-08-10 16:33:37,209][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=30 200 [0.02, 127.0.0.1:65140]
+[2023-08-10 16:33:39,865][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.07, 127.0.0.1:65140]
+[2023-08-10 16:33:51,427][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/31/ 200 [0.00, 127.0.0.1:65140]
+[2023-08-10 16:33:51,541][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/menu/31/ 200 [0.11, 127.0.0.1:65140]
+[2023-08-10 16:33:51,811][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:65140]
+[2023-08-10 16:33:56,096][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:65140]
+[2023-08-10 16:33:56,114][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:65268]
+[2023-08-10 16:33:56,212][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:65268]
+[2023-08-10 16:33:56,229][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:65140]
+[2023-08-10 16:33:56,275][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:65272]
+[2023-08-10 16:33:56,602][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:65272]
+[2023-08-10 16:34:00,968][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:65272]
+[2023-08-10 16:34:58,554][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65272]
+[2023-08-10 16:34:58,598][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:65272]
+[2023-08-10 16:34:58,701][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:65272]
+[2023-08-10 16:34:58,728][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:65272]
+[2023-08-10 16:34:58,776][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:49163]
+[2023-08-10 16:34:59,113][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:49163]
+[2023-08-10 16:38:04,225][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 16:38:05,733][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 16:38:06,490][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 16:38:06,490][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 16:38:06,491][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 16:45:58,505][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 16:46:00,118][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 16:46:00,815][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 16:46:00,815][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 16:46:00,816][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 16:57:15,401][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 16:57:16,938][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 16:57:17,766][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 16:57:17,781][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 16:57:17,781][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 16:57:50,085][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.21, 127.0.0.1:54392]
+[2023-08-10 16:57:51,865][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?limit=999&status=1&is_catalog=1 200 [0.08, 127.0.0.1:54392]
+[2023-08-10 16:59:03,468][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu/ 200 [0.11, 127.0.0.1:54691]
+[2023-08-10 16:59:03,725][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:54691]
+[2023-08-10 16:59:05,683][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=30 200 [0.03, 127.0.0.1:54691]
+[2023-08-10 16:59:08,424][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=32 200 [0.00, 127.0.0.1:54691]
+[2023-08-10 16:59:08,449][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.02, 127.0.0.1:54691]
+[2023-08-10 16:59:10,713][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [1.02, 127.0.0.1:54691]
+[2023-08-10 17:11:20,404][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/urls.py changed, reloading.
+[2023-08-10 17:11:21,972][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 17:11:22,752][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 17:11:22,752][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 17:11:22,752][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 17:11:28,798][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55594]
+[2023-08-10 17:11:28,853][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:55594]
+[2023-08-10 17:11:29,138][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.18, 127.0.0.1:55594]
+[2023-08-10 17:11:29,151][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.19, 127.0.0.1:55598]
+[2023-08-10 17:11:29,195][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.23, 127.0.0.1:55599]
+[2023-08-10 17:11:29,416][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.02, 127.0.0.1:55599]
+[2023-08-10 17:11:31,620][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.96, 127.0.0.1:55594]
+[2023-08-10 17:11:43,118][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:55594]
+[2023-08-10 17:11:43,177][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.02, 127.0.0.1:55594]
+[2023-08-10 17:12:00,557][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:55594]
+[2023-08-10 17:12:00,620][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.02, 127.0.0.1:55594]
+[2023-08-10 17:12:14,204][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.10, 127.0.0.1:55594]
+[2023-08-10 17:12:14,271][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.02, 127.0.0.1:55594]
+[2023-08-10 17:12:28,096][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.11, 127.0.0.1:55594]
+[2023-08-10 17:12:28,164][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.02, 127.0.0.1:55594]
+[2023-08-10 17:12:38,396][django.channels.server.log_action():147] [INFO] HTTP POST /admin/menu_button/ 200 [0.09, 127.0.0.1:55594]
+[2023-08-10 17:12:38,466][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.02, 127.0.0.1:55594]
+[2023-08-10 17:12:41,831][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55594]
+[2023-08-10 17:12:41,909][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:55594]
+[2023-08-10 17:12:41,993][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:55594]
+[2023-08-10 17:12:42,004][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:55931]
+[2023-08-10 17:12:42,047][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:55932]
+[2023-08-10 17:12:42,300][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=32 200 [0.03, 127.0.0.1:55932]
+[2023-08-10 17:12:43,460][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [1.06, 127.0.0.1:55932]
+[2023-08-10 17:12:45,254][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/master/?limit=20&page=1 200 [0.00, 127.0.0.1:55932]
+[2023-08-10 17:12:45,333][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?limit=20&page=1 200 [0.08, 127.0.0.1:55932]
+[2023-08-10 17:13:50,660][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/master/?user_type=1&limit=20&page=1 200 [0.00, 127.0.0.1:56218]
+[2023-08-10 17:13:50,737][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=1&limit=20&page=1 200 [0.07, 127.0.0.1:56218]
+[2023-08-10 17:13:52,866][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/master/?user_type=2&limit=20&page=1 200 [0.00, 127.0.0.1:56218]
+[2023-08-10 17:13:52,896][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.03, 127.0.0.1:56218]
+[2023-08-10 17:14:16,046][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:56218]
+[2023-08-10 17:16:54,996][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:56966]
+[2023-08-10 17:17:54,649][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.03, 127.0.0.1:56966]
+[2023-08-10 17:18:38,981][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:56966]
+[2023-08-10 17:21:51,120][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58189]
+[2023-08-10 17:22:16,253][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58189]
+[2023-08-10 17:22:37,737][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58189]
+[2023-08-10 17:23:11,470][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58189]
+[2023-08-10 17:24:11,553][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58765]
+[2023-08-10 17:24:17,118][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58765]
+[2023-08-10 17:24:31,811][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58765]
+[2023-08-10 17:24:42,724][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58765]
+[2023-08-10 17:24:52,822][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:58765]
+[2023-08-10 17:26:45,087][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 17:26:46,930][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 17:26:47,606][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 17:26:47,606][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 17:26:47,607][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 17:27:20,404][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.19, 127.0.0.1:59548]
+[2023-08-10 17:27:42,031][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.12, 127.0.0.1:59548]
+[2023-08-10 17:27:42,161][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.05, 127.0.0.1:59548]
+[2023-08-10 17:27:42,168][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:59639]
+[2023-08-10 17:27:45,334][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=1&parent=64 200 [0.00, 127.0.0.1:59639]
+[2023-08-10 17:27:45,359][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=64 200 [0.02, 127.0.0.1:59639]
+[2023-08-10 17:27:59,947][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.13, 127.0.0.1:59639]
+[2023-08-10 17:27:59,993][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=64 200 [0.02, 127.0.0.1:59639]
+[2023-08-10 17:28:00,000][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:59548]
+[2023-08-10 17:28:11,350][django.channels.server.log_action():147] [INFO] HTTP POST /admin/dictionary/ 200 [0.11, 127.0.0.1:59548]
+[2023-08-10 17:28:11,395][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=64 200 [0.02, 127.0.0.1:59548]
+[2023-08-10 17:28:11,401][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:59639]
+[2023-08-10 17:28:16,317][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:59639]
+[2023-08-10 17:28:16,367][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:59639]
+[2023-08-10 17:28:16,490][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:59639]
+[2023-08-10 17:28:16,502][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:59548]
+[2023-08-10 17:28:16,613][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.14, 127.0.0.1:59794]
+[2023-08-10 17:28:16,988][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.09, 127.0.0.1:59794]
+[2023-08-10 17:29:49,398][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.03, 127.0.0.1:60195]
+[2023-08-10 17:30:48,122][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.07, 127.0.0.1:60195]
+[2023-08-10 17:31:05,203][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:60195]
+[2023-08-10 17:32:40,847][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.03, 127.0.0.1:60897]
+[2023-08-10 17:33:30,096][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.04, 127.0.0.1:60897]
+[2023-08-10 17:34:13,107][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:60897]
+[2023-08-10 17:35:08,664][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/master/ 200 [0.00, 127.0.0.1:60897]
+[2023-08-10 17:35:08,928][django.channels.server.log_action():147] [INFO] HTTP POST /admin/master/ 200 [0.26, 127.0.0.1:60897]
+[2023-08-10 17:35:08,982][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:60897]
+[2023-08-10 17:35:19,007][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.02, 127.0.0.1:60897]
+[2023-08-10 17:36:09,022][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master.py changed, reloading.
+[2023-08-10 17:36:10,611][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 17:36:11,437][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 17:36:11,437][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 17:36:11,438][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 17:36:14,775][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.23, 127.0.0.1:61780]
+[2023-08-10 17:36:46,647][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.04, 127.0.0.1:61780]
+[2023-08-10 17:37:10,123][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.04, 127.0.0.1:61780]
+[2023-08-10 17:37:15,822][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/master/26/ 200 [0.00, 127.0.0.1:61780]
+[2023-08-10 17:37:15,935][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/master/26/ 200 [0.11, 127.0.0.1:61780]
+[2023-08-10 17:37:16,072][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.03, 127.0.0.1:61780]
+[2023-08-10 17:38:02,087][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.11, 127.0.0.1:61780]
+[2023-08-10 17:38:11,278][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.08, 127.0.0.1:61780]
+[2023-08-10 17:38:17,045][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.04, 127.0.0.1:61780]
+[2023-08-10 17:38:30,219][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.04, 127.0.0.1:61780]
+[2023-08-10 17:40:19,072][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:62784]
+[2023-08-10 18:07:19,504][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 18:07:21,147][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 18:07:21,922][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 18:07:21,922][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 18:07:21,923][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 18:08:12,291][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.22, 127.0.0.1:49537]
+[2023-08-10 18:08:17,716][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.08, 127.0.0.1:49537]
+[2023-08-10 18:08:21,620][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=1&parent=42 200 [0.00, 127.0.0.1:49537]
+[2023-08-10 18:08:21,650][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=42 200 [0.03, 127.0.0.1:49537]
+[2023-08-10 18:08:29,133][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:49537]
+[2023-08-10 18:11:23,223][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:50326]
+[2023-08-10 18:11:25,277][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.08, 127.0.0.1:50326]
+[2023-08-10 18:11:41,459][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:50326]
+[2023-08-10 18:12:20,081][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:50326]
+[2023-08-10 18:12:28,786][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:50326]
+[2023-08-10 18:12:47,746][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:50326]
+[2023-08-10 18:16:45,542][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/ 200 [0.00, 127.0.0.1:51646]
+[2023-08-10 18:16:45,668][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.12, 127.0.0.1:51646]
+[2023-08-10 18:16:45,838][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:51646]
+[2023-08-10 18:17:30,058][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:51646]
+[2023-08-10 18:20:35,376][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.26, 127.0.0.1:52590]
+[2023-08-10 18:20:35,429][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:52590]
+[2023-08-10 18:22:40,532][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 18:22:42,132][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 18:22:42,848][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 18:22:42,848][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 18:22:42,849][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 18:27:48,865][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 18:27:50,246][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 18:27:50,984][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 18:27:50,984][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 18:27:50,985][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 18:43:49,164][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.09, 127.0.0.1:58308]
+[2023-08-10 18:43:49,472][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.28, 127.0.0.1:58308]
+[2023-08-10 18:44:13,269][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 18:44:14,792][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 18:44:15,592][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 18:44:15,592][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 18:44:15,594][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 18:44:30,312][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.09, 127.0.0.1:58477]
+[2023-08-10 18:44:30,555][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.22, 127.0.0.1:58477]
+[2023-08-10 18:45:17,554][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:58477]
+[2023-08-10 18:45:37,091][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:58477]
+[2023-08-10 18:47:23,357][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 18:47:24,973][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 18:47:25,740][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 18:47:25,741][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 18:47:25,741][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 18:47:42,430][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.08, 127.0.0.1:59260]
+[2023-08-10 18:47:42,743][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.28, 127.0.0.1:59260]
+[2023-08-10 18:48:03,229][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.07, 127.0.0.1:59260]
+[2023-08-10 18:48:03,289][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:59260]
+[2023-08-10 18:48:29,770][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.13, 127.0.0.1:59260]
+[2023-08-10 18:48:29,995][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:59260]
+[2023-08-10 18:48:44,938][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 18:48:46,398][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 18:48:47,140][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 18:48:47,140][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 18:48:47,141][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 18:49:01,065][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.09, 127.0.0.1:59580]
+[2023-08-10 18:49:09,341][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.30, 127.0.0.1:59580]
+[2023-08-10 18:49:11,577][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:59580]
+[2023-08-10 18:50:12,619][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 18:50:14,000][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 18:50:14,559][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 18:50:14,559][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 18:50:14,560][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 19:55:29,698][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.08, 127.0.0.1:61023]
+[2023-08-10 19:55:38,734][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.07, 127.0.0.1:61023]
+[2023-08-10 19:56:01,153][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_check_in.py changed, reloading.
+[2023-08-10 19:56:02,638][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 19:56:03,365][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 19:56:03,365][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 19:56:03,366][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 19:56:05,977][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.07, 127.0.0.1:61182]
+[2023-08-10 19:57:19,015][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 19:57:20,276][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 19:57:20,853][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 19:57:20,853][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 19:57:20,854][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 19:57:31,233][django.channels.server.log_action():147] [INFO] HTTP POST /admin/masterCheckIn/ 200 [0.10, 127.0.0.1:61545]
+[2023-08-10 19:57:31,267][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/?limit=20&page=1 200 [0.00, 127.0.0.1:61545]
+[2023-08-10 19:57:31,521][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.25, 127.0.0.1:61545]
+[2023-08-10 19:59:16,209][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 19:59:17,859][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 19:59:18,539][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 19:59:18,539][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 19:59:18,540][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 19:59:32,007][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/1/ 200 [0.00, 127.0.0.1:62036]
+[2023-08-10 19:59:32,308][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/masterCheckIn/1/ 200 [0.30, 127.0.0.1:62036]
+[2023-08-10 19:59:32,355][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:62036]
+[2023-08-10 19:59:47,631][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/ 200 [0.00, 127.0.0.1:62036]
+[2023-08-10 19:59:47,706][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.07, 127.0.0.1:62036]
+[2023-08-10 19:59:49,840][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=30 200 [0.00, 127.0.0.1:62036]
+[2023-08-10 19:59:49,877][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=30 200 [0.03, 127.0.0.1:62036]
+[2023-08-10 20:00:08,734][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:62036]
+[2023-08-10 20:04:16,310][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:63196]
+[2023-08-10 20:05:03,038][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:63196]
+[2023-08-10 20:05:03,108][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.07, 127.0.0.1:63196]
+[2023-08-10 20:05:03,112][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.01, 127.0.0.1:63402]
+[2023-08-10 20:05:03,171][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:63402]
+[2023-08-10 20:05:03,277][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:63402]
+[2023-08-10 20:05:03,283][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:63196]
+[2023-08-10 20:05:03,289][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:63406]
+[2023-08-10 20:05:03,473][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.19, 127.0.0.1:63402]
+[2023-08-10 20:05:03,488][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.20, 127.0.0.1:63196]
+[2023-08-10 20:05:03,539][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.25, 127.0.0.1:63406]
+[2023-08-10 20:05:03,918][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:63406]
+[2023-08-10 20:05:10,356][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63406]
+[2023-08-10 20:05:10,451][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:63406]
+[2023-08-10 20:05:10,549][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:63406]
+[2023-08-10 20:05:10,559][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:63196]
+[2023-08-10 20:05:10,610][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:63402]
+[2023-08-10 20:05:10,973][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:63402]
+[2023-08-10 20:05:34,960][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63402]
+[2023-08-10 20:05:35,046][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:63402]
+[2023-08-10 20:05:35,156][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:63402]
+[2023-08-10 20:05:35,173][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:63196]
+[2023-08-10 20:05:35,233][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.11, 127.0.0.1:63406]
+[2023-08-10 20:05:35,601][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:63406]
+[2023-08-10 20:06:13,211][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63406]
+[2023-08-10 20:06:13,288][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:63406]
+[2023-08-10 20:06:13,405][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:63406]
+[2023-08-10 20:06:13,422][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:63196]
+[2023-08-10 20:06:13,490][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.11, 127.0.0.1:63402]
+[2023-08-10 20:06:13,867][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:63402]
+[2023-08-10 20:06:39,814][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63402]
+[2023-08-10 20:06:39,935][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:63402]
+[2023-08-10 20:06:40,035][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:63402]
+[2023-08-10 20:06:40,050][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:63196]
+[2023-08-10 20:06:40,103][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:63406]
+[2023-08-10 20:06:40,451][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:63406]
+[2023-08-10 20:06:59,374][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63406]
+[2023-08-10 20:06:59,565][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:63406]
+[2023-08-10 20:06:59,678][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:63406]
+[2023-08-10 20:06:59,690][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:63196]
+[2023-08-10 20:06:59,746][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:63402]
+[2023-08-10 20:07:00,130][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:63402]
+[2023-08-10 20:07:38,663][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63402]
+[2023-08-10 20:07:38,889][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:63402]
+[2023-08-10 20:07:39,001][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:63402]
+[2023-08-10 20:07:39,016][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:63196]
+[2023-08-10 20:07:39,066][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:63406]
+[2023-08-10 20:07:39,477][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.07, 127.0.0.1:63406]
+[2023-08-10 20:09:16,080][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:64499]
+[2023-08-10 20:09:16,090][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:64499]
+[2023-08-10 20:09:16,147][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.00, 127.0.0.1:64499]
+[2023-08-10 20:09:16,166][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.02, 127.0.0.1:64499]
+[2023-08-10 20:09:36,425][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:64580]
+[2023-08-10 20:09:36,444][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:64580]
+[2023-08-10 20:09:36,612][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.00, 127.0.0.1:64580]
+[2023-08-10 20:09:36,670][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:64580]
+[2023-08-10 20:09:36,684][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:64580]
+[2023-08-10 20:09:36,687][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:64584]
+[2023-08-10 20:09:36,690][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:64585]
+[2023-08-10 20:09:36,727][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:64580]
+[2023-08-10 20:09:36,743][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:64585]
+[2023-08-10 20:09:36,810][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.12, 127.0.0.1:64584]
+[2023-08-10 20:09:37,201][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/?limit=20&page=1 200 [0.00, 127.0.0.1:64584]
+[2023-08-10 20:09:37,248][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:64584]
+[2023-08-10 20:10:31,356][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.09, 127.0.0.1:64584]
+[2023-08-10 20:10:31,584][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:64584]
+[2023-08-10 20:10:31,625][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:64584]
+[2023-08-10 20:10:31,641][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:64585]
+[2023-08-10 20:10:31,704][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:64580]
+[2023-08-10 20:10:32,112][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:64580]
+[2023-08-10 20:10:37,155][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:64580]
+[2023-08-10 20:10:37,354][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:64580]
+[2023-08-10 20:10:37,408][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:64580]
+[2023-08-10 20:10:37,421][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:64584]
+[2023-08-10 20:10:37,476][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:64585]
+[2023-08-10 20:10:37,875][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:64585]
+[2023-08-10 20:12:23,726][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:65495]
+[2023-08-10 20:12:23,948][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:65495]
+[2023-08-10 20:12:24,003][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:65495]
+[2023-08-10 20:12:24,016][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:65499]
+[2023-08-10 20:12:24,070][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.11, 127.0.0.1:65500]
+[2023-08-10 20:12:24,433][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:65500]
+[2023-08-10 20:12:29,899][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/master/?user_type=2&limit=20&page=1 200 [0.00, 127.0.0.1:65500]
+[2023-08-10 20:12:30,012][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.11, 127.0.0.1:65500]
+[2023-08-10 20:12:31,305][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:65500]
+[2023-08-10 20:14:26,011][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:49695]
+[2023-08-10 20:14:26,081][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:49695]
+[2023-08-10 20:14:26,127][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:49695]
+[2023-08-10 20:14:26,140][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:49699]
+[2023-08-10 20:14:26,195][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:49700]
+[2023-08-10 20:14:26,478][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:49700]
+[2023-08-10 20:14:43,914][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:49700]
+[2023-08-10 20:14:43,968][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:49700]
+[2023-08-10 20:14:44,032][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:49700]
+[2023-08-10 20:14:44,042][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:49699]
+[2023-08-10 20:14:44,099][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:49695]
+[2023-08-10 20:14:44,441][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:49695]
+[2023-08-10 20:16:43,072][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:50335]
+[2023-08-10 20:17:54,751][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:50700]
+[2023-08-10 20:17:54,776][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:50702]
+[2023-08-10 20:17:54,806][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:50702]
+[2023-08-10 20:17:54,820][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:50700]
+[2023-08-10 20:17:54,865][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:50706]
+[2023-08-10 20:17:55,127][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:50706]
+[2023-08-10 20:18:31,747][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:50706]
+[2023-08-10 20:18:31,784][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:50706]
+[2023-08-10 20:18:31,816][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:50706]
+[2023-08-10 20:18:31,827][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:50702]
+[2023-08-10 20:18:31,872][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:50700]
+[2023-08-10 20:18:32,146][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:50700]
+[2023-08-10 20:19:01,402][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:50700]
+[2023-08-10 20:20:46,228][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:51519]
+[2023-08-10 20:27:30,830][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.35, 127.0.0.1:53460]
+[2023-08-10 20:27:30,927][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:53460]
+[2023-08-10 20:27:31,006][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:53460]
+[2023-08-10 20:27:31,028][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:53469]
+[2023-08-10 20:27:31,099][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.12, 127.0.0.1:53470]
+[2023-08-10 20:27:31,626][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:53470]
+[2023-08-10 20:27:59,278][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:53470]
+[2023-08-10 20:27:59,852][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:53470]
+[2023-08-10 20:27:59,928][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:53470]
+[2023-08-10 20:27:59,944][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.06, 127.0.0.1:53460]
+[2023-08-10 20:28:00,036][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.15, 127.0.0.1:53469]
+[2023-08-10 20:28:00,715][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:53469]
+[2023-08-10 20:30:59,027][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:54456]
+[2023-08-10 20:31:13,423][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:54456]
+[2023-08-10 20:32:40,943][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:54916]
+[2023-08-10 20:32:40,975][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:54918]
+[2023-08-10 20:32:41,013][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:54918]
+[2023-08-10 20:32:41,030][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:54916]
+[2023-08-10 20:32:41,081][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:54922]
+[2023-08-10 20:32:41,384][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:54922]
+[2023-08-10 20:32:46,948][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:54922]
+[2023-08-10 20:33:04,613][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:54922]
+[2023-08-10 20:34:25,608][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:55405]
+[2023-08-10 20:34:35,180][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55405]
+[2023-08-10 20:34:35,214][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:55405]
+[2023-08-10 20:34:35,266][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:55405]
+[2023-08-10 20:34:35,279][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:55452]
+[2023-08-10 20:34:35,332][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:55453]
+[2023-08-10 20:34:35,607][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:55453]
+[2023-08-10 20:34:38,771][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/ 200 [0.00, 127.0.0.1:55453]
+[2023-08-10 20:34:38,834][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:55453]
+[2023-08-10 20:34:41,983][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/?parent=30 200 [0.00, 127.0.0.1:55453]
+[2023-08-10 20:34:42,018][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=30 200 [0.03, 127.0.0.1:55453]
+[2023-08-10 20:34:44,508][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/?limit=20&page=1&menu=31 200 [0.00, 127.0.0.1:55453]
+[2023-08-10 20:34:44,551][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.04, 127.0.0.1:55453]
+[2023-08-10 20:34:44,669][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /swagger.json 200 [0.01, 127.0.0.1:55453]
+[2023-08-10 20:34:46,486][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [1.82, 127.0.0.1:55453]
+[2023-08-10 20:34:55,621][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.00, 127.0.0.1:55453]
+[2023-08-10 20:34:55,674][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=0 200 [0.05, 127.0.0.1:55453]
+[2023-08-10 20:35:04,789][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/?limit=20&page=1&is_value=1&parent=4 200 [0.00, 127.0.0.1:55453]
+[2023-08-10 20:35:04,827][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=4 200 [0.04, 127.0.0.1:55453]
+[2023-08-10 20:35:14,052][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dictionary/63/ 200 [0.00, 127.0.0.1:55453]
+[2023-08-10 20:35:14,222][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/dictionary/63/ 200 [0.17, 127.0.0.1:55453]
+[2023-08-10 20:35:14,290][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dictionary/?limit=20&page=1&is_value=1&parent=4 200 [0.04, 127.0.0.1:55453]
+[2023-08-10 20:35:14,297][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:55452]
+[2023-08-10 20:35:19,009][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/ 200 [0.06, 127.0.0.1:55452]
+[2023-08-10 20:35:20,625][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/?parent=30 200 [0.05, 127.0.0.1:55452]
+[2023-08-10 20:35:22,706][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:55452]
+[2023-08-10 20:35:23,660][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.89, 127.0.0.1:55452]
+[2023-08-10 20:35:36,202][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu_button/106/ 200 [0.00, 127.0.0.1:55452]
+[2023-08-10 20:35:36,305][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/menu_button/106/ 200 [0.10, 127.0.0.1:55452]
+[2023-08-10 20:35:36,380][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:55452]
+[2023-08-10 20:35:40,378][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55452]
+[2023-08-10 20:35:40,446][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:55452]
+[2023-08-10 20:35:40,475][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:55452]
+[2023-08-10 20:35:40,486][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:55453]
+[2023-08-10 20:35:40,529][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:55779]
+[2023-08-10 20:35:40,760][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.02, 127.0.0.1:55779]
+[2023-08-10 20:35:41,956][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [1.12, 127.0.0.1:55779]
+[2023-08-10 20:35:43,598][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:55779]
+[2023-08-10 20:36:48,624][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:56105]
+[2023-08-10 20:36:51,814][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:56105]
+[2023-08-10 20:37:00,340][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:56105]
+[2023-08-10 20:37:02,284][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:56105]
+[2023-08-10 20:37:05,896][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:56105]
+[2023-08-10 20:37:12,288][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:56105]
+[2023-08-10 20:37:14,589][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:56105]
+[2023-08-10 20:37:41,535][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:56105]
+[2023-08-10 20:37:50,775][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:56105]
+[2023-08-10 20:38:00,437][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:56105]
+[2023-08-10 20:40:55,338][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:57227]
+[2023-08-10 20:40:55,360][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:57229]
+[2023-08-10 20:40:55,406][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:57229]
+[2023-08-10 20:40:55,423][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:57227]
+[2023-08-10 20:40:55,472][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:57233]
+[2023-08-10 20:40:55,921][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:57233]
+[2023-08-10 20:44:08,714][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:58089]
+[2023-08-10 20:44:08,871][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.11, 127.0.0.1:58089]
+[2023-08-10 20:44:09,523][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.09, 127.0.0.1:58089]
+[2023-08-10 20:44:09,549][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.10, 127.0.0.1:58096]
+[2023-08-10 20:44:09,645][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.19, 127.0.0.1:58097]
+[2023-08-10 20:44:10,676][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:58097]
+[2023-08-10 21:01:55,706][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.28, 127.0.0.1:61907]
+[2023-08-10 21:05:23,404][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.07, 127.0.0.1:62875]
+[2023-08-10 21:05:41,752][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.10, 127.0.0.1:62875]
+[2023-08-10 21:05:41,809][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.11, 127.0.0.1:62973]
+[2023-08-10 21:05:41,858][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:62973]
+[2023-08-10 21:05:41,889][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.07, 127.0.0.1:62875]
+[2023-08-10 21:05:41,973][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.15, 127.0.0.1:62977]
+[2023-08-10 21:05:42,316][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:62977]
+[2023-08-10 21:06:11,570][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:62977]
+[2023-08-10 21:06:57,892][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:62977]
+[2023-08-10 21:08:42,089][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63806]
+[2023-08-10 21:08:42,147][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:63806]
+[2023-08-10 21:08:42,194][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:63806]
+[2023-08-10 21:08:42,210][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:63810]
+[2023-08-10 21:08:42,263][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:63811]
+[2023-08-10 21:08:42,635][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:63811]
+[2023-08-10 21:09:01,287][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:63811]
+[2023-08-10 21:09:01,343][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:63811]
+[2023-08-10 21:09:01,389][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:63811]
+[2023-08-10 21:09:01,404][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:63810]
+[2023-08-10 21:09:01,468][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.12, 127.0.0.1:63806]
+[2023-08-10 21:09:01,768][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:63806]
+[2023-08-10 21:10:08,541][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 21:10:12,638][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 21:10:13,934][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 21:10:13,935][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 21:10:13,937][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 21:10:55,728][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-08-10 21:10:56,718][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-10 21:10:57,212][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-10 21:10:57,212][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-10 21:10:57,213][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-10 21:14:49,915][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.05, 127.0.0.1:65510]
+[2023-08-10 21:14:49,949][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.07, 127.0.0.1:65511]
+[2023-08-10 21:14:50,158][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.20, 127.0.0.1:65511]
+[2023-08-10 21:14:50,173][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.21, 127.0.0.1:65510]
+[2023-08-10 21:14:50,216][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.25, 127.0.0.1:65515]
+[2023-08-10 21:14:50,538][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:65515]
+[2023-08-10 21:16:08,387][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:49500]
+[2023-08-10 21:16:08,422][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.06, 127.0.0.1:49502]
+[2023-08-10 21:16:08,447][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:49502]
+[2023-08-10 21:16:08,464][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:49500]
+[2023-08-10 21:16:08,513][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:49506]
+[2023-08-10 21:16:08,970][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:49506]
+[2023-08-10 21:17:29,835][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:49870]
+[2023-08-10 21:17:29,878][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:49870]
+[2023-08-10 21:17:29,923][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:49870]
+[2023-08-10 21:17:29,938][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:49874]
+[2023-08-10 21:17:30,161][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.26, 127.0.0.1:49875]
+[2023-08-10 21:17:30,489][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:49875]
+[2023-08-10 21:18:30,280][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu_button/?limit=20&page=1&menu=31 200 [0.03, 127.0.0.1:49875]
+[2023-08-10 21:18:31,258][django.channels.server.log_action():147] [INFO] HTTP GET /swagger.json 200 [0.91, 127.0.0.1:49875]
+[2023-08-10 21:18:31,338][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:49875]
+[2023-08-10 21:19:08,670][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:49875]
+[2023-08-10 21:19:24,285][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:49875]
+[2023-08-10 21:33:32,741][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/1/ 200 [0.02, 127.0.0.1:54221]
+[2023-08-10 21:33:32,983][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/masterCheckIn/1/ 200 [0.24, 127.0.0.1:54221]
+[2023-08-10 21:33:33,039][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:54221]
+[2023-08-10 21:33:44,731][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/masterCheckIn/1/ 200 [0.13, 127.0.0.1:54221]
+[2023-08-10 21:33:44,931][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:54221]
+[2023-08-10 21:34:11,936][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:54221]
+[2023-08-10 21:35:17,436][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:54741]
+[2023-08-10 21:46:58,787][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.08, 127.0.0.1:57903]
+[2023-08-10 21:47:03,992][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.07, 127.0.0.1:57903]
+[2023-08-10 21:47:04,201][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:57903]
+[2023-08-10 21:47:04,248][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.04, 127.0.0.1:57903]
+[2023-08-10 21:47:04,285][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.07, 127.0.0.1:57948]
+[2023-08-10 21:47:04,404][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.19, 127.0.0.1:57949]
+[2023-08-10 21:47:04,980][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:57949]
+[2023-08-10 22:06:22,627][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.07, 127.0.0.1:62890]
+[2023-08-10 22:06:36,622][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.12, 127.0.0.1:62890]
+[2023-08-10 23:04:17,036][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:54743]
+[2023-08-10 23:04:17,165][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.12, 127.0.0.1:54743]
+[2023-08-10 23:04:40,914][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.08, 127.0.0.1:54743]
+[2023-08-10 23:04:44,913][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:54743]
+[2023-08-10 23:04:56,545][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.07, 127.0.0.1:54743]
+[2023-08-10 23:05:05,549][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.07, 127.0.0.1:54743]
+[2023-08-10 23:05:55,322][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:54743]
+[2023-08-10 23:06:06,832][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:54743]
+[2023-08-10 23:06:26,783][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:54743]
+[2023-08-10 23:07:16,008][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.08, 127.0.0.1:54743]
+[2023-08-10 23:07:25,325][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:54743]
+[2023-08-10 23:07:34,528][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:54743]
+[2023-08-10 23:07:50,079][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:54743]
+[2023-08-10 23:08:58,567][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.05, 127.0.0.1:55909]
+[2023-08-10 23:09:09,674][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.00, 127.0.0.1:55909]
+[2023-08-10 23:09:09,753][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.08, 127.0.0.1:55909]
+[2023-08-10 23:09:09,924][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.01, 127.0.0.1:55909]
+[2023-08-10 23:09:10,010][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.08, 127.0.0.1:55909]
+[2023-08-10 23:09:10,034][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.01, 127.0.0.1:55909]
+[2023-08-10 23:09:10,039][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:55972]
+[2023-08-10 23:09:10,043][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:55973]
+[2023-08-10 23:09:10,084][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.05, 127.0.0.1:55909]
+[2023-08-10 23:09:10,116][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.07, 127.0.0.1:55972]
+[2023-08-10 23:09:10,185][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.14, 127.0.0.1:55973]
+[2023-08-10 23:09:10,612][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:55973]
+[2023-08-10 23:09:21,846][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:55973]
+[2023-08-10 23:11:10,304][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:56474]
+[2023-08-10 23:11:10,507][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:56474]
+[2023-08-10 23:11:10,547][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:56474]
+[2023-08-10 23:11:10,562][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:56478]
+[2023-08-10 23:11:10,634][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.11, 127.0.0.1:56479]
+[2023-08-10 23:11:25,158][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:56479]
+[2023-08-10 23:15:18,020][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:57494]
+[2023-08-10 23:15:23,178][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:57494]
+[2023-08-10 23:15:23,404][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:57494]
+[2023-08-10 23:15:23,454][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:57494]
+[2023-08-10 23:15:23,473][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:57525]
+[2023-08-10 23:15:23,538][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:57526]
+[2023-08-10 23:15:23,921][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:57526]
+[2023-08-10 23:15:33,272][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:57526]
+[2023-08-10 23:20:08,837][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:58695]
+[2023-08-10 23:20:16,930][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:58695]
+[2023-08-10 23:20:17,145][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.04, 127.0.0.1:58695]
+[2023-08-10 23:20:17,177][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:58695]
+[2023-08-10 23:20:17,194][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:58739]
+[2023-08-10 23:20:17,246][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:58740]
+[2023-08-10 23:20:17,626][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:58740]
+[2023-08-10 23:20:24,871][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/masterCheckIn/1/ 200 [0.16, 127.0.0.1:58740]
+[2023-08-10 23:20:24,921][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:58740]
+[2023-08-10 23:22:39,801][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:59322]
+[2023-08-10 23:23:47,861][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:59600]
+[2023-08-10 23:24:09,440][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:59600]
+[2023-08-10 23:24:22,012][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:59600]
+[2023-08-10 23:24:22,184][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:59600]
+[2023-08-10 23:24:22,259][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:59600]
+[2023-08-10 23:24:22,273][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:59754]
+[2023-08-10 23:24:22,328][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:59755]
+[2023-08-10 23:24:33,305][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:59600]
+[2023-08-10 23:27:49,634][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:60658]
+[2023-08-10 23:27:52,216][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:60658]
+[2023-08-10 23:28:00,261][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:60658]
+[2023-08-10 23:28:07,250][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:60658]
+[2023-08-10 23:28:07,465][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:60658]
+[2023-08-10 23:28:07,512][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:60658]
+[2023-08-10 23:28:07,524][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:60744]
+[2023-08-10 23:28:07,579][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:60745]
+[2023-08-10 23:28:07,945][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:60745]
+[2023-08-10 23:31:32,221][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/master/?user_type=2&limit=20&page=1 200 [0.00, 127.0.0.1:61576]
+[2023-08-10 23:31:32,372][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.15, 127.0.0.1:61576]
+[2023-08-10 23:32:28,132][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:61576]
+[2023-08-10 23:33:16,344][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:61576]
+[2023-08-10 23:33:34,315][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:61576]
+[2023-08-10 23:34:07,585][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:61576]
+[2023-08-10 23:34:19,725][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.04, 127.0.0.1:61576]
+[2023-08-10 23:34:23,997][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:61576]
+[2023-08-10 23:34:35,479][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:61576]
+[2023-08-10 23:35:08,096][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/project/?limit=20&page=1 200 [0.00, 127.0.0.1:61576]
+[2023-08-10 23:35:08,143][django.channels.server.log_action():147] [INFO] HTTP GET /admin/project/?limit=20&page=1 200 [0.05, 127.0.0.1:61576]
+[2023-08-10 23:35:08,463][django.channels.server.log_action():151] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 304 [0.03, 127.0.0.1:62472]
+[2023-08-10 23:35:18,830][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:61576]
+[2023-08-10 23:35:20,128][django.channels.server.log_action():147] [INFO] HTTP GET /admin/master/?user_type=2&limit=20&page=1 200 [0.04, 127.0.0.1:61576]
+[2023-08-10 23:35:21,861][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:61576]
+[2023-08-10 23:35:29,720][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/masterCheckIn/1/ 200 [0.12, 127.0.0.1:61576]
+[2023-08-10 23:35:29,787][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:61576]
+[2023-08-11 10:14:00,146][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.13, 127.0.0.1:52694]
+[2023-08-11 10:14:00,181][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.15, 127.0.0.1:52695]
+[2023-08-11 10:14:00,217][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:52695]
+[2023-08-11 10:14:00,231][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:52694]
+[2023-08-11 10:14:00,292][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:52704]
+[2023-08-11 10:14:00,588][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:52704]
+[2023-08-11 10:14:25,148][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:52695]
+[2023-08-11 10:14:25,190][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:52695]
+[2023-08-11 10:14:25,308][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.10, 127.0.0.1:52695]
+[2023-08-11 10:14:25,325][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.11, 127.0.0.1:52704]
+[2023-08-11 10:14:25,387][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.18, 127.0.0.1:52694]
+[2023-08-11 10:14:25,726][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:52694]
+[2023-08-11 10:15:41,769][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:53127]
+[2023-08-11 10:15:41,814][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:53127]
+[2023-08-11 10:15:41,866][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:53127]
+[2023-08-11 10:15:41,880][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:53131]
+[2023-08-11 10:15:41,939][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:53132]
+[2023-08-11 10:15:42,312][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:53132]
+[2023-08-11 10:15:52,376][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterCheckIn/1/ 200 [0.00, 127.0.0.1:53132]
+[2023-08-11 10:15:52,544][django.channels.server.log_action():147] [INFO] HTTP PUT /admin/masterCheckIn/1/ 200 [0.16, 127.0.0.1:53132]
+[2023-08-11 10:15:52,603][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:53132]
+[2023-08-11 10:16:47,116][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:53132]
+[2023-08-11 10:16:47,171][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:53132]
+[2023-08-11 10:16:47,200][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:53132]
+[2023-08-11 10:16:47,213][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:53410]
+[2023-08-11 10:16:47,258][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:53411]
+[2023-08-11 10:18:32,664][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:53851]
+[2023-08-11 10:18:32,873][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:53851]
+[2023-08-11 10:18:32,929][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:53851]
+[2023-08-11 10:18:32,946][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:53855]
+[2023-08-11 10:18:33,007][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.10, 127.0.0.1:53856]
+[2023-08-11 10:18:56,880][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:53856]
+[2023-08-11 10:18:56,995][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:53856]
+[2023-08-11 10:18:57,029][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:53856]
+[2023-08-11 10:18:57,037][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:53855]
+[2023-08-11 10:18:57,085][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.07, 127.0.0.1:53851]
+[2023-08-11 10:18:57,372][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:53851]
+[2023-08-11 10:21:39,446][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.04, 127.0.0.1:54624]
+[2023-08-11 10:21:39,477][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.05, 127.0.0.1:54626]
+[2023-08-11 10:21:39,508][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:54626]
+[2023-08-11 10:21:39,534][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.05, 127.0.0.1:54624]
+[2023-08-11 10:21:39,583][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.09, 127.0.0.1:54630]
+[2023-08-11 10:21:39,905][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:54630]
+[2023-08-11 10:23:47,384][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:55160]
+[2023-08-11 10:23:47,418][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.02, 127.0.0.1:55160]
+[2023-08-11 10:23:47,459][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.02, 127.0.0.1:55160]
+[2023-08-11 10:23:47,471][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.03, 127.0.0.1:55164]
+[2023-08-11 10:23:47,518][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.08, 127.0.0.1:55165]
+[2023-08-11 10:23:47,794][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:55165]
+[2023-08-11 10:25:54,261][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:55680]
+[2023-08-11 10:28:04,501][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:56205]
+[2023-08-11 10:28:13,062][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:56205]
+[2023-08-11 10:28:54,486][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:56417]
+[2023-08-11 10:29:25,981][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:56417]
+[2023-08-11 10:31:43,996][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:57116]
+[2023-08-11 10:32:54,594][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.03, 127.0.0.1:57407]
+[2023-08-11 10:33:09,934][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.06, 127.0.0.1:57407]
+[2023-08-11 10:35:21,870][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:58072]
+[2023-08-11 10:35:30,336][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.03, 127.0.0.1:58072]
+[2023-08-11 10:35:30,522][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.03, 127.0.0.1:58072]
+[2023-08-11 10:35:30,570][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.03, 127.0.0.1:58072]
+[2023-08-11 10:35:30,588][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.04, 127.0.0.1:58123]
+[2023-08-11 10:35:31,649][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [1.10, 127.0.0.1:58124]
+[2023-08-11 10:35:32,017][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:58124]
+[2023-08-11 10:36:13,192][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:58124]
+[2023-08-11 10:36:21,839][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.04, 127.0.0.1:58124]
+[2023-08-11 10:36:44,501][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterCheckIn/?limit=20&page=1 200 [0.02, 127.0.0.1:58124]
