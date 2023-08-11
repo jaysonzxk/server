@@ -811,13 +811,13 @@ class ServiceOrder(CoreModel):
 class PayOrder(CoreModel):
     """ 支付订单 """
     oderNo = models.CharField(max_length=100, verbose_name='支付单编号', null=True, blank=True, help_text='支付单编号')
-    user = models.ForeignKey(to='admin.Users', verbose_name="关联用户",
-                             on_delete=models.PROTECT,
-                             db_constraint=False,
-                             null=True,
-                             blank=True,
-                             help_text="关联用户",
-                             related_name='user_pay_oder')
+    masterProject = models.ForeignKey(to='admin.MasterProject', verbose_name="关联技师项目",
+                                      on_delete=models.PROTECT,
+                                      db_constraint=False,
+                                      null=True,
+                                      blank=True,
+                                      help_text="关联技师项目",
+                                      related_name='pay_oder_master_project')
     payChannel = models.ForeignKey(to='admin.PayChannel', verbose_name="关联支付渠道",
                                    on_delete=models.PROTECT,
                                    db_constraint=False,
@@ -852,12 +852,12 @@ class MasterProject(CoreModel):
                              help_text="技师",
                              related_name='master_project')
     project = models.ForeignKey(to='admin.Project', verbose_name="项目",
-                                   on_delete=models.PROTECT,
-                                   db_constraint=False,
-                                   null=True,
-                                   blank=True,
-                                   help_text="项目",
-                                   related_name='project_master')
+                                on_delete=models.PROTECT,
+                                db_constraint=False,
+                                null=True,
+                                blank=True,
+                                help_text="项目",
+                                related_name='project_master')
 
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
 

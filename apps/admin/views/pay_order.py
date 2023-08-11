@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from apps.admin.models import PayOrder
+from apps.admin.views.master_project import MasterProjectSerializer
 from apps.admin.views.pay_channel import PayChannelSerializer
 from apps.admin.views.user import UserSerializer
 from apps.utils.json_response import DetailResponse, ErrorResponse
@@ -13,7 +14,7 @@ class PayOrderSerializer(CustomModelSerializer):
     """
     PayOrder-序列化器
     """
-    user = UserSerializer()
+    masterProject = MasterProjectSerializer()
     payChannel = PayChannelSerializer()
 
     class Meta:

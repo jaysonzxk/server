@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from apps.admin.models import MasterProject
+from apps.admin.views.project import ProjectSerializer
 from apps.admin.views.user import UserSerializer
 from apps.utils.json_response import DetailResponse, ErrorResponse
 from apps.utils.serializers import CustomModelSerializer
@@ -12,7 +13,8 @@ class MasterProjectSerializer(CustomModelSerializer):
     """
     MasterCheckIn-序列化器
     """
-    # user = UserSerializer()
+    user = UserSerializer()
+    project = ProjectSerializer()
 
     class Meta:
         model = MasterProject
