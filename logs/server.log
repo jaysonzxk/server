@@ -10615,3 +10615,125 @@ Original exception text was: 'ServiceOrder' object has no attribute 'pay'.
 [2023-08-13 13:04:02,171][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
 [2023-08-13 13:04:02,171][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
 [2023-08-13 13:04:02,172][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-14 01:10:06,732][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login 200 [0.10, 127.0.0.1:58419]
+[2023-08-14 01:10:07,046][django.request.log_response():224] [ERROR] Internal Server Error: /api/login
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 129, in __acall__
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 0.0.0.0:8000/api/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2023-08-14 01:10:07,059][django.channels.server.log_action():160] [ERROR] HTTP POST /api/login 500 [0.32, 127.0.0.1:58419]
+[2023-08-14 01:10:46,097][django.request.log_response():224] [ERROR] Internal Server Error: /api/login
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 129, in __acall__
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 0.0.0.0:8000/api/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2023-08-14 01:10:46,106][django.channels.server.log_action():160] [ERROR] HTTP POST /api/login 500 [0.08, 127.0.0.1:58419]
+[2023-08-14 01:12:17,266][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/login/ 200 [0.01, 127.0.0.1:58981]
+[2023-08-14 01:12:18,682][django.channels.server.log_action():147] [INFO] HTTP POST /api/login/ 200 [1.41, 127.0.0.1:58981]
+[2023-08-14 01:22:51,438][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/urls.py changed, reloading.
+[2023-08-14 01:22:55,415][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-14 01:22:56,329][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-14 01:22:56,329][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-14 01:22:56,330][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-14 01:23:32,136][django.request.log_response():224] [WARNING] Not Found: /api/userInfo/
+[2023-08-14 01:23:32,138][django.channels.server.log_action():155] [WARNING] HTTP GET /api/userInfo/ 404 [0.02, 127.0.0.1:62109]
+[2023-08-14 01:25:03,344][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/dictionary/?dictionary_key=all 200 [0.01, 127.0.0.1:62538]
+[2023-08-14 01:25:03,370][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/dictionary/?dictionary_key=all 200 [0.02, 127.0.0.1:62538]
+[2023-08-14 01:25:03,571][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/user/user_info/ 200 [0.01, 127.0.0.1:62538]
+[2023-08-14 01:25:03,649][django.channels.server.log_action():147] [INFO] HTTP GET /admin/user/user_info/ 200 [0.07, 127.0.0.1:62538]
+[2023-08-14 01:25:03,662][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/dept/all_dept/ 200 [0.00, 127.0.0.1:62538]
+[2023-08-14 01:25:03,673][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/init/settings/ 200 [0.01, 127.0.0.1:62538]
+[2023-08-14 01:25:03,676][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/menu/web_router/ 200 [0.01, 127.0.0.1:62541]
+[2023-08-14 01:25:03,970][django.channels.server.log_action():147] [INFO] HTTP GET /admin/dept/all_dept/ 200 [0.30, 127.0.0.1:62542]
+[2023-08-14 01:25:03,994][django.channels.server.log_action():147] [INFO] HTTP GET /api/init/settings/ 200 [0.32, 127.0.0.1:62538]
+[2023-08-14 01:25:04,077][django.channels.server.log_action():147] [INFO] HTTP GET /admin/menu/web_router/ 200 [0.40, 127.0.0.1:62541]
+[2023-08-14 01:25:04,480][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /admin/masterProject/?limit=20&page=1 200 [0.00, 127.0.0.1:62541]
+[2023-08-14 01:25:04,658][django.channels.server.log_action():147] [INFO] HTTP GET /admin/masterProject/?limit=20&page=1 200 [0.18, 127.0.0.1:62541]
+[2023-08-14 01:25:04,783][django.channels.server.log_action():151] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 304 [0.01, 127.0.0.1:62552]
+[2023-08-14 01:26:39,074][django.request.log_response():224] [WARNING] Not Found: /api/user/user_info/
+[2023-08-14 01:26:39,075][django.channels.server.log_action():155] [WARNING] HTTP GET /api/user/user_info/ 404 [0.01, 127.0.0.1:62982]
+[2023-08-14 01:26:51,498][django.request.log_response():224] [WARNING] Not Found: /app/user/user_info/
+[2023-08-14 01:26:51,498][django.channels.server.log_action():155] [WARNING] HTTP GET /app/user/user_info/ 404 [0.01, 127.0.0.1:62982]
+[2023-08-14 01:27:11,088][django.request.log_response():224] [WARNING] Not Found: /client/user/user_info/
+[2023-08-14 01:27:11,088][django.channels.server.log_action():155] [WARNING] HTTP GET /client/user/user_info/ 404 [0.01, 127.0.0.1:62982]
+[2023-08-14 01:28:02,220][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/urls.py changed, reloading.
+[2023-08-14 01:28:03,850][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-14 01:28:04,672][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-14 01:28:04,673][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-14 01:28:04,673][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-14 01:28:28,747][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/application/urls.py changed, reloading.
+[2023-08-14 01:28:30,194][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-14 01:28:31,001][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-14 01:28:31,002][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-14 01:28:31,003][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-14 01:28:44,472][django.request.log_response():224] [WARNING] Not Found: /api/v1/client/user/user_info/
+[2023-08-14 01:28:44,472][django.channels.server.log_action():155] [WARNING] HTTP GET /api/v1/client/user/user_info/ 404 [0.02, 127.0.0.1:63550]
+[2023-08-14 01:29:08,495][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/urls.py changed, reloading.
+[2023-08-14 01:29:09,536][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-14 01:29:10,143][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-14 01:29:10,143][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-14 01:29:10,144][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-14 01:29:14,565][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:63689]
+[2023-08-14 01:29:46,663][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/user.py changed, reloading.
+[2023-08-14 01:29:47,843][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-14 01:29:48,717][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-14 01:29:48,717][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-14 01:29:48,718][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-14 01:29:52,412][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:63880]
+[2023-08-14 01:30:48,527][django.request.log_response():224] [WARNING] Not Found: /api/login/
+[2023-08-14 01:30:48,528][django.channels.server.log_action():155] [WARNING] HTTP POST /api/login/ 404 [0.04, 127.0.0.1:64134]
+[2023-08-14 01:31:34,767][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/login/ 200 [0.01, 127.0.0.1:64134]
+[2023-08-14 01:31:36,654][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [1.89, 127.0.0.1:64134]
+[2023-08-14 01:33:47,883][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [0.49, 127.0.0.1:64995]
+[2023-08-14 01:34:47,302][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [1.52, 127.0.0.1:64995]
+[2023-08-14 01:35:39,677][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [0.48, 127.0.0.1:64995]
+[2023-08-14 01:36:51,388][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [0.50, 127.0.0.1:49452]
+[2023-08-14 01:47:17,253][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [0.94, 127.0.0.1:52465]
+[2023-08-14 01:47:30,795][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [0.46, 127.0.0.1:52465]
+[2023-08-14 01:48:05,206][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [0.48, 127.0.0.1:52465]

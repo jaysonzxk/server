@@ -3,9 +3,11 @@ from rest_framework import routers
 
 from apps.client.views.dept import DeptViewSet
 from apps.admin.views.menu import MenuViewSet
+from apps.client.views.user import UserViewSet
 
 system_url = routers.SimpleRouter()
 system_url.register(r'menu', MenuViewSet)
+system_url.register(r'user', UserViewSet)
 
 urlpatterns = [
     # path('system_config/save_content/', SystemConfigViewSet.as_view({'put': 'save_content'})),
