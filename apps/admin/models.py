@@ -47,6 +47,7 @@ class Users(CoreModel, AbstractUser):
                                   max_digits=5,
                                   default=0)
     isCheckIn = models.IntegerField(verbose_name='是否已入住', null=True, blank=True, help_text='是否已入住', default=0)
+    isRecommend = models.IntegerField(verbose_name='是否推荐', null=True, blank=True, help_text='是否推荐', default=0)
     collectNum = models.IntegerField(verbose_name='被收藏数', null=True, blank=True, help_text='被收藏数', default=0)
     orderNum = models.IntegerField(verbose_name='已完成订单数', null=True, blank=True, help_text='已完成订单数',
                                    default=0)
@@ -688,7 +689,10 @@ class Project(CoreModel):
                                       decimal_places=2,
                                       max_digits=5,
                                       default=0)
+    prohibition = models.CharField(max_length=1000, verbose_name='禁忌说明', null=True, blank=True, help_text='禁忌说明')
+    orderInstructions = models.CharField(max_length=1000, verbose_name='下单说明', null=True, blank=True, help_text='下单说明')
     sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
+    sales = models.IntegerField(verbose_name="销量", null=True, blank=True, help_text="销量")
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
 
     class Meta:
@@ -864,6 +868,34 @@ class MasterProject(CoreModel):
     class Meta:
         db_table = table_prefix + "master_project"
         verbose_name = "技师服务项目"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.user.username
+
+
+class Collect(CoreModel):
+    """ 收藏 """
+    user = models.ForeignKey(to='admin.Users', verbose_name="会员",
+                             on_delete=models.PROTECT,
+                             db_constraint=False,
+                             null=True,
+                             blank=True,
+                             help_text="会员",
+                             related_name='collect_user')
+    master = models.ForeignKey(to='admin.Users', verbose_name="技师",
+                               on_delete=models.PROTECT,
+                               db_constraint=False,
+                               null=True,
+                               blank=True,
+                               help_text="技师",
+                               related_name='collect_master')
+
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "collect"
+        verbose_name = "收藏"
         verbose_name_plural = verbose_name
 
     def __str__(self):

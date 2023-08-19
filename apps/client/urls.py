@@ -1,13 +1,16 @@
 from django.urls import path
 from rest_framework import routers
 
-from apps.client.views.dept import DeptViewSet
-from apps.admin.views.menu import MenuViewSet
+from apps.client.views.banners import BannersViewSet
+from apps.client.views.goods import GoodsViewSet
+from apps.client.views.technician import TechnicianViewSet
 from apps.client.views.user import UserViewSet
 
 system_url = routers.SimpleRouter()
-system_url.register(r'menu', MenuViewSet)
 system_url.register(r'user', UserViewSet)
+system_url.register(r'banners', BannersViewSet)
+system_url.register(r'goods', GoodsViewSet)
+system_url.register(r'technician', TechnicianViewSet)
 
 urlpatterns = [
     # path('system_config/save_content/', SystemConfigViewSet.as_view({'put': 'save_content'})),
