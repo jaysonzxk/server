@@ -4637,3 +4637,854 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 1117, in get_field_names
     assert not (fields and exclude), (
 AssertionError: Cannot set both 'fields' and 'exclude' options on serializer TechnicianSerializer.
+[2023-08-22 18:06:27,853][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 18:09:05,319][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 18:10:40,690][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 18:10:40,909][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 18:22:39,889][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 18:23:03,957][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 18:23:04,175][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 18:23:39,685][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 19:53:41,767][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 20:26:19,440][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 20:47:51,510][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 20:52:12,414][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 20:52:30,554][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 20:52:30,868][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 20:52:32,754][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 20:54:09,287][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 23:16:12,521][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 23:16:37,661][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 41, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 23:47:43,593][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-22 23:47:59,331][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-23 10:46:54,883][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-23 10:53:15,877][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-23 10:54:19,080][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-23 10:55:10,079][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-23 10:57:46,405][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-23 11:14:12,121][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-23 11:14:15,140][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 42, in list
+    return self.get_paginated_response(serializer.data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 178, in get_paginated_response
+    return self.paginator.get_paginated_response(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/pagination.py", line 68, in get_paginated_response
+    "is_next": self.page.has_next(),
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'has_next'
+[2023-08-24 10:01:55,815][daphne.server.listen_error():160] [CRITICAL] Listen failure: Couldn't listen on 192.168.2.50:8000: [Errno 49] Can't assign requested address.
+[2023-08-25 10:12:37,330][daphne.server.listen_error():160] [CRITICAL] Listen failure: Couldn't listen on 192.168.2.79:8000: [Errno 49] Can't assign requested address.
+[2023-08-25 10:13:17,360][daphne.server.listen_error():160] [CRITICAL] Listen failure: Couldn't listen on 192.168.2.79:8000: [Errno 49] Can't assign requested address.
+[2023-08-25 10:14:52,754][daphne.server.listen_error():160] [CRITICAL] Listen failure: Couldn't listen on 192.168.2.79:8000: [Errno 49] Can't assign requested address.
+[2023-08-25 10:59:22,573][django.request.log_response():224] [ERROR] Internal Server Error: /api/v1/client/technician/getMasterGoods/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 146, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 394, in initialize_request
+    authenticators=self.get_authenticators(),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 272, in get_authenticators
+    return [auth() for auth in self.authentication_classes]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 272, in <listcomp>
+    return [auth() for auth in self.authentication_classes]
+            ^^^^^^
+TypeError: 'str' object is not callable
+[2023-08-25 10:59:22,578][django.channels.server.log_action():160] [ERROR] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 500 [0.14, 127.0.0.1:52171]
+[2023-08-25 11:02:49,437][django.request.log_response():224] [ERROR] Internal Server Error: /api/v1/client/technician/getMasterGoods/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 146, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 394, in initialize_request
+    authenticators=self.get_authenticators(),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 272, in get_authenticators
+    return [auth() for auth in self.authentication_classes]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'type' object is not iterable
+[2023-08-25 11:02:49,442][django.channels.server.log_action():160] [ERROR] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 500 [0.08, 127.0.0.1:53051]
