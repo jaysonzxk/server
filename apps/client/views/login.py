@@ -120,7 +120,7 @@ class AppLoginView(ObtainJSONWebToken):
             data['user_type'] = 1
             data['username'] = data.get('mobile')
             import random
-            data['name'] = 'DD' + data.get('mobile')[3:7]
+            data['name'] = 'DD' + data.get('mobile')[3:]
             inviteCode = ''.join(random.sample(string.ascii_letters + string.digits, 6))
             data['inviteCode'] = inviteCode.upper()  # 邀请码
             serializer = MemberSerializer(data=data)

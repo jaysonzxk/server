@@ -7,8 +7,9 @@ from rest_framework.decorators import action, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from django.db import connection
 from application import dispatch
-from apps.admin.models import Users, Role, Dept
+from apps.admin.models import Users, Role, Dept, UserVipCard
 from apps.admin.views.role import RoleSerializer
+from apps.admin.views.vip import UserVipSerializer
 from apps.utils.json_response import ErrorResponse, DetailResponse
 from apps.utils.serializers import CustomModelSerializer
 from apps.utils.validator import CustomUniqueValidator
@@ -302,6 +303,11 @@ class UserViewSet(CustomModelViewSet):
     def user_info(self, request):
         """获取当前用户信息"""
         user = request.user
+        user_vip = UserVipCard.objects.filter(user_id=user.id).first()
+        if user_vip:
+            userVip = UserVipSerializer(user_vip[0], many=True)
+        else:
+            userVip = None
         result = {
             "id": user.id,
             "username": user.username,
@@ -315,6 +321,7 @@ class UserViewSet(CustomModelViewSet):
             "inviteCode": user.inviteCode,
             "points": user.points,
             "collectNum": user.collectNum,
+            "userVip": userVip
         }
         return DetailResponse(data=result, msg="获取成功")
 
