@@ -91,27 +91,25 @@ class MemberCreateSerializer(CustomModelSerializer):
     username = serializers.CharField(
         max_length=50,
         validators=[
-            CustomUniqueValidator(queryset=Users.objects.all().filter(user_typ=1), message="会员账号已存在")
+            CustomUniqueValidator(queryset=Users.objects.all().filter(user_type=1), message="会员账号已存在")
         ],
     )
     password = serializers.CharField(
         required=False,
     )
 
-    def validate_password(self, value):
-        """
-        对密码进行验证
-        """
-        password = self.initial_data.get("password")
-        if password:
-            return make_password(value)
-        return value
+    # def validate_password(self, value):
+    #     """
+    #     对密码进行验证
+    #     """
+    #     password = self.initial_data.get("password")
+    #     if password:
+    #         return make_password(value)
+    #     return value
 
     def save(self, **kwargs):
         data = super().save(**kwargs)
-        data.dept_belong_id = data.dept_id
         data.save()
-        data.post.set(self.initial_data.get("post", []))
         return data
 
     class Meta:

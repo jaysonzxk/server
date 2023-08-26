@@ -5488,3 +5488,1154 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: 'type' object is not iterable
 [2023-08-25 11:02:49,442][django.channels.server.log_action():160] [ERROR] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 500 [0.08, 127.0.0.1:53051]
+[2023-08-25 11:29:09,730][django.request.log_response():224] [ERROR] Internal Server Error: /api/v1/client/technician/getMasterGoods/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 117, in view
+    handler = getattr(self, action)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TechnicianViewSet' object has no attribute 'getMasterGoods'
+[2023-08-25 11:29:09,734][django.channels.server.log_action():160] [ERROR] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 500 [0.07, 127.0.0.1:57052]
+[2023-08-25 11:43:51,429][django.request.log_response():224] [ERROR] Internal Server Error: /api/v1/client/technician/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/backends.py", line 23, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/models.py", line 37, in get_by_natural_key
+    return SoftDeleteQuerySet(self.model).get(username=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.admin.models.Users.DoesNotExist: Users matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 146, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 394, in initialize_request
+    authenticators=self.get_authenticators(),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 272, in get_authenticators
+    return [auth() for auth in self.authentication_classes]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 272, in <listcomp>
+    return [auth() for auth in self.authentication_classes]
+            ^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 76, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/backends.py", line 25, in authenticate
+    UserModel().set_password(password)
+  File "/Users/mac/Desktop/work/work2/server/apps/admin/models.py", line 86, in set_password
+    super().set_password(hashlib.md5(raw_password.encode(encoding="UTF-8")).hexdigest())
+                                     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+[2023-08-25 11:43:51,439][django.channels.server.log_action():160] [ERROR] HTTP GET /api/v1/client/technician/?limit=10&page=1 500 [0.10, 127.0.0.1:61138]
+[2023-08-25 11:47:15,804][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+[2023-08-25 11:47:32,670][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+[2023-08-25 11:48:07,735][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 96, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 96, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 11:48:46,627][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+[2023-08-25 11:49:14,833][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self=self, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 96, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self=self, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 96, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 11:49:51,985][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+[2023-08-25 11:50:21,027][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+[2023-08-25 11:51:14,087][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(super().authenticate(request), request=request)]
+                                                                             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'authenticate'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(super().authenticate(request), request=request)]
+                                                                             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'authenticate'
+[2023-08-25 11:52:00,666][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self.request, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 95, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self.request, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 95, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 11:54:27,488][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self.authenticate, request=request)]
+                                                                             ^^^^^^^^^^^^^^^^^
+AttributeError: 'TechnicianViewSet' object has no attribute 'authenticate'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self.authenticate, request=request)]
+                                                                             ^^^^^^^^^^^^^^^^^
+AttributeError: 'TechnicianViewSet' object has no attribute 'authenticate'
+[2023-08-25 11:55:16,015][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 95, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(self, request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 95, in authenticate
+    res = super().authenticate(request)
+          ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 11:57:04,155][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication.authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisOpAuthJwtAuthentication.authenticate() missing 1 required positional argument: 'self'
+[2023-08-25 12:02:15,804][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ASGIRequest' object has no attribute 'header'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication().authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 95, in authenticate
+    data = request.header
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Request' object has no attribute 'header'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ASGIRequest' object has no attribute 'header'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 59, in get_master_goods
+    self.authentication_classes = [RedisOpAuthJwtAuthentication().authenticate(request=request)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/authentication.py", line 95, in authenticate
+    data = request.header
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Request' object has no attribute 'header'
+[2023-08-25 17:16:53,084][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 100, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 100, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-08-25 17:21:28,890][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 100, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 100, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-08-25 17:23:25,813][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 103, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 103, in post
+    data["name"] = user.name
+                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+[2023-08-25 20:05:59,988][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 225, in get
+    cache.refresh(key, json.dumps(code), 300)
+    ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedisCache' object has no attribute 'refresh'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 225, in get
+    cache.refresh(key, json.dumps(code), 300)
+    ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedisCache' object has no attribute 'refresh'
+[2023-08-25 20:10:58,660][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 225, in get
+    cache.refresh(key, json.dumps(code), 300)
+    ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedisCache' object has no attribute 'refresh'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 225, in get
+    cache.refresh(key, json.dumps(code), 300)
+    ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RedisCache' object has no attribute 'refresh'
+[2023-08-25 20:31:30,291][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 234, in get
+    if self.verify_times(mobile):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 222, in verify_times
+    if now_time - cache.get(mobile).get('utc_time') <= 60:
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 234, in get
+    if self.verify_times(mobile):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 222, in verify_times
+    if now_time - cache.get(mobile).get('utc_time') <= 60:
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+[2023-08-25 21:10:31,740][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 108, in post
+    if data.get('code') != json.loads(cache.get(data.get('mobile'))).get('code'):
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 108, in post
+    if data.get('code') != json.loads(cache.get(data.get('mobile'))).get('code'):
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+[2023-08-25 21:13:50,154][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    res = MemberCreateSerializer.save(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    res = MemberCreateSerializer.save(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 21:15:35,344][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    res = MemberCreateSerializer.create(**data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomModelSerializer.create() got an unexpected keyword argument 'mobile'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    res = MemberCreateSerializer.create(**data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomModelSerializer.create() got an unexpected keyword argument 'mobile'
+[2023-08-25 21:19:16,071][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberSerializer.create(**data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomModelSerializer.create() got an unexpected keyword argument 'mobile'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberSerializer.create(**data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomModelSerializer.create() got an unexpected keyword argument 'mobile'
+[2023-08-25 21:20:10,764][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 21:21:16,722][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 112, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 112, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 21:21:40,641][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 112, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 112, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 21:21:57,032][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 112, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 112, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 21:22:32,773][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    serializer = MemberCreateSerializer.save(data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[2023-08-25 21:23:07,009][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    serializer = MemberCreateSerializer.save(**data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MemberCreateSerializer.save() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    serializer = MemberCreateSerializer.save(**data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MemberCreateSerializer.save() missing 1 required positional argument: 'self'
+[2023-08-25 21:23:22,686][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    serializer = MemberCreateSerializer().save(**data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    serializer = MemberCreateSerializer().save(**data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+[2023-08-25 21:23:44,454][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    res = MemberCreateSerializer().save(**data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    res = MemberCreateSerializer().save(**data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/member.py", line 111, in save
+    data = super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+[2023-08-25 21:25:51,743][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    MemberSerializer().is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    assert hasattr(self, 'initial_data'), (
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    MemberSerializer().is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    assert hasattr(self, 'initial_data'), (
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+[2023-08-25 21:26:32,853][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    MemberSerializer().is_valid(**data)
+TypeError: BaseSerializer.is_valid() got an unexpected keyword argument 'mobile'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 113, in post
+    MemberSerializer().is_valid(**data)
+TypeError: BaseSerializer.is_valid() got an unexpected keyword argument 'mobile'
+[2023-08-25 21:32:22,493][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    instance.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 114, in post
+    instance.save()
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/serializers.py", line 62, in save
+    return super().save(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 180, in save
+    assert hasattr(self, '_errors'), (
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+[2023-08-25 21:59:46,365][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 121, in post
+    data['inviteCode'] = base64.encode(str(data.get('mobile'))) # 邀请码
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: encode() missing 1 required positional argument: 'output'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 121, in post
+    data['inviteCode'] = base64.encode(str(data.get('mobile'))) # 邀请码
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: encode() missing 1 required positional argument: 'output'
+[2023-08-25 22:03:24,341][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: encode() missing 1 required positional argument: 'output'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: encode() missing 1 required positional argument: 'output'
+[2023-08-25 22:03:50,217][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: encode() missing 1 required positional argument: 'output'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: encode() missing 1 required positional argument: 'output'
+[2023-08-25 22:06:18,960][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/base64.py", line 512, in encode
+    s = input.read(MAXBINSIZE)
+        ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'read'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/base64.py", line 512, in encode
+    s = input.read(MAXBINSIZE)
+        ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'read'
+[2023-08-25 22:08:51,630][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 121, in post
+    inviteCode = base64.b64encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 121, in post
+    inviteCode = base64.b64encode(data.get('mobile'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+[2023-08-25 22:09:34,704][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 123, in post
+    payload = jwt_payload_handler(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'dict' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 123, in post
+    payload = jwt_payload_handler(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'dict' object has no attribute 'pk'
+[2023-08-25 22:13:17,154][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.b64encode(data.get('mobile').decode())
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 122, in post
+    inviteCode = base64.b64encode(data.get('mobile').decode())
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+[2023-08-25 22:19:30,589][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 130, in post
+    payload = jwt_payload_handler(serializer.data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 130, in post
+    payload = jwt_payload_handler(serializer.data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'pk'
+[2023-08-25 22:20:21,737][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 128, in post
+    print(serializer.data.id)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 128, in post
+    print(serializer.data.id)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'id'
+[2023-08-25 22:20:38,911][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 127, in post
+    print(serializer.data.id)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 127, in post
+    print(serializer.data.id)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'id'
+[2023-08-25 22:21:28,871][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 127, in post
+    payload = jwt_payload_handler(serializer.data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 127, in post
+    payload = jwt_payload_handler(serializer.data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'pk'
+[2023-08-25 22:24:11,959][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 127, in post
+    payload = jwt_payload_handler(serializer.data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 127, in post
+    payload = jwt_payload_handler(serializer.data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/utils/jwt_util.py", line 47, in jwt_payload_handler
+    'user_id': user.pk,
+               ^^^^^^^
+AttributeError: 'ReturnDict' object has no attribute 'pk'
+[2023-08-25 22:24:28,498][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 128, in post
+    token = jwt_encode_handler(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 26, in jwt_get_secret_key
+    user = User.objects.get(pk=payload.get('user_id'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.admin.models.Users.DoesNotExist: Users matching query does not exist.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 128, in post
+    token = jwt_encode_handler(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 91, in jwt_encode_handler
+    key = api_settings.JWT_PRIVATE_KEY or jwt_get_secret_key(payload)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework_jwt/utils.py", line 26, in jwt_get_secret_key
+    user = User.objects.get(pk=payload.get('user_id'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.admin.models.Users.DoesNotExist: Users matching query does not exist.
+[2023-08-25 22:25:42,358][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 128, in post
+    print(instance)
+TypeError: __str__ returned non-string (type NoneType)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/login.py", line 128, in post
+    print(instance)
+TypeError: __str__ returned non-string (type NoneType)
+[2023-08-25 22:45:01,096][django.request.log_response():224] [ERROR] Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-08-25 22:45:01,101][django.channels.server.log_action():160] [ERROR] HTTP POST /api/v1/login/ 500 [0.11, 127.0.0.1:59986]
+[2023-08-25 22:57:14,713][django.request.log_response():224] [ERROR] Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-08-25 22:57:14,718][django.channels.server.log_action():160] [ERROR] HTTP POST /api/v1/login/ 500 [0.17, 127.0.0.1:62292]

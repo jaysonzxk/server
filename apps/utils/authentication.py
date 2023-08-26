@@ -14,6 +14,7 @@ from rest_framework import exceptions
 from rest_framework_jwt.utils import jwt_decode_handler
 
 from apps.admin.models import Users
+from apps.utils.json_response import ErrorResponse
 from apps.utils.jwt_util import jwt_get_session_id
 
 logger = logging.getLogger(__name__)
@@ -41,7 +42,6 @@ class OpAuthJwtAuthentication(object):
             raise exceptions.AuthenticationFailed()
         except Users.DoesNotExist:
             raise exceptions.AuthenticationFailed()
-
         username = payload.get('username', None)
         if not username:
             return None
@@ -105,4 +105,5 @@ class RedisOpAuthJwtAuthentication(OpAuthJwtAuthentication):
                     raise exceptions.AuthenticationFailed("登录信息失效，请重新登录！")
             else:
                 raise exceptions.AuthenticationFailed("登录信息失效，请重新登录！")
-        return res
+        else:
+            raise exceptions.AuthenticationFailed("用户未登录！")

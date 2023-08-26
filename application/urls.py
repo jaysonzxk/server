@@ -33,7 +33,7 @@ from apps.admin.views.login import (
     CustomTokenRefreshView,
 )
 from apps.admin.views.system_config import InitSettingsViewSet
-from apps.client.views.login import AppLoginView
+from apps.client.views.login import AppLoginView, GetPhoneCode
 from apps.utils.swagger import CustomOpenAPISchemaGenerator
 
 # =========== 初始化系统配置 =================
@@ -80,6 +80,7 @@ urlpatterns = (
             path("token/refresh/", CustomTokenRefreshView.as_view(), name="token_refresh"),
 
             path("api/v1/login/", AppLoginView.as_view(), name="token_obtain_pair"),
+            path("api/v1/getCode/", GetPhoneCode.as_view(), name="get_phone_code"),
             re_path(
                 r"^api-auth/", include("rest_framework.urls", namespace="rest_framework")
             ),

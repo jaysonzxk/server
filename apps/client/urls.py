@@ -13,7 +13,7 @@ system_url.register(r'goods', GoodsViewSet)
 system_url.register(r'technician', TechnicianViewSet)
 
 urlpatterns = [
-    # path('system_config/save_content/', SystemConfigViewSet.as_view({'put': 'save_content'})),
+    path('technician/getMasterGoods/', TechnicianViewSet.as_view({'get': 'get_master_goods'})),
     # path('system_config/get_association_table/', SystemConfigViewSet.as_view({'get': 'get_association_table'})),
     # path('system_config/get_table_data/<int:pk>/', SystemConfigViewSet.as_view({'get': 'get_table_data'})),
     # path('system_config/get_relation_info/', SystemConfigViewSet.as_view({'get': 'get_relation_info'})),

@@ -311,6 +311,10 @@ class UserViewSet(CustomModelViewSet):
             "gender": user.gender,
             "email": user.email,
             "avatar": user.avatar,
+            "balance": user.balance,
+            "inviteCode": user.inviteCode,
+            "points": user.points,
+            "collectNum": user.collectNum,
         }
         return DetailResponse(data=result, msg="获取成功")
 

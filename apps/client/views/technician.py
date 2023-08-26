@@ -1,12 +1,13 @@
 import time
 
+from django.contrib.auth import authenticate
 from rest_framework import serializers
 from rest_framework.decorators import action
 from rest_framework.request import Request
 
 from apps.admin.models import Users, MasterProject
 from apps.admin.views.master_project import MasterProjectSerializer
-from apps.utils.authentication import RedisOpAuthJwtAuthentication
+from apps.utils.authentication import RedisOpAuthJwtAuthentication, OpAuthJwtAuthentication
 from apps.utils.json_response import DetailResponse, SuccessResponse, ErrorResponse
 from apps.utils.serializers import CustomModelSerializer
 from apps.utils.viewset import CustomModelViewSet
@@ -26,7 +27,7 @@ class TechnicianSerializer(CustomModelSerializer):
 
 class TechnicianViewSet(CustomModelViewSet):
     """
-    Goods接口
+    技师接口
     list:查询
     """
 
@@ -53,8 +54,9 @@ class TechnicianViewSet(CustomModelViewSet):
             return ErrorResponse(msg='参数错误')
         return DetailResponse(data=serializer.data)
 
-    @action(methods=["GET"], detail=False, permission_classes=[], authentication_classes=[])
-    def getMasterGoods(self,  request: Request, *args, **kwargs):
+    # @action(methods=["GET"], detail=False, permission_classes=[], authentication_classes=[])
+    def get_master_goods(self,  request: Request, *args, **kwargs):
+        self.authentication_classes = [RedisOpAuthJwtAuthentication().authenticate(request=request)]
         data = request.query_params
         try:
             goods = MasterProject.objects.filter(user_id=data.get('userId')).filter(is_deleted=0).all()

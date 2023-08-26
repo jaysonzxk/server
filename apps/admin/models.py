@@ -15,7 +15,7 @@ STATUS_CHOICES = (
 
 
 class Users(CoreModel, AbstractUser):
-    username = models.CharField(max_length=150, unique=True, db_index=True, verbose_name="用户账号",
+    username = models.CharField(max_length=150, null=True, unique=True, db_index=True, verbose_name="用户账号",
                                 help_text="用户账号")
     employee_no = models.CharField(max_length=150, unique=True, db_index=True, null=True, blank=True,
                                    verbose_name="工号", help_text="工号")
