@@ -44,7 +44,7 @@ class Users(CoreModel, AbstractUser):
     age = models.IntegerField(verbose_name='年龄', null=True, blank=True, help_text='年龄')
     balance = models.DecimalField(max_length=10, verbose_name='余额', null=True, blank=True, help_text='余额',
                                   decimal_places=2,
-                                  max_digits=5,
+                                  max_digits=10,
                                   default=0)
     isCheckIn = models.IntegerField(verbose_name='是否已入住', null=True, blank=True, help_text='是否已入住', default=0)
     isRecommend = models.IntegerField(verbose_name='是否推荐', null=True, blank=True, help_text='是否推荐', default=0)
@@ -555,6 +555,11 @@ class VipCard(CoreModel):
                                  decimal_places=2,
                                  max_digits=5,
                                  default=0)
+    currentPrice = models.DecimalField(max_length=10, verbose_name='现价', null=True, blank=True, help_text='现价',
+                                       decimal_places=2,
+                                       max_digits=5,
+                                       default=0)
+    # type =
     isRecommend = models.IntegerField(verbose_name='是否推荐', null=True, blank=True, help_text='是否推荐', default=0)
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
 
@@ -562,7 +567,7 @@ class VipCard(CoreModel):
         db_table = table_prefix + "vip_card"
         verbose_name = "会员卡配置表"
         verbose_name_plural = verbose_name
-        ordering = ("-create_datetime",)
+        ordering = ("sort",)
 
     def __str__(self):
         return self.name
@@ -583,7 +588,7 @@ class UserVipCard(CoreModel):
                                 null=True,
                                 blank=True,
                                 help_text="关联会员卡配置", )
-    expiration = models.DateTimeField(auto_now=True, null=True, blank=True, help_text="过期时间",
+    expiration = models.DateTimeField(auto_now=False, null=True, blank=True, help_text="过期时间",
                                       verbose_name="过期时间")
     isExpired = models.IntegerField(verbose_name='是否到期', null=True, blank=True, help_text='是否到期', default=0)
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
@@ -689,8 +694,10 @@ class Project(CoreModel):
                                       decimal_places=2,
                                       max_digits=5,
                                       default=0)
-    prohibition = models.CharField(max_length=1000, verbose_name='禁忌说明', null=True, blank=True, help_text='禁忌说明')
-    orderInstructions = models.CharField(max_length=1000, verbose_name='下单说明', null=True, blank=True, help_text='下单说明')
+    prohibition = models.CharField(max_length=1000, verbose_name='禁忌说明', null=True, blank=True,
+                                   help_text='禁忌说明')
+    orderInstructions = models.CharField(max_length=1000, verbose_name='下单说明', null=True, blank=True,
+                                         help_text='下单说明')
     sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
     sales = models.IntegerField(verbose_name="销量", null=True, blank=True, help_text="销量")
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
@@ -748,6 +755,7 @@ class PayChannel(CoreModel):
                                    max_digits=15,
                                    default=0)
     payKey = models.CharField(max_length=100, verbose_name='渠道key', null=True, blank=True, help_text='渠道key')
+    payCode = models.CharField(max_length=100, verbose_name='支付编号', null=True, blank=True, help_text='支付编号')
     sort = models.IntegerField(verbose_name='排序', null=True, blank=True, help_text='排序')
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
 

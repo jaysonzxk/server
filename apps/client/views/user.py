@@ -7,7 +7,7 @@ from rest_framework.decorators import action, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from django.db import connection
 from application import dispatch
-from apps.admin.models import Users, Role, Dept, UserVipCard
+from apps.admin.models import Users, Role, Dept, UserVipCard, VipCard
 from apps.admin.views.role import RoleSerializer
 from apps.admin.views.vip import UserVipSerializer
 from apps.utils.json_response import ErrorResponse, DetailResponse
@@ -252,62 +252,21 @@ class UserViewSet(CustomModelViewSet):
     create_serializer_class = UserCreateSerializer
     update_serializer_class = UserUpdateSerializer
     # filter_fields = ["name", "username", "gender", "is_active", "dept", "user_type"]
-    filter_fields = {
-        "name": ["icontains"],
-        "mobile": ["icontains"],
-        "username": ["icontains"],
-        "gender": ["icontains"],
-        "is_active": ["icontains"],
-        "dept": ["exact"],
-        "user_type": ["exact"],
-    }
-    search_fields = ["username", "name", "gender", "dept__name", "role__name"]
-    # 导出
-    export_field_label = {
-        "username": "用户账号",
-        "name": "用户名称",
-        "email": "用户邮箱",
-        "mobile": "手机号码",
-        "gender": "用户性别",
-        "is_active": "帐号状态",
-        "last_login": "最后登录时间",
-        "dept_name": "部门名称",
-        "dept_owner": "部门负责人",
-    }
-    export_serializer_class = ExportUserProfileSerializer
-    # 导入
-    import_serializer_class = UserProfileImportSerializer
-    import_field_dict = {
-        "username": "登录账号",
-        "name": "用户名称",
-        "email": "用户邮箱",
-        "mobile": "手机号码",
-        "gender": {
-            "title": "用户性别",
-            "choices": {
-                "data": {"未知": 2, "男": 1, "女": 0},
-            }
-        },
-        "is_active": {
-            "title": "帐号状态",
-            "choices": {
-                "data": {"启用": True, "禁用": False},
-            }
-        },
-        "password": "登录密码",
-        "dept": {"title": "部门", "choices": {"queryset": Dept.objects.filter(status=True), "values_name": "name"}},
-        "role": {"title": "角色", "choices": {"queryset": Role.objects.filter(status=True), "values_name": "name"}},
-    }
 
     @action(methods=["GET"], detail=False, permission_classes=[IsAuthenticated])
     def user_info(self, request):
         """获取当前用户信息"""
         user = request.user
-        user_vip = UserVipCard.objects.filter(user_id=user.id).first()
-        if user_vip:
-            userVip = UserVipSerializer(user_vip[0], many=True)
+        vipData = {}
+        userVipObj = UserVipCard.objects.filter(user_id=user.id).first()
+        vipObj = VipCard.objects.filter(id=userVipObj.vipCard_id).first()
+        if vipObj:
+            vipData['vipName'] = vipObj.name
+            vipData['isExpired'] = userVipObj.isExpired
+            vipData['expiration'] = userVipObj.expiration
+            vipData['discount'] = vipObj.discount
         else:
-            userVip = None
+            vipData = None
         result = {
             "id": user.id,
             "username": user.username,
@@ -321,7 +280,7 @@ class UserViewSet(CustomModelViewSet):
             "inviteCode": user.inviteCode,
             "points": user.points,
             "collectNum": user.collectNum,
-            "userVip": userVip
+            "vip": vipData
         }
         return DetailResponse(data=result, msg="获取成功")
 
