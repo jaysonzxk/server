@@ -8,7 +8,7 @@ from apps.utils.viewset import CustomModelViewSet
 
 class UserAddrSerializer(CustomModelSerializer):
     """
-    用户地址商品-序列化器
+    用户地址-序列化器
     """
     username = serializers.CharField(source='user.name', read_only=True)
 

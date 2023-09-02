@@ -79,6 +79,8 @@ class Users(CoreModel, AbstractUser):
         blank=True,
         help_text="关联部门",
     )
+    isOnline = models.IntegerField(verbose_name="是否上线", null=True, blank=True, default=0, help_text="是否上线")
+    isBusy = models.IntegerField(verbose_name="是否忙碌", null=True, blank=True, default=0, help_text="是否忙碌")
     last_token = models.CharField(max_length=255, null=True, blank=True, verbose_name="最后一次登录Token",
                                   help_text="最后一次登录Token")
 
@@ -612,7 +614,7 @@ class UserAddr(CoreModel):
                              blank=True,
                              help_text="关联用户",
                              related_name='user_addr')
-    addr = models.CharField(max_length=100, verbose_name='用户地址', null=True, help_text='用户地址')
+    addr = models.CharField(max_length=1000, verbose_name='用户地址', null=True, help_text='用户地址')
     isDefault = models.IntegerField(verbose_name='是否默认', null=True, blank=True, help_text='是否默认', default=1)
     status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
 

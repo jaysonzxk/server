@@ -7,7 +7,7 @@ from rest_framework.decorators import action, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from django.db import connection
 from application import dispatch
-from apps.admin.models import Users, Role, Dept, UserVipCard, VipCard
+from apps.admin.models import Users, Role, Dept, UserVipCard, VipCard, UserAddr
 from apps.admin.views.role import RoleSerializer
 from apps.admin.views.vip import UserVipSerializer
 from apps.utils.json_response import ErrorResponse, DetailResponse
@@ -259,8 +259,12 @@ class UserViewSet(CustomModelViewSet):
         user = request.user
         vipData = {}
         userVipObj = UserVipCard.objects.filter(user_id=user.id).first()
-        vipObj = VipCard.objects.filter(id=userVipObj.vipCard_id).first()
-        if vipObj:
+        userAddrObj = UserAddr.objects.filter(user_id=user.id).filter(isDefault=1).filter()
+        # 用户地址
+
+        # 用户会员信息
+        if userVipObj:
+            vipObj = VipCard.objects.filter(id=userVipObj.vipCard_id).first()
             vipData['vipName'] = vipObj.name
             vipData['isExpired'] = userVipObj.isExpired
             vipData['expiration'] = userVipObj.expiration

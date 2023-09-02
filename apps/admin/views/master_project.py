@@ -11,7 +11,7 @@ from apps.utils.viewset import CustomModelViewSet
 
 class MasterProjectSerializer(CustomModelSerializer):
     """
-    MasterCheckIn-序列化器
+   MasterProject-序列化器
     """
     user = UserSerializer()
     project = ProjectSerializer()

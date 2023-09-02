@@ -55,7 +55,7 @@ class TechnicianViewSet(CustomModelViewSet):
         return DetailResponse(data=serializer.data)
 
     # @action(methods=["GET"], detail=False, permission_classes=[], authentication_classes=[])
-    def get_master_goods(self,  request: Request, *args, **kwargs):
+    def get_master_goods(self, request: Request, *args, **kwargs):
         self.authentication_classes = [RedisOpAuthJwtAuthentication().authenticate(request=request)]
         data = request.query_params
         try:
@@ -65,18 +65,28 @@ class TechnicianViewSet(CustomModelViewSet):
             return ErrorResponse(msg='参数错误')
         # print(serializer.data)
         return DetailResponse(data=serializer.data)
-    # @action(methods=["GET"], detail=False, permission_classes=[])
-    # def getDetails(self, request: Request, *args, **kwargs):
-    #     """获取商品详情"""
-    #     goodsId = request.query_params
-    #     goodsDetails = self.queryset.filter(id=goodsId).first()
-    #     result = {
-    #         "id": goodsDetails.id,
-    #         "name": goodsDetails.name,
-    #         "duration": goodsDetails.duration,
-    #         "user_type": goodsDetails.user_type,
-    #         "gender": goodsDetails.gender,
-    #         "email": goodsDetails.email,
-    #     }
-    #
-    #     return DetailResponse()
+
+    @action(methods=["GET"], detail=False, permission_classes=[], authentication_classes=[])
+    def getMasterInfo(self, request: Request, *args, **kwargs):
+        """技师详情信息"""
+        masterGoodsList = []
+        userId = request.query_params.get('userId')
+        userObj = self.queryset.filter(id=userId).first()
+        masterGoodsObj = MasterProject.objects.filter(user_id=userId).all()
+        for i in masterGoodsObj:
+            goods = {'id': i.project.id, 'name': i.project.name, 'price': i.project.price,
+                     'duration': i.project.duration, 'img': i.project.img}
+            masterGoodsList.append(goods)
+        result = {
+            "id": userObj.id,
+            "name": userObj.name,
+            "user_type": userObj.user_type,
+            "gender": userObj.gender,
+            "age": userObj.age,
+            "starLevel": userObj.starLevel,
+            "avatar": userObj.avatar,
+            "orderNum": userObj.orderNum,
+            "masterGoods": masterGoodsList
+        }
+
+        return DetailResponse(data=result)

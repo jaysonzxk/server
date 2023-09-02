@@ -20364,3 +20364,818 @@ AttributeError: 'UserVipCard' object has no attribute 'name'
 [2023-08-28 22:06:10,213][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:55010]
 [2023-08-28 22:07:46,818][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:55740]
 [2023-08-28 22:08:35,161][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:55740]
+[2023-08-29 19:54:23,272][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.05, 127.0.0.1:52289]
+[2023-08-29 19:54:23,279][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.04, 127.0.0.1:52290]
+[2023-08-29 19:54:23,428][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.15, 127.0.0.1:52289]
+[2023-08-29 19:54:23,469][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.19, 127.0.0.1:52290]
+[2023-08-29 19:56:36,606][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.08, 127.0.0.1:52839]
+[2023-08-29 19:56:36,640][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.11, 127.0.0.1:52840]
+[2023-08-29 19:56:46,576][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:52840]
+[2023-08-29 19:56:46,601][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:52839]
+[2023-08-30 15:00:03,834][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/pay.py changed, reloading.
+[2023-08-30 15:00:05,938][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:00:06,973][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-30 15:00:06,973][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-30 15:00:06,974][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-30 15:03:03,077][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/pay.py changed, reloading.
+[2023-08-30 15:03:04,137][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:03:04,864][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-30 15:03:04,865][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-30 15:03:04,866][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-30 15:06:56,948][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/pay.py changed, reloading.
+[2023-08-30 15:06:58,488][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:06:59,402][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-30 15:06:59,402][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-30 15:06:59,403][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-30 15:10:36,871][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/pay.py changed, reloading.
+[2023-08-30 15:10:38,272][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:10:39,054][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-30 15:10:39,054][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-30 15:10:39,055][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-30 15:14:09,155][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/pay.py changed, reloading.
+[2023-08-30 15:14:10,731][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:14:11,697][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-30 15:14:11,698][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-30 15:14:11,698][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-30 15:17:00,446][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/pay.py changed, reloading.
+[2023-08-30 15:17:01,832][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:17:11,099][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/pay.py changed, reloading.
+[2023-08-30 15:17:12,096][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:21:39,087][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/pay.py changed, reloading.
+[2023-08-30 15:21:40,162][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-30 15:21:40,888][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-30 15:21:40,889][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-30 15:21:40,890][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-30 16:12:31,034][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payMoney/pay/ 200 [0.03, 127.0.0.1:57394]
+[2023-08-30 16:12:31,261][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.22, 127.0.0.1:57394]
+[2023-08-30 16:12:48,269][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:57394]
+[2023-08-30 16:12:48,320][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:57394]
+[2023-08-30 16:13:33,323][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:57394]
+[2023-08-30 16:15:46,092][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.01, 127.0.0.1:58249]
+[2023-08-30 16:15:46,097][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.01, 127.0.0.1:58250]
+[2023-08-30 16:15:46,347][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.25, 127.0.0.1:58249]
+[2023-08-30 16:15:46,375][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.28, 127.0.0.1:58250]
+[2023-08-30 16:15:48,466][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.08, 127.0.0.1:58250]
+[2023-08-30 16:16:21,055][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:58250]
+[2023-08-30 16:16:26,210][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:58250]
+[2023-08-30 16:16:26,234][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:58249]
+[2023-08-30 16:16:30,196][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.08, 127.0.0.1:58249]
+[2023-08-30 16:18:25,997][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:58952]
+[2023-08-30 16:18:26,044][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:58952]
+[2023-08-30 16:18:57,948][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.01, 127.0.0.1:58952]
+[2023-08-30 16:18:57,955][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.01, 127.0.0.1:59100]
+[2023-08-30 16:18:57,994][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:58952]
+[2023-08-30 16:18:58,027][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:59100]
+[2023-08-30 16:19:02,906][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payMoney/pay/ 200 [0.00, 127.0.0.1:59100]
+[2023-08-30 16:19:02,991][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.08, 127.0.0.1:59100]
+[2023-08-30 16:19:26,733][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:59100]
+[2023-08-30 16:19:26,765][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:58952]
+[2023-08-30 16:20:28,844][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.13, 127.0.0.1:59477]
+[2023-08-30 16:20:49,484][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:59477]
+[2023-08-30 16:23:21,651][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:60346]
+[2023-08-30 17:40:59,342][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.13, 127.0.0.1:60948]
+[2023-08-30 17:40:59,366][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.13, 127.0.0.1:60949]
+[2023-08-30 17:41:04,455][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.18, 127.0.0.1:60949]
+[2023-08-30 17:42:22,224][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.01, 127.0.0.1:61306]
+[2023-08-30 17:42:22,230][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.01, 127.0.0.1:61307]
+[2023-08-30 17:42:22,234][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.02, 127.0.0.1:61308]
+[2023-08-30 17:42:22,326][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.10, 127.0.0.1:61306]
+[2023-08-30 17:42:22,375][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.14, 127.0.0.1:61307]
+[2023-08-30 17:42:22,672][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.43, 127.0.0.1:61308]
+[2023-08-30 17:42:22,699][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 200 [0.36, 127.0.0.1:61311]
+[2023-08-30 17:42:22,705][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 200 [0.36, 127.0.0.1:61312]
+[2023-08-30 17:42:22,712][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 200 [0.31, 127.0.0.1:61317]
+[2023-08-30 17:42:22,728][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 200 [0.01, 127.0.0.1:61317]
+[2023-08-30 17:43:00,950][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:61308]
+[2023-08-30 17:43:00,996][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:61308]
+[2023-08-30 17:46:36,556][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:62384]
+[2023-08-30 17:50:27,940][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.01, 127.0.0.1:63371]
+[2023-08-30 17:50:27,943][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.01, 127.0.0.1:63372]
+[2023-08-30 17:50:27,948][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.01, 127.0.0.1:63373]
+[2023-08-30 17:50:27,987][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.04, 127.0.0.1:63371]
+[2023-08-30 17:50:28,031][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.08, 127.0.0.1:63372]
+[2023-08-30 17:50:28,314][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.36, 127.0.0.1:63373]
+[2023-08-30 17:50:28,329][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 200 [0.32, 127.0.0.1:63375]
+[2023-08-30 17:50:28,336][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 200 [0.33, 127.0.0.1:63376]
+[2023-08-30 17:50:28,347][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 200 [0.29, 127.0.0.1:63378]
+[2023-08-30 17:50:28,365][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 200 [0.01, 127.0.0.1:63378]
+[2023-08-30 17:54:37,220][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:64421]
+[2023-08-30 17:55:39,812][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:64699]
+[2023-08-30 17:56:11,058][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:64699]
+[2023-08-30 20:07:12,062][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.16, 127.0.0.1:63003]
+[2023-08-30 20:08:26,723][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.07, 127.0.0.1:63339]
+[2023-08-30 20:08:49,670][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:63339]
+[2023-08-30 20:09:17,102][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:63339]
+[2023-08-30 20:10:28,394][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:63905]
+[2023-08-30 20:10:58,328][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.01, 127.0.0.1:63905]
+[2023-08-30 20:10:58,334][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.01, 127.0.0.1:64039]
+[2023-08-30 20:10:58,397][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:63905]
+[2023-08-30 20:10:58,437][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.10, 127.0.0.1:64039]
+[2023-08-30 20:11:04,830][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payMoney/pay/ 200 [0.00, 127.0.0.1:64039]
+[2023-08-30 20:11:04,984][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.15, 127.0.0.1:64039]
+[2023-08-30 20:11:29,415][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:64039]
+[2023-08-30 20:11:29,443][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.06, 127.0.0.1:63905]
+[2023-08-30 20:11:34,776][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.15, 127.0.0.1:63905]
+[2023-08-30 20:14:09,556][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:64845]
+[2023-08-30 20:14:09,575][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:64846]
+[2023-08-30 20:14:13,554][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.14, 127.0.0.1:64846]
+[2023-08-30 20:15:43,372][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:65251]
+[2023-08-30 20:16:00,766][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:65251]
+[2023-08-30 20:16:35,605][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:65251]
+[2023-08-30 20:16:50,887][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:65251]
+[2023-08-30 20:17:14,978][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.07, 127.0.0.1:49291]
+[2023-08-30 20:17:18,547][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:49291]
+[2023-08-30 20:17:21,294][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:49291]
+[2023-08-30 20:17:35,167][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:49291]
+[2023-08-30 20:17:50,723][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:49291]
+[2023-08-30 20:21:37,491][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:51073]
+[2023-08-30 20:21:47,029][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:51073]
+[2023-08-30 20:21:50,202][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:51073]
+[2023-08-30 20:21:54,548][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:51073]
+[2023-08-30 20:22:04,088][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:51073]
+[2023-08-30 20:22:11,963][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:51073]
+[2023-08-30 20:22:14,559][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:51073]
+[2023-08-30 20:22:14,589][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.06, 127.0.0.1:51327]
+[2023-08-30 20:22:19,925][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.13, 127.0.0.1:51327]
+[2023-08-30 20:22:43,765][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51327]
+[2023-08-30 20:23:01,298][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51327]
+[2023-08-30 20:23:03,829][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:51327]
+[2023-08-30 20:23:03,853][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:51073]
+[2023-08-30 20:23:08,131][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.14, 127.0.0.1:51073]
+[2023-08-30 20:23:14,581][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51073]
+[2023-08-30 20:23:14,604][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51327]
+[2023-08-30 20:23:17,636][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:51327]
+[2023-08-30 20:23:17,661][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:51073]
+[2023-08-30 20:23:22,000][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.09, 127.0.0.1:51073]
+[2023-08-30 20:23:22,062][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51073]
+[2023-08-30 20:24:48,480][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:24:48,502][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:24:51,451][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:52134]
+[2023-08-30 20:24:51,476][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:52136]
+[2023-08-30 20:24:55,476][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.13, 127.0.0.1:52136]
+[2023-08-30 20:24:55,523][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:25:47,745][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:25:47,769][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:25:57,908][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:52134]
+[2023-08-30 20:25:57,934][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:52136]
+[2023-08-30 20:26:00,838][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.13, 127.0.0.1:52136]
+[2023-08-30 20:26:00,891][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:26:23,561][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:26:23,566][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/login/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:26:23,623][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:52136]
+[2023-08-30 20:26:23,690][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/login/ 200 [0.12, 127.0.0.1:52134]
+[2023-08-30 20:26:41,655][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:26:41,673][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:26:46,327][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:52136]
+[2023-08-30 20:26:46,349][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:52134]
+[2023-08-30 20:26:48,886][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.15, 127.0.0.1:52134]
+[2023-08-30 20:26:48,939][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:26:56,776][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:52134]
+[2023-08-30 20:26:56,808][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:52136]
+[2023-08-30 20:27:01,213][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:52136]
+[2023-08-30 20:27:01,237][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:52134]
+[2023-08-30 20:27:04,816][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.12, 127.0.0.1:52134]
+[2023-08-30 20:27:04,872][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:27:17,164][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:52134]
+[2023-08-30 20:27:17,184][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:52136]
+[2023-08-30 20:27:20,346][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.16, 127.0.0.1:52136]
+[2023-08-30 20:27:20,397][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:27:26,489][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:27:26,512][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52134]
+[2023-08-30 20:27:27,745][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.04, 127.0.0.1:52134]
+[2023-08-30 20:27:27,778][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.06, 127.0.0.1:52136]
+[2023-08-30 20:27:28,035][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.32, 127.0.0.1:53029]
+[2023-08-30 20:27:32,633][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:53029]
+[2023-08-30 20:27:39,638][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:53029]
+[2023-08-30 20:28:13,286][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:53029]
+[2023-08-30 20:28:13,308][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 20:28:17,532][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:52136]
+[2023-08-30 21:14:47,048][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:64604]
+[2023-08-30 21:14:47,135][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.08, 127.0.0.1:64604]
+[2023-08-30 21:20:06,166][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.07, 127.0.0.1:49438]
+[2023-08-30 21:33:39,483][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.07, 127.0.0.1:52626]
+[2023-08-30 21:42:07,377][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.07, 127.0.0.1:54610]
+[2023-08-30 22:23:43,435][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.16, 127.0.0.1:63208]
+[2023-08-30 23:01:52,840][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:55317]
+[2023-08-30 23:13:07,185][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:55885]
+[2023-08-30 23:51:11,764][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.01, 127.0.0.1:65187]
+[2023-08-30 23:51:11,773][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.01, 127.0.0.1:65188]
+[2023-08-30 23:51:11,867][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.10, 127.0.0.1:65187]
+[2023-08-30 23:51:11,934][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.16, 127.0.0.1:65188]
+[2023-08-30 23:51:13,475][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:65188]
+[2023-08-30 23:51:13,500][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:65188]
+[2023-08-30 23:51:15,897][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:65188]
+[2023-08-30 23:51:15,918][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.06, 127.0.0.1:65187]
+[2023-08-30 23:51:21,315][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payMoney/pay/ 200 [0.00, 127.0.0.1:65187]
+[2023-08-30 23:51:21,453][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.14, 127.0.0.1:65187]
+[2023-08-30 23:51:21,507][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:65187]
+[2023-08-30 23:52:23,134][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:65500]
+[2023-08-30 23:52:25,155][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:65500]
+[2023-08-30 23:52:28,325][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:65500]
+[2023-08-30 23:52:28,358][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:65531]
+[2023-08-30 23:52:31,780][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.13, 127.0.0.1:65531]
+[2023-08-30 23:52:33,826][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:65531]
+[2023-08-31 09:48:17,930][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.07, 127.0.0.1:58456]
+[2023-08-31 09:51:20,748][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:59222]
+[2023-08-31 09:52:32,586][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:59527]
+[2023-08-31 09:52:41,897][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:59527]
+[2023-08-31 09:54:41,136][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.11, 127.0.0.1:60074]
+[2023-08-31 09:54:41,181][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.15, 127.0.0.1:60075]
+[2023-08-31 09:54:45,463][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.16, 127.0.0.1:60075]
+[2023-08-31 09:54:45,533][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:60075]
+[2023-08-31 09:55:25,911][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.05, 127.0.0.1:60075]
+[2023-08-31 09:55:25,949][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.08, 127.0.0.1:60074]
+[2023-08-31 09:55:30,315][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.15, 127.0.0.1:60074]
+[2023-08-31 09:55:30,369][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:60074]
+[2023-08-31 09:59:44,092][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.10, 127.0.0.1:60927]
+[2023-08-31 10:48:36,895][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:54883]
+[2023-08-31 11:29:36,609][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:62940]
+[2023-08-31 11:29:36,671][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:62940]
+[2023-08-31 12:13:05,272][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.14, 127.0.0.1:55949]
+[2023-08-31 12:27:26,056][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:58725]
+[2023-08-31 12:36:03,864][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.07, 127.0.0.1:59776]
+[2023-08-31 14:55:27,534][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.10, 127.0.0.1:50082]
+[2023-08-31 15:11:06,326][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:53875]
+[2023-08-31 15:21:54,878][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.08, 127.0.0.1:55667]
+[2023-08-31 16:02:29,295][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:64078]
+[2023-08-31 16:02:29,404][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.10, 127.0.0.1:64078]
+[2023-08-31 16:59:31,949][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.15, 127.0.0.1:59131]
+[2023-08-31 17:23:54,035][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/pay.py changed, reloading.
+[2023-08-31 17:23:56,765][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-31 17:23:57,818][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-31 17:23:57,818][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-31 17:23:57,819][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-31 17:25:05,895][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.01, 127.0.0.1:49360]
+[2023-08-31 17:25:05,898][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.01, 127.0.0.1:49361]
+[2023-08-31 17:25:05,947][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.05, 127.0.0.1:49360]
+[2023-08-31 17:25:05,973][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:49361]
+[2023-08-31 17:25:12,297][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payMoney/pay/ 200 [0.00, 127.0.0.1:49361]
+[2023-08-31 17:25:12,463][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.16, 127.0.0.1:49361]
+[2023-08-31 17:25:12,602][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.09, 127.0.0.1:49361]
+[2023-08-31 17:25:40,452][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/user.py", line 262, in user_info
+    vipObj = VipCard.objects.filter(id=userVipObj.vipCard_id).first()
+                                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'vipCard_id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/user.py", line 262, in user_info
+    vipObj = VipCard.objects.filter(id=userVipObj.vipCard_id).first()
+                                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'vipCard_id'
+[2023-08-31 17:25:40,515][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.08, 127.0.0.1:49361]
+[2023-08-31 17:26:40,667][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/user.py changed, reloading.
+[2023-08-31 17:26:42,199][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-31 17:26:43,137][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-31 17:26:43,137][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-31 17:26:43,138][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-31 17:26:52,646][django.request.log_response():224] [ERROR] Internal Server Error: /api/v1/client/user/user_info/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 22, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2023-08-31 17:26:52,655][django.channels.server.log_action():160] [ERROR] HTTP GET /api/v1/client/user/user_info/ 500 [0.10, 127.0.0.1:49911]
+[2023-08-31 17:27:50,871][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/user.py changed, reloading.
+[2023-08-31 17:27:51,949][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-31 17:27:52,686][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-31 17:27:52,686][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-31 17:27:52,687][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-31 17:27:58,601][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:50206]
+[2023-08-31 17:28:10,199][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:50206]
+[2023-08-31 17:28:35,110][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:50206]
+[2023-08-31 17:28:45,066][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:50206]
+[2023-08-31 17:29:31,208][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:50206]
+[2023-08-31 17:29:51,625][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:50206]
+[2023-08-31 17:30:02,107][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:50206]
+[2023-08-31 17:30:28,766][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:50206]
+[2023-08-31 17:31:44,609][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51236]
+[2023-08-31 17:31:54,689][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51236]
+[2023-08-31 17:32:46,670][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:51236]
+[2023-08-31 17:33:33,226][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:51236]
+[2023-08-31 17:33:33,250][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.06, 127.0.0.1:51744]
+[2023-08-31 17:33:46,682][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.12, 127.0.0.1:51744]
+[2023-08-31 17:33:46,738][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.02, 127.0.0.1:51744]
+[2023-08-31 17:40:05,350][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/utils/pay.py changed, reloading.
+[2023-08-31 17:40:06,890][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-08-31 17:40:07,842][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-08-31 17:40:07,843][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-08-31 17:40:07,844][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-08-31 17:40:15,924][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:53406]
+[2023-08-31 18:08:17,356][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.04, 127.0.0.1:58846]
+[2023-08-31 18:28:16,742][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:63718]
+[2023-08-31 18:28:16,795][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.05, 127.0.0.1:63718]
+[2023-08-31 19:51:23,422][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.09, 127.0.0.1:55548]
+[2023-08-31 20:54:36,682][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.10, 127.0.0.1:53786]
+[2023-08-31 21:40:30,695][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.36, 127.0.0.1:59452]
+[2023-08-31 22:41:27,707][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:56824]
+[2023-08-31 22:41:27,811][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.10, 127.0.0.1:56824]
+[2023-09-01 01:18:55,491][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:62541]
+[2023-09-01 09:49:42,447][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.06, 127.0.0.1:51993]
+[2023-09-01 09:51:43,231][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.01, 127.0.0.1:52499]
+[2023-09-01 09:51:43,238][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.01, 127.0.0.1:52500]
+[2023-09-01 09:51:43,323][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.08, 127.0.0.1:52499]
+[2023-09-01 09:51:43,356][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.12, 127.0.0.1:52500]
+[2023-09-01 09:54:00,584][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:53093]
+[2023-09-01 09:54:00,622][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:53094]
+[2023-09-01 09:55:44,861][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.05, 127.0.0.1:53532]
+[2023-09-01 09:55:44,905][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.09, 127.0.0.1:53533]
+[2023-09-01 10:00:30,443][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:54708]
+[2023-09-01 10:00:30,520][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.13, 127.0.0.1:54709]
+[2023-09-01 10:02:28,454][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.10, 127.0.0.1:55192]
+[2023-09-01 10:02:28,508][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.16, 127.0.0.1:55193]
+[2023-09-01 10:03:07,206][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:55193]
+[2023-09-01 10:03:07,243][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:55192]
+[2023-09-01 10:11:00,447][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:56788]
+[2023-09-01 10:11:00,481][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.09, 127.0.0.1:56789]
+[2023-09-01 10:14:57,161][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.07, 127.0.0.1:57781]
+[2023-09-01 10:14:57,192][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.10, 127.0.0.1:57782]
+[2023-09-01 10:15:42,609][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:57782]
+[2023-09-01 10:15:42,641][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:57781]
+[2023-09-01 10:23:51,970][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.05, 127.0.0.1:59998]
+[2023-09-01 10:23:52,008][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.09, 127.0.0.1:59999]
+[2023-09-01 11:25:45,177][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.10, 127.0.0.1:56468]
+[2023-09-01 11:25:45,222][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.13, 127.0.0.1:56469]
+[2023-09-01 11:26:05,560][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:56469]
+[2023-09-01 11:26:05,603][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.11, 127.0.0.1:56468]
+[2023-09-01 11:26:50,080][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:56468]
+[2023-09-01 11:26:50,109][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.08, 127.0.0.1:56469]
+[2023-09-01 15:40:21,685][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/vipList/ 200 [0.03, 127.0.0.1:55902]
+[2023-09-01 15:40:21,692][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payChannel/ 200 [0.03, 127.0.0.1:55903]
+[2023-09-01 15:40:21,782][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.09, 127.0.0.1:55902]
+[2023-09-01 15:40:21,840][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.14, 127.0.0.1:55903]
+[2023-09-01 15:41:00,474][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.05, 127.0.0.1:55903]
+[2023-09-01 15:41:00,518][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.10, 127.0.0.1:55902]
+[2023-09-01 15:44:41,120][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:57013]
+[2023-09-01 15:44:41,152][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.09, 127.0.0.1:57014]
+[2023-09-01 15:45:16,564][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:57014]
+[2023-09-01 15:45:16,593][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.08, 127.0.0.1:57013]
+[2023-09-01 15:49:44,387][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.06, 127.0.0.1:58263]
+[2023-09-01 15:49:44,425][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.09, 127.0.0.1:58264]
+[2023-09-01 15:51:04,995][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.07, 127.0.0.1:58616]
+[2023-09-01 15:51:05,012][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.08, 127.0.0.1:58617]
+[2023-09-01 16:01:52,378][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:61274]
+[2023-09-01 16:01:52,401][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.06, 127.0.0.1:61275]
+[2023-09-01 16:11:33,322][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.07, 127.0.0.1:63665]
+[2023-09-01 16:11:33,346][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.09, 127.0.0.1:63666]
+[2023-09-01 16:13:03,076][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:64051]
+[2023-09-01 16:13:03,118][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.08, 127.0.0.1:64052]
+[2023-09-01 16:44:21,546][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payMoney/pay/ 200 [0.01, 127.0.0.1:53158]
+[2023-09-01 16:44:21,900][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.35, 127.0.0.1:53158]
+[2023-09-01 16:44:28,460][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:53158]
+[2023-09-01 16:44:28,495][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.08, 127.0.0.1:53203]
+[2023-09-01 16:44:32,552][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.14, 127.0.0.1:53203]
+[2023-09-01 16:44:38,481][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/vipList/ 200 [0.04, 127.0.0.1:53203]
+[2023-09-01 16:44:38,512][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.07, 127.0.0.1:53158]
+[2023-09-01 16:45:01,116][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:53158]
+[2023-09-01 16:45:01,149][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.03, 127.0.0.1:53158]
+[2023-09-01 16:46:39,556][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=1 200 [0.00, 127.0.0.1:53784]
+[2023-09-01 16:46:39,864][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.30, 127.0.0.1:53784]
+[2023-09-01 16:46:39,917][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 200 [0.03, 127.0.0.1:53790]
+[2023-09-01 16:46:40,903][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=2 200 [0.00, 127.0.0.1:53784]
+[2023-09-01 16:46:41,007][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=2 200 [0.10, 127.0.0.1:53784]
+[2023-09-01 16:46:44,854][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.18, 127.0.0.1:53784]
+[2023-09-01 16:46:48,915][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterGoods/?userId=26 200 [0.00, 127.0.0.1:53784]
+[2023-09-01 16:46:49,032][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 200 [0.12, 127.0.0.1:53784]
+[2023-09-01 16:46:59,504][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.19, 127.0.0.1:53784]
+[2023-09-01 16:47:02,811][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 200 [0.09, 127.0.0.1:53784]
+[2023-09-01 16:47:03,656][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 200 [0.07, 127.0.0.1:53784]
+[2023-09-01 16:47:04,064][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterGoods/?userId=26 200 [0.07, 127.0.0.1:53784]
+[2023-09-01 17:18:10,111][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.22, 127.0.0.1:60059]
+[2023-09-01 17:18:18,517][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.14, 127.0.0.1:60059]
+[2023-09-01 17:18:21,009][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=2 200 [0.07, 127.0.0.1:60059]
+[2023-09-01 17:22:24,655][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.15, 127.0.0.1:61092]
+[2023-09-01 17:25:42,265][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.16, 127.0.0.1:61949]
+[2023-09-01 17:31:41,350][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:31:43,753][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:31:44,809][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:31:44,810][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:31:44,810][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:34:12,907][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:34:14,349][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:34:15,160][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:34:15,160][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:34:15,160][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:37:17,373][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:37:18,846][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:41:18,138][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:41:19,337][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:41:20,068][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:41:20,068][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:41:20,069][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:44:14,087][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:44:15,584][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:44:16,384][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:44:16,384][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:44:16,385][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:45:54,233][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.02, 127.0.0.1:50520]
+[2023-09-01 17:45:54,307][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'QueryDict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 73, in getMasterInfo
+    userObj = self.queryset.filter(id=userId).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <QueryDict: {'userId': ['26']}>.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'QueryDict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 73, in getMasterInfo
+    userObj = self.queryset.filter(id=userId).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <QueryDict: {'userId': ['26']}>.
+[2023-09-01 17:45:54,312][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:50520]
+[2023-09-01 17:46:13,609][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:46:15,150][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:46:16,188][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:46:16,188][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:46:16,189][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:46:21,968][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:50635]
+[2023-09-01 17:46:21,997][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 85, in getMasterInfo
+    "masterGoods": serializer.data
+                   ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 249, in data
+    raise AssertionError(msg)
+AssertionError: When a serializer is passed a `data` keyword argument you must call `.is_valid()` before attempting to access the serialized `.data` representation.
+You should either call `.is_valid()` first, or access `.initial_data` instead.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 85, in getMasterInfo
+    "masterGoods": serializer.data
+                   ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 249, in data
+    raise AssertionError(msg)
+AssertionError: When a serializer is passed a `data` keyword argument you must call `.is_valid()` before attempting to access the serialized `.data` representation.
+You should either call `.is_valid()` first, or access `.initial_data` instead.
+[2023-09-01 17:46:22,001][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:50635]
+[2023-09-01 17:47:50,674][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:47:51,773][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:47:52,436][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:47:52,436][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:47:52,437][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:48:00,258][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:51041]
+[2023-09-01 17:48:00,291][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:51041]
+[2023-09-01 17:49:15,596][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 17:49:16,692][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:49:17,381][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:49:17,381][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:49:17,381][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:49:21,333][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:51375]
+[2023-09-01 17:49:21,364][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:51375]
+[2023-09-01 17:53:50,879][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/master_project.py changed, reloading.
+[2023-09-01 17:53:52,440][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:53:53,356][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:53:53,357][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:53:53,357][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:56:11,041][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-09-01 17:56:12,462][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:56:13,384][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:56:13,384][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:56:13,385][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 17:56:33,259][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-09-01 17:56:34,337][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 17:56:34,969][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 17:56:34,969][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 17:56:34,970][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 18:31:50,935][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-09-01 18:31:52,436][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 18:31:53,458][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 18:31:53,458][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 18:31:53,459][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:20:28,728][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.06, 127.0.0.1:56127]
+[2023-09-01 20:20:28,849][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.11, 127.0.0.1:56127]
+[2023-09-01 20:20:57,984][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 20:20:59,749][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 20:21:00,783][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 20:21:00,784][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 20:21:00,784][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:21:04,432][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:56282]
+[2023-09-01 20:21:04,455][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 77, in getMasterInfo
+    print(i.project_id)
+          ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'project_id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 77, in getMasterInfo
+    print(i.project_id)
+          ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'project_id'
+[2023-09-01 20:21:04,459][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:56282]
+[2023-09-01 20:21:15,534][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 20:21:16,581][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 20:21:17,319][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 20:21:17,319][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 20:21:17,320][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:21:20,825][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:56353]
+[2023-09-01 20:21:20,850][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 77, in getMasterInfo
+    print(i.project)
+          ^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'project'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 77, in getMasterInfo
+    print(i.project)
+          ^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'project'
+[2023-09-01 20:21:20,856][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:56353]
+[2023-09-01 20:21:35,249][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 20:21:36,286][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 20:21:36,962][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 20:21:36,962][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 20:21:36,963][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:21:45,427][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:56462]
+[2023-09-01 20:21:45,479][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.05, 127.0.0.1:56462]
+[2023-09-01 20:22:18,776][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 20:22:19,916][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 20:22:20,689][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 20:22:20,689][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 20:22:20,690][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:22:32,022][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:56654]
+[2023-09-01 20:22:32,046][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:56654]
+[2023-09-01 20:23:51,070][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 20:23:52,171][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 20:23:52,944][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 20:23:52,944][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 20:23:52,945][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:24:00,011][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:57020]
+[2023-09-01 20:24:00,042][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:57020]
+[2023-09-01 20:24:41,914][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 20:24:43,030][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 20:24:43,751][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 20:24:43,752][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 20:24:43,753][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:24:51,503][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:57235]
+[2023-09-01 20:24:51,536][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:57235]
+[2023-09-01 20:25:15,120][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 20:25:16,620][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 20:25:17,451][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 20:25:17,451][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 20:25:17,452][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 20:30:04,300][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:58512]
+[2023-09-01 20:30:04,333][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:58512]
+[2023-09-01 21:08:56,450][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 21:08:58,343][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 21:08:59,271][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 21:08:59,271][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 21:08:59,271][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 21:09:07,017][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.01, 127.0.0.1:49757]
+[2023-09-01 21:09:07,050][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:49757]
+[2023-09-01 21:10:46,124][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 21:10:47,555][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 21:11:06,043][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 21:11:07,018][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 21:11:07,754][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 21:11:07,754][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 21:11:07,755][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 21:11:12,220][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:50265]
+[2023-09-01 21:11:12,250][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:50265]
+[2023-09-01 21:12:09,065][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 21:12:10,149][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 21:12:10,891][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 21:12:10,891][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 21:12:10,892][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 21:12:13,151][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:50518]
+[2023-09-01 21:12:13,183][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:50518]
+[2023-09-01 21:13:10,197][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/technician.py changed, reloading.
+[2023-09-01 21:13:11,219][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-01 21:13:11,900][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-01 21:13:11,900][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-01 21:13:11,901][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-01 21:13:16,409][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:50786]
+[2023-09-01 21:13:16,440][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:50786]
+[2023-09-01 21:17:45,626][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=26 200 [0.02, 127.0.0.1:51905]
+[2023-09-01 21:17:45,637][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.01, 127.0.0.1:51905]
+[2023-09-01 21:17:45,643][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.00, 127.0.0.1:51905]
+[2023-09-01 21:17:45,685][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:51905]
+[2023-09-01 21:18:27,643][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:51905]
+[2023-09-01 21:19:42,894][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:52393]
+[2023-09-01 21:21:13,861][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.24, 127.0.0.1:52772]
+[2023-09-01 22:17:32,322][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.07, 127.0.0.1:62219]
+[2023-09-02 10:34:36,030][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=1 200 [0.03, 127.0.0.1:64645]
+[2023-09-02 10:34:36,341][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.30, 127.0.0.1:64645]
+[2023-09-02 10:35:16,427][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.18, 127.0.0.1:64645]
+[2023-09-02 10:35:21,141][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.13, 127.0.0.1:64645]
+[2023-09-02 10:35:49,245][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.16, 127.0.0.1:64645]
+[2023-09-02 11:11:06,395][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=26 200 [0.01, 127.0.0.1:54339]
+[2023-09-02 11:11:06,426][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.00, 127.0.0.1:54339]
+[2023-09-02 11:11:06,463][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:54339]
+[2023-09-02 11:11:37,761][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:54339]
+[2023-09-02 11:12:08,438][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:54339]
+[2023-09-02 11:16:14,486][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:55622]
+[2023-09-02 11:16:29,375][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:55622]
+[2023-09-02 11:16:41,750][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.05, 127.0.0.1:55622]
+[2023-09-02 11:17:05,368][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=26 200 [0.00, 127.0.0.1:55622]
+[2023-09-02 11:17:05,384][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.01, 127.0.0.1:55622]
+[2023-09-02 11:17:05,390][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.00, 127.0.0.1:55622]
+[2023-09-02 11:17:05,423][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:55622]
+[2023-09-02 11:17:30,805][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:55622]
+[2023-09-02 11:18:36,821][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:56269]
+[2023-09-02 11:20:43,307][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:56828]
+[2023-09-02 11:21:00,559][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:56828]
+[2023-09-02 11:22:02,500][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:57194]
+[2023-09-02 11:22:21,928][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:57194]
+[2023-09-02 11:22:35,604][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:57194]
+[2023-09-02 11:23:54,149][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:57672]
+[2023-09-02 11:23:57,280][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:57672]
+[2023-09-02 11:24:06,936][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:57672]
+[2023-09-02 11:24:10,562][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.01, 127.0.0.1:57672]
+[2023-09-02 11:25:54,922][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/views/userAddr.py changed, reloading.
+[2023-09-02 11:25:56,870][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-02 11:25:57,847][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-02 11:25:57,847][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-02 11:25:57,848][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-02 11:27:24,932][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/admin/models.py changed, reloading.
+[2023-09-02 11:27:26,036][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-02 11:27:26,736][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-02 11:27:26,736][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-02 11:27:26,737][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-02 11:29:59,441][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.07, 127.0.0.1:59198]
+[2023-09-02 11:31:26,358][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:59582]
+[2023-09-02 11:32:58,370][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=26 200 [0.01, 127.0.0.1:59972]
+[2023-09-02 11:32:58,382][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.01, 127.0.0.1:59972]
+[2023-09-02 11:32:58,387][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.00, 127.0.0.1:59972]
+[2023-09-02 11:32:58,419][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:59972]
+[2023-09-02 11:33:20,482][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=26 200 [0.00, 127.0.0.1:59972]
+[2023-09-02 11:33:20,490][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.01, 127.0.0.1:59972]
+[2023-09-02 11:33:20,495][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.00, 127.0.0.1:59972]
+[2023-09-02 11:33:20,525][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:59972]
+[2023-09-02 11:33:53,975][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:59972]
+[2023-09-02 11:35:39,443][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:60697]
+[2023-09-02 11:37:31,447][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/work2/server/apps/client/views/user.py changed, reloading.
+[2023-09-02 11:37:33,323][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-09-02 11:37:34,333][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-09-02 11:37:34,334][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-09-02 11:37:34,334][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-09-02 12:33:02,686][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.17, 127.0.0.1:55596]
+[2023-09-02 12:34:30,270][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:55968]
+[2023-09-02 12:35:38,039][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=26 200 [0.01, 127.0.0.1:56258]
+[2023-09-02 12:35:38,055][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.01, 127.0.0.1:56258]
+[2023-09-02 12:35:38,064][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.00, 127.0.0.1:56258]
+[2023-09-02 12:35:38,096][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.03, 127.0.0.1:56258]
+[2023-09-02 12:37:18,219][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo 200 [0.00, 127.0.0.1:56724]
+[2023-09-02 12:37:18,225][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo 301 [0.00, 127.0.0.1:56724]
+[2023-09-02 12:37:18,231][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/ 200 [0.00, 127.0.0.1:56724]
+[2023-09-02 12:37:18,288][apps.utils.exception.CustomExceptionHandler():64] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 81, in getMasterInfo
+    "id": userObj.id,
+          ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/work/work2/server/apps/client/views/technician.py", line 81, in getMasterInfo
+    "id": userObj.id,
+          ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+[2023-09-02 12:37:18,508][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/ 200 [0.28, 127.0.0.1:56724]
+[2023-09-02 12:38:21,953][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.05, 127.0.0.1:57009]
+[2023-09-02 12:39:04,796][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:57009]
+[2023-09-02 12:40:05,551][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.05, 127.0.0.1:57489]
+[2023-09-02 12:40:53,637][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.04, 127.0.0.1:57489]
+[2023-09-02 12:48:19,380][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.01, 127.0.0.1:59597]
+[2023-09-02 12:48:19,384][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.01, 127.0.0.1:59598]
+[2023-09-02 12:48:19,389][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.02, 127.0.0.1:59599]
+[2023-09-02 12:48:19,499][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.11, 127.0.0.1:59597]
+[2023-09-02 12:48:19,524][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.14, 127.0.0.1:59598]
+[2023-09-02 12:48:19,783][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.39, 127.0.0.1:59599]
+[2023-09-02 12:48:19,797][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 200 [0.28, 127.0.0.1:59601]
+[2023-09-02 12:48:19,806][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 200 [0.29, 127.0.0.1:59602]
+[2023-09-02 12:48:19,815][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 200 [0.21, 127.0.0.1:59604]
+[2023-09-02 12:48:19,837][django.channels.server.log_action():147] [INFO] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 200 [0.01, 127.0.0.1:59604]
+[2023-09-02 12:50:11,196][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.03, 127.0.0.1:60114]
+[2023-09-02 12:50:11,226][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.06, 127.0.0.1:60115]
+[2023-09-02 12:50:11,427][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.26, 127.0.0.1:60116]
