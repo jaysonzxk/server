@@ -23,7 +23,7 @@ class Pay(object):
             # 余额支付
             if payChannelObj.payCode == 'balance':
                 if user.balance < vipObj.currentPrice:
-                    return ErrorResponse(msg='余额不足')
+                    return '余额不足'
                 else:
                     userVip = UserVipCard.objects.filter(user_id=user.id).first()
                     if userVip and userVip.isExpired is True:
@@ -59,6 +59,7 @@ class Pay(object):
                     balance = float(user.balance) - float(vipObj.currentPrice)
                     user.balance = balance
                     user.save()
+                return '支付成功'
             # 三方支付
             else:
                 pass

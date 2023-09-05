@@ -27,7 +27,10 @@ class PayMoneyViewSet(CustomModelViewSet, Pay):
         vipObj = VipCard.objects.filter(id=data.get('vId')).first()
         res = self.payVip(vipObj, payChannelObj, user)
         if res:
-            return DetailResponse(msg='支付成功')
+            if res == '余额不足':
+                return ErrorResponse(msg=res)
+            else:
+                return DetailResponse(msg=res)
         return ErrorResponse(msg='支付失败')
         # if vipObj.vipType == 'month':
         #     months = 1

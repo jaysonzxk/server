@@ -41,6 +41,7 @@ class Users(CoreModel, AbstractUser):
     user_type = models.IntegerField(
         choices=USER_TYPE, default=0, verbose_name="用户类型", null=True, blank=True, help_text="用户类型"
     )
+    deviceId = models.CharField(max_length=255, verbose_name="设备ID", null=True, blank=True, help_text="设备ID")
     age = models.IntegerField(verbose_name='年龄', null=True, blank=True, help_text='年龄')
     balance = models.DecimalField(max_length=10, verbose_name='余额', null=True, blank=True, help_text='余额',
                                   decimal_places=2,
