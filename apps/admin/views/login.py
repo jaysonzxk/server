@@ -162,8 +162,8 @@ class CustomTokenRefreshView(TokenRefreshView):
 class ApiLoginSerializer(CustomModelSerializer):
     """接口文档登录-序列化器"""
 
-    username = serializers.CharField()
-    password = serializers.CharField()
+    # username = serializers.CharField()
+    # password = serializers.CharField()
 
     class Meta:
         model = Users
@@ -178,15 +178,18 @@ class ApiLogin(APIView):
     permission_classes = []
 
     def post(self, request):
-        username = request.data.get("username")
-        password = request.data.get("password")
-        user_obj = auth.authenticate(
-            request,
-            username=username,
-            password=hashlib.md5(password.encode(encoding="UTF-8")).hexdigest(),
-        )
-        if user_obj:
-            login(request, user_obj)
+        if request:
+            # login(request, user_obj)
             return redirect("/")
-        else:
-            return ErrorResponse(msg="账号/密码错误")
+        # username = request.data.get("username")
+        # password = request.data.get("password")
+        # user_obj = auth.authenticate(
+        #     request,
+        #     username=username,
+        #     password=hashlib.md5(password.encode(encoding="UTF-8")).hexdigest(),
+        # )
+        # if user_obj:
+        #     login(request, user_obj)
+        #     return redirect("/")
+        # else:
+        #     return ErrorResponse(msg="账号/密码错误")
