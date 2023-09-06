@@ -1,0 +1,42 @@
+[
+  {
+    "id": 4,
+    "role_id": 1,
+    "menu_id": 19
+  },
+  {
+    "id": 5,
+    "role_id": 1,
+    "menu_id": 20
+  },
+  {
+    "id": 6,
+    "role_id": 1,
+    "menu_id": 21
+  },
+  {
+    "id": 7,
+    "role_id": 1,
+    "menu_id": 22
+  },
+  {
+    "id": 8,
+    "role_id": 1,
+    "menu_id": 23
+  },
+  {
+    "id": 2,
+    "role_id": 2,
+    "menu_id": 1
+  },
+  {
+    "id": 3,
+    "role_id": 2,
+    "menu_id": 2
+  },
+  {
+    "id": 1,
+    "role_id": 2,
+    "menu_id": 9
+  }
+]
