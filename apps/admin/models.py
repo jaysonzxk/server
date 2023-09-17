@@ -911,3 +911,67 @@ class Collect(CoreModel):
 
     def __str__(self):
         return self.user.username
+
+
+class Coupon(CoreModel):
+    """ 优惠券 """
+    name = models.CharField(max_length=20, verbose_name="优惠券", null=True, blank=True, help_text="优惠券")
+    COUPON_TYPE_CHOICES = (
+        (0, "通用"),
+        (1, "满减"),
+        (2, "新人户"),
+        (3, "老用户回归"),
+        (4, "vip折扣券"),
+    )
+    couponType = models.IntegerField(
+        choices=COUPON_TYPE_CHOICES, default=0, verbose_name="类型", null=True, blank=True, help_text="类型"
+    )
+    satisfy = models.DecimalField(max_length=10, verbose_name='满减', null=True, blank=True, help_text='满减',
+                                  decimal_places=2,
+                                  max_digits=10,
+                                  default=0)
+    amount = models.DecimalField(max_length=10, verbose_name='优惠金额', null=True, blank=True, help_text='优惠金额',
+                                 decimal_places=2,
+                                 max_digits=10,
+                                 default=0)
+    days = models.IntegerField(verbose_name='有效时长', null=True, blank=True, help_text='有效时长', default=0)
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "coupon"
+        verbose_name = "优惠券"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.name
+
+
+class UserCoupon(CoreModel):
+    """ 用户优惠券 """
+    user = models.ForeignKey(to='admin.Users', verbose_name="会员",
+                             on_delete=models.PROTECT,
+                             db_constraint=False,
+                             null=True,
+                             blank=True,
+                             help_text="会员",
+                             related_name='user_coupon')
+    coupon = models.ForeignKey(to='admin.Coupon', verbose_name="优惠券",
+                               on_delete=models.PROTECT,
+                               db_constraint=False,
+                               null=True,
+                               blank=True,
+                               help_text="优惠券",
+                               related_name='user_coupon')
+    expiration = models.DateTimeField(auto_now=False, null=True, blank=True, help_text="过期时间",
+                                      verbose_name="过期时间")
+    isExpired = models.IntegerField(verbose_name='是否到期', null=True, blank=True, help_text='是否到期', default=0)
+    isUsed = models.IntegerField(verbose_name='是否使用', null=True, blank=True, help_text='是否使用', default=0)
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "user_coupon"
+        verbose_name = "用户优惠券"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.user.username
