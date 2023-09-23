@@ -72,9 +72,12 @@ urlpatterns = (
                 schema_view.with_ui("redoc", cache_timeout=0),
                 name="schema-redoc",
             ),
-            path("admin/", include("apps.admin.urls")),
-            path("api/v1/technician/", include("apps.technician.urls")),
-            path("api/v1/client/", include("apps.client.urls")),
+
+            path("admin/", include("apps.admin.urls")),  # 后台路由入口
+            path("api/v1/technician/", include("apps.technician.urls")),  # 技师端路由入口
+            path("api/v1/client/", include("apps.client.urls")),  # 用户端路由入口
+
+            # admin 后台登录
             path("admin/login/", LoginView.as_view(), name="token_obtain_pair"),
             path("admin/logout/", LogoutView.as_view(), name="token_obtain_pair"),
             path("token/refresh/", CustomTokenRefreshView.as_view(), name="token_refresh"),
