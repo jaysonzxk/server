@@ -22286,3 +22286,85 @@ AttributeError: 'NoneType' object has no attribute 'id'
 [2023-09-17 23:09:52,874][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/payChannel/ 200 [0.05, 127.0.0.1:56100]
 [2023-09-17 23:13:28,666][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/payMoney/pay/ 200 [0.00, 127.0.0.1:56971]
 [2023-09-17 23:13:28,741][django.channels.server.log_action():147] [INFO] HTTP POST /api/v1/client/payMoney/pay/ 200 [0.07, 127.0.0.1:56971]
+[2023-10-09 20:02:42,859][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-09 20:02:43,937][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-09 20:02:43,937][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-09 20:02:43,937][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-09 20:04:31,219][django.request.log_response():224] [WARNING] Not Found: /
+[2023-10-09 20:04:31,221][django.channels.server.log_action():155] [WARNING] HTTP GET / 404 [0.03, 127.0.0.1:55652]
+[2023-10-09 20:04:31,503][django.request.log_response():224] [WARNING] Not Found: /favicon.ico
+[2023-10-09 20:04:31,504][django.channels.server.log_action():155] [WARNING] HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:55652]
+[2023-10-09 20:07:15,592][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/client/urls.py changed, reloading.
+[2023-10-09 20:07:17,147][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-09 20:07:18,035][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-09 20:07:18,035][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-09 20:07:18,036][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-09 21:01:58,759][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.02, 127.0.0.1:55280]
+[2023-10-09 21:01:58,764][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.02, 127.0.0.1:55281]
+[2023-10-09 21:01:58,767][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.02, 127.0.0.1:55282]
+[2023-10-09 21:01:58,822][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.06, 127.0.0.1:55280]
+[2023-10-09 21:01:58,844][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.08, 127.0.0.1:55281]
+[2023-10-09 21:01:58,978][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.21, 127.0.0.1:55282]
+[2023-10-09 21:01:59,002][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-09 21:01:59,004][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.17, 127.0.0.1:55285]
+[2023-10-09 21:01:59,014][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-09 21:01:59,016][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.18, 127.0.0.1:55286]
+[2023-10-09 21:01:59,026][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-09 21:01:59,028][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.17, 127.0.0.1:55288]
+[2023-10-09 21:01:59,037][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:01:59,038][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.03, 127.0.0.1:55293]
+[2023-10-09 21:02:06,651][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.03, 127.0.0.1:55282]
+[2023-10-09 21:02:06,679][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.04, 127.0.0.1:55281]
+[2023-10-09 21:02:06,811][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.17, 127.0.0.1:55280]
+[2023-10-09 21:02:06,822][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-09 21:02:06,823][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.15, 127.0.0.1:55359]
+[2023-10-09 21:02:06,833][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-09 21:02:06,835][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.16, 127.0.0.1:55360]
+[2023-10-09 21:02:06,843][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-09 21:02:06,844][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.14, 127.0.0.1:55361]
+[2023-10-09 21:02:06,859][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:02:06,860][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:55366]
+[2023-10-09 21:02:21,494][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.00, 127.0.0.1:55474]
+[2023-10-09 21:02:21,497][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.01, 127.0.0.1:55475]
+[2023-10-09 21:02:21,500][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.01, 127.0.0.1:55476]
+[2023-10-09 21:02:21,516][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.02, 127.0.0.1:55474]
+[2023-10-09 21:02:21,535][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.04, 127.0.0.1:55475]
+[2023-10-09 21:02:21,658][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.16, 127.0.0.1:55476]
+[2023-10-09 21:02:21,668][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-09 21:02:21,669][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.14, 127.0.0.1:55478]
+[2023-10-09 21:02:21,677][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-09 21:02:21,678][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.15, 127.0.0.1:55479]
+[2023-10-09 21:02:21,687][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-09 21:02:21,696][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:02:21,703][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.16, 127.0.0.1:55481]
+[2023-10-09 21:02:21,704][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.02, 127.0.0.1:55483]
+[2023-10-09 21:02:39,565][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.02, 127.0.0.1:55476]
+[2023-10-09 21:02:39,589][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.04, 127.0.0.1:55475]
+[2023-10-09 21:02:39,730][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.18, 127.0.0.1:55474]
+[2023-10-09 21:02:39,744][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-09 21:02:39,746][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.16, 127.0.0.1:55572]
+[2023-10-09 21:02:39,761][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-09 21:02:39,763][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.18, 127.0.0.1:55573]
+[2023-10-09 21:02:39,779][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-09 21:02:39,781][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.18, 127.0.0.1:55574]
+[2023-10-09 21:02:39,794][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:02:39,795][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.03, 127.0.0.1:55575]
+[2023-10-09 21:03:49,620][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=1 200 [0.00, 127.0.0.1:55871]
+[2023-10-09 21:03:49,715][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.09, 127.0.0.1:55871]
+[2023-10-09 21:03:49,747][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:03:49,748][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:55873]
+[2023-10-09 21:03:52,129][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=2 200 [0.00, 127.0.0.1:55871]
+[2023-10-09 21:03:52,171][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=2 200 [0.04, 127.0.0.1:55871]
+[2023-10-09 21:03:52,198][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:03:52,199][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:55887]
+[2023-10-09 21:03:54,273][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.09, 127.0.0.1:55871]
+[2023-10-09 21:03:54,301][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:03:54,302][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:55897]
+[2023-10-09 21:03:55,972][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:55871]
+[2023-10-09 21:03:55,990][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:55871]
+[2023-10-09 21:16:13,130][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.10, 127.0.0.1:59032]
+[2023-10-09 21:16:13,166][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:16:13,167][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:59034]
+[2023-10-09 21:45:40,829][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.10, 127.0.0.1:49895]
+[2023-10-09 21:45:40,882][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-09 21:45:40,883][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.03, 127.0.0.1:49897]

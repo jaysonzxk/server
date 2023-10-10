@@ -1,7 +1,7 @@
 from django.urls import path
 from rest_framework import routers
 
-from apps.client.views.banners import BannersViewSet
+from apps.client.views.home.banners import BannersViewSet
 from apps.client.views.goods import GoodsViewSet
 from apps.client.views.pay import PayMoneyViewSet
 from apps.client.views.pay_channel import PayChannelViewSet
