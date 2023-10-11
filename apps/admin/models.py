@@ -975,3 +975,18 @@ class UserCoupon(CoreModel):
 
     def __str__(self):
         return self.user.username
+
+
+class Transportation(CoreModel):
+    """ 交通工具 """
+    name = models.CharField(max_length=10, verbose_name='交通工具', null=True, blank=True, help_text='交通工具')
+
+    status = models.IntegerField(verbose_name='状态', null=True, blank=True, help_text='状态', default=0)
+
+    class Meta:
+        db_table = table_prefix + "transportation"
+        verbose_name = "交通工具"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.name

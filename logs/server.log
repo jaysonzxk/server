@@ -22368,3 +22368,258 @@ AttributeError: 'NoneType' object has no attribute 'id'
 [2023-10-09 21:45:40,829][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.10, 127.0.0.1:49895]
 [2023-10-09 21:45:40,882][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
 [2023-10-09 21:45:40,883][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.03, 127.0.0.1:49897]
+[2023-10-10 10:47:44,538][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/client/urls.py changed, reloading.
+[2023-10-10 10:47:46,401][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 10:47:47,275][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 10:47:47,276][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 10:47:47,277][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 10:47:50,571][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/client/urls.py changed, reloading.
+[2023-10-10 10:47:51,587][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 10:47:52,200][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 10:47:52,200][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 10:47:52,201][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 15:15:16,919][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 15:15:17,788][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 15:15:17,788][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 15:15:17,789][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 15:15:21,066][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.01, 127.0.0.1:58132]
+[2023-10-10 15:15:21,079][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.02, 127.0.0.1:58133]
+[2023-10-10 15:15:21,084][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.02, 127.0.0.1:58134]
+[2023-10-10 15:15:21,117][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.05, 127.0.0.1:58132]
+[2023-10-10 15:15:21,143][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.06, 127.0.0.1:58133]
+[2023-10-10 15:15:21,271][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.18, 127.0.0.1:58134]
+[2023-10-10 15:15:21,291][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-10 15:15:21,293][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.16, 127.0.0.1:58136]
+[2023-10-10 15:15:21,303][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-10 15:15:21,305][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.17, 127.0.0.1:58137]
+[2023-10-10 15:15:21,319][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-10 15:15:21,320][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.16, 127.0.0.1:58139]
+[2023-10-10 15:15:21,343][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:15:21,344][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.03, 127.0.0.1:58141]
+[2023-10-10 15:16:18,978][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:58134]
+[2023-10-10 15:16:18,993][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:58134]
+[2023-10-10 15:16:24,329][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=1 200 [0.00, 127.0.0.1:58134]
+[2023-10-10 15:16:24,437][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.10, 127.0.0.1:58134]
+[2023-10-10 15:16:24,473][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:16:24,473][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.02, 127.0.0.1:58407]
+[2023-10-10 15:18:07,483][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.11, 127.0.0.1:58847]
+[2023-10-10 15:18:07,528][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:18:07,529][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.02, 127.0.0.1:58849]
+[2023-10-10 15:18:21,520][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.12, 127.0.0.1:58847]
+[2023-10-10 15:18:21,557][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:18:21,557][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:58918]
+[2023-10-10 15:19:14,520][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.12, 127.0.0.1:58847]
+[2023-10-10 15:19:14,561][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:19:14,561][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:59140]
+[2023-10-10 15:21:16,372][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.09, 127.0.0.1:59630]
+[2023-10-10 15:21:16,403][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:21:16,403][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:59632]
+[2023-10-10 15:21:21,933][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.13, 127.0.0.1:59630]
+[2023-10-10 15:21:21,976][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:21:21,976][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.02, 127.0.0.1:59660]
+[2023-10-10 15:21:51,452][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.09, 127.0.0.1:59630]
+[2023-10-10 15:21:51,483][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:21:51,484][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:59782]
+[2023-10-10 15:21:55,199][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.12, 127.0.0.1:59630]
+[2023-10-10 15:21:55,237][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:21:55,237][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:59800]
+[2023-10-10 15:22:01,576][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.11, 127.0.0.1:59630]
+[2023-10-10 15:22:01,615][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 15:22:01,616][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:59828]
+[2023-10-10 15:22:13,435][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:59630]
+[2023-10-10 16:06:04,083][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 16:06:05,035][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 16:06:05,035][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 16:06:05,036][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 16:06:55,050][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.01, 127.0.0.1:52665]
+[2023-10-10 16:06:55,053][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.01, 127.0.0.1:52666]
+[2023-10-10 16:06:55,056][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.01, 127.0.0.1:52667]
+[2023-10-10 16:06:55,082][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.03, 127.0.0.1:52665]
+[2023-10-10 16:06:55,103][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.05, 127.0.0.1:52666]
+[2023-10-10 16:06:55,237][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.18, 127.0.0.1:52667]
+[2023-10-10 16:06:55,251][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-10 16:06:55,252][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.16, 127.0.0.1:52669]
+[2023-10-10 16:06:55,261][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-10 16:06:55,262][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.17, 127.0.0.1:52670]
+[2023-10-10 16:06:55,276][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-10 16:06:55,277][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.16, 127.0.0.1:52673]
+[2023-10-10 16:06:55,286][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 16:06:55,286][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.02, 127.0.0.1:52678]
+[2023-10-10 16:07:14,424][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.00, 127.0.0.1:52777]
+[2023-10-10 16:07:14,427][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.01, 127.0.0.1:52778]
+[2023-10-10 16:07:14,431][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.01, 127.0.0.1:52779]
+[2023-10-10 16:07:14,449][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.02, 127.0.0.1:52777]
+[2023-10-10 16:07:14,471][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.04, 127.0.0.1:52778]
+[2023-10-10 16:07:14,592][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.16, 127.0.0.1:52779]
+[2023-10-10 16:07:14,602][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-10 16:07:14,602][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.14, 127.0.0.1:52781]
+[2023-10-10 16:07:14,611][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-10 16:07:14,612][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.15, 127.0.0.1:52782]
+[2023-10-10 16:07:14,622][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-10 16:07:14,623][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.14, 127.0.0.1:52784]
+[2023-10-10 16:07:14,632][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 16:07:14,633][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:52786]
+[2023-10-10 16:07:18,953][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.02, 127.0.0.1:52779]
+[2023-10-10 16:07:18,978][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.04, 127.0.0.1:52778]
+[2023-10-10 16:07:19,115][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.18, 127.0.0.1:52777]
+[2023-10-10 16:07:19,125][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-10 16:07:19,126][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.12, 127.0.0.1:52809]
+[2023-10-10 16:07:19,137][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-10 16:07:19,138][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.13, 127.0.0.1:52810]
+[2023-10-10 16:07:19,149][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-10 16:07:19,150][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.14, 127.0.0.1:52811]
+[2023-10-10 16:07:19,161][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 16:07:19,162][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:52812]
+[2023-10-10 16:08:26,403][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=1 200 [0.01, 127.0.0.1:53112]
+[2023-10-10 16:08:26,506][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.10, 127.0.0.1:53112]
+[2023-10-10 16:08:26,546][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 16:08:26,547][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:53116]
+[2023-10-10 16:08:43,606][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.00, 127.0.0.1:53112]
+[2023-10-10 16:08:43,623][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:53112]
+[2023-10-10 17:22:40,303][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=2 200 [0.00, 127.0.0.1:49928]
+[2023-10-10 17:22:40,348][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=2 200 [0.04, 127.0.0.1:49928]
+[2023-10-10 17:22:40,375][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:22:40,375][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:49930]
+[2023-10-10 17:22:45,006][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.08, 127.0.0.1:49928]
+[2023-10-10 17:22:45,046][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:22:45,046][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:49952]
+[2023-10-10 17:22:46,895][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=2 200 [0.05, 127.0.0.1:49928]
+[2023-10-10 17:22:46,920][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:22:46,920][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:49962]
+[2023-10-10 17:27:04,757][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.11, 127.0.0.1:50999]
+[2023-10-10 17:27:04,795][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:27:04,796][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:51005]
+[2023-10-10 17:30:07,984][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.09, 127.0.0.1:51776]
+[2023-10-10 17:30:08,014][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:30:08,014][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:51779]
+[2023-10-10 17:30:10,811][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=2 200 [0.04, 127.0.0.1:51776]
+[2023-10-10 17:30:10,837][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:30:10,838][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:51793]
+[2023-10-10 17:30:46,520][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.07, 127.0.0.1:51776]
+[2023-10-10 17:30:46,542][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:30:46,542][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:51943]
+[2023-10-10 17:30:49,985][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.08, 127.0.0.1:51776]
+[2023-10-10 17:30:50,013][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:30:50,014][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:51957]
+[2023-10-10 17:30:53,675][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=2 200 [0.04, 127.0.0.1:51776]
+[2023-10-10 17:30:53,699][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 17:30:53,699][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:51975]
+[2023-10-10 21:28:56,393][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/?limit=10&page=1 200 [0.01, 127.0.0.1:59491]
+[2023-10-10 21:28:56,511][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.11, 127.0.0.1:59491]
+[2023-10-10 21:28:56,558][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 21:28:56,558][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:59493]
+[2023-10-10 21:28:58,619][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=26 200 [0.00, 127.0.0.1:59491]
+[2023-10-10 21:28:58,626][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=26 301 [0.00, 127.0.0.1:59491]
+[2023-10-10 21:28:58,630][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.00, 127.0.0.1:59491]
+[2023-10-10 21:28:58,653][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:59491]
+[2023-10-10 21:29:06,030][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=27 200 [0.00, 127.0.0.1:59491]
+[2023-10-10 21:29:06,035][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=27 301 [0.00, 127.0.0.1:59491]
+[2023-10-10 21:29:06,040][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.00, 127.0.0.1:59491]
+[2023-10-10 21:29:06,050][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:59491]
+[2023-10-10 21:40:17,070][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62260]
+[2023-10-10 21:42:00,386][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:04,375][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:36,382][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:38,144][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:39,142][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:39,808][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:40,825][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:41,465][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.02, 127.0.0.1:62680]
+[2023-10-10 21:42:41,801][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:42,120][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=27 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:42:43,590][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.09, 127.0.0.1:62680]
+[2023-10-10 21:42:43,625][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 21:42:43,626][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:62919]
+[2023-10-10 21:42:47,392][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=29 200 [0.00, 127.0.0.1:62680]
+[2023-10-10 21:42:47,398][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=29 301 [0.00, 127.0.0.1:62680]
+[2023-10-10 21:42:47,402][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.00, 127.0.0.1:62680]
+[2023-10-10 21:42:47,413][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.01, 127.0.0.1:62680]
+[2023-10-10 21:45:08,361][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.01, 127.0.0.1:63512]
+[2023-10-10 21:45:14,207][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.02, 127.0.0.1:63512]
+[2023-10-10 21:45:57,645][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/client/views/jishi/technician.py changed, reloading.
+[2023-10-10 21:45:59,234][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:46:00,125][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:46:00,125][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:46:00,126][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 21:46:03,541][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.02, 127.0.0.1:63751]
+[2023-10-10 21:46:13,837][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/client/views/jishi/technician.py changed, reloading.
+[2023-10-10 21:46:14,832][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:46:15,466][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:46:15,466][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:46:15,466][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 21:46:19,533][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.01, 127.0.0.1:63834]
+[2023-10-10 21:46:30,259][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/client/views/jishi/technician.py changed, reloading.
+[2023-10-10 21:46:31,238][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:46:31,865][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:46:31,865][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:46:31,866][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 21:46:35,831][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.02, 127.0.0.1:63916]
+[2023-10-10 21:46:47,768][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=29 200 [0.01, 127.0.0.1:63916]
+[2023-10-10 21:46:48,781][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.11, 127.0.0.1:63916]
+[2023-10-10 21:46:48,825][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 21:46:48,826][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.02, 127.0.0.1:63986]
+[2023-10-10 21:46:50,636][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.02, 127.0.0.1:63916]
+[2023-10-10 21:47:00,144][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/client/views/jishi/technician.py changed, reloading.
+[2023-10-10 21:47:01,233][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:47:01,825][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:47:01,825][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:47:01,826][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 21:50:01,596][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/admin/models.py changed, reloading.
+[2023-10-10 21:50:02,618][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:50:03,291][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:50:03,293][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:50:03,293][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 21:51:44,796][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/admin/models.py changed, reloading.
+[2023-10-10 21:51:45,749][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:54:04,878][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/admin/models.py changed, reloading.
+[2023-10-10 21:54:05,814][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:54:06,544][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:54:06,545][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:54:06,546][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 21:54:07,816][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/admin/models.py changed, reloading.
+[2023-10-10 21:54:09,109][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:54:09,673][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:54:09,674][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:54:09,674][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 21:57:52,781][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/admin/migrations/0001_initial.py changed, reloading.
+[2023-10-10 21:57:53,683][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 21:57:54,278][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 21:57:54,278][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 21:57:54,279][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 22:12:05,986][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/admin/migrations/0001_initial.py changed, reloading.
+[2023-10-10 22:12:06,967][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 22:12:07,591][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 22:12:07,591][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 22:12:07,592][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 22:17:36,044][django.utils.autoreload.trigger_reload():251] [INFO] /Users/mac/Desktop/work/server/apps/admin/migrations/0001_initial.py changed, reloading.
+[2023-10-10 22:17:36,992][django.utils.autoreload.run_with_reloader():637] [INFO] Watching for file changes with StatReloader
+[2023-10-10 22:17:37,618][daphne.server.run():113] [INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2023-10-10 22:17:37,618][daphne.server.run():122] [INFO] Configuring endpoint tcp:port=8000:interface=0.0.0.0
+[2023-10-10 22:17:37,619][daphne.server.listen_success():153] [INFO] Listening on TCP address 0.0.0.0:8000
+[2023-10-10 22:27:20,439][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/?limit=10&page=1 200 [0.13, 127.0.0.1:57534]
+[2023-10-10 22:27:20,483][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 22:27:20,484][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.02, 127.0.0.1:57536]
+[2023-10-10 22:27:22,368][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo?userId=31 200 [0.00, 127.0.0.1:57534]
+[2023-10-10 22:27:22,374][django.channels.server.log_action():153] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo?userId=31 301 [0.00, 127.0.0.1:57534]
+[2023-10-10 22:27:22,378][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getMasterInfo/?userId=31 200 [0.00, 127.0.0.1:57534]
+[2023-10-10 22:27:22,390][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=31 200 [0.01, 127.0.0.1:57534]
+[2023-10-10 22:27:30,471][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/banners/ 200 [0.00, 127.0.0.1:57534]
+[2023-10-10 22:27:30,476][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/goods/ 200 [0.01, 127.0.0.1:57584]
+[2023-10-10 22:27:30,483][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/technician/getRecommend/ 200 [0.02, 127.0.0.1:57585]
+[2023-10-10 22:27:30,561][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/banners/ 200 [0.09, 127.0.0.1:57534]
+[2023-10-10 22:27:30,585][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/goods/ 200 [0.10, 127.0.0.1:57584]
+[2023-10-10 22:27:30,718][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getRecommend/ 200 [0.23, 127.0.0.1:57585]
+[2023-10-10 22:27:30,727][django.request.log_response():224] [WARNING] Not Found: /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png
+[2023-10-10 22:27:30,727][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/2/8/2822ec4aaec601070f2f86a592c07cbe.png 404 [0.15, 127.0.0.1:57587]
+[2023-10-10 22:27:30,736][django.request.log_response():224] [WARNING] Not Found: /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg
+[2023-10-10 22:27:30,738][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/5/3/53a6c7713bd20e40c6c0df7a2fb38fa8.jpeg 404 [0.16, 127.0.0.1:57588]
+[2023-10-10 22:27:30,748][django.request.log_response():224] [WARNING] Not Found: /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png
+[2023-10-10 22:27:30,748][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/4/d/4db15b0ea5d5bcad873acf8e3d8570c1.png 404 [0.15, 127.0.0.1:57590]
+[2023-10-10 22:27:30,760][django.request.log_response():224] [WARNING] Not Found: /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef
+[2023-10-10 22:27:30,761][django.channels.server.log_action():155] [WARNING] HTTP GET /media/files/f/6/f6574648f8b5e72357bb0dfcfc4355ef 404 [0.01, 127.0.0.1:57595]
+[2023-10-10 22:27:33,289][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:57585]
+[2023-10-10 22:27:33,309][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/user/user_info/ 200 [0.01, 127.0.0.1:57585]
+[2023-10-10 22:27:48,511][django.channels.server.log_action():147] [INFO] HTTP OPTIONS /api/v1/getCode/?mobile=13432343243 200 [0.00, 127.0.0.1:57585]
+[2023-10-10 22:27:48,519][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/getCode/?mobile=13432343243 200 [0.01, 127.0.0.1:57585]
+[2023-10-11 10:22:20,931][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.01, 127.0.0.1:65114]
+[2023-10-11 10:22:28,904][django.channels.server.log_action():147] [INFO] HTTP GET /api/v1/client/technician/getMasterInfo/?userId=26 200 [0.01, 127.0.0.1:65114]

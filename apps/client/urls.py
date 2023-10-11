@@ -2,12 +2,12 @@ from django.urls import path
 from rest_framework import routers
 
 from apps.client.views.home.banners import BannersViewSet
-from apps.client.views.goods import GoodsViewSet
-from apps.client.views.pay import PayMoneyViewSet
-from apps.client.views.pay_channel import PayChannelViewSet
-from apps.client.views.technician import TechnicianViewSet
-from apps.client.views.user import UserViewSet
-from apps.client.views.vip import VipCardViewSet
+from apps.client.views.home.goods import GoodsViewSet
+from apps.client.views.pay.pay import PayMoneyViewSet
+from apps.client.views.pay.pay_channel import PayChannelViewSet
+from apps.client.views.jishi.technician import TechnicianViewSet
+from apps.client.views.mine.user import UserViewSet
+from apps.client.views.mine.vip import VipCardViewSet
 
 system_url = routers.SimpleRouter()
 system_url.register(r'user', UserViewSet)
