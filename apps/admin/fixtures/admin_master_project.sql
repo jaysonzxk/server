@@ -1,0 +1,2 @@
+INSERT INTO spa.admin_master_project (is_deleted, id, description, modifier, dept_belong_id, update_datetime, create_datetime, status, creator_id, project_id, user_id) VALUES (0, 1, null, null, null, '2023-08-11 19:15:47.000000', '2023-08-11 19:15:49.000000', 0, null, 1, 26);
+INSERT INTO spa.admin_master_project (is_deleted, id, description, modifier, dept_belong_id, update_datetime, create_datetime, status, creator_id, project_id, user_id) VALUES (0, 2, null, null, null, '2023-08-11 19:15:47.000000', '2023-08-11 19:15:49.000000', 0, null, 2, 26);

@@ -1,0 +1,10 @@
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (3, 1, 66);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (4, 1, 67);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (5, 1, 68);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (6, 1, 70);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (7, 1, 74);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (8, 1, 76);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (9, 1, 79);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (10, 1, 80);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (1, 2, 1);
+INSERT INTO spa.admin_system_role_permission (id, role_id, menubutton_id) VALUES (2, 2, 5);

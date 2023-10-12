@@ -1,0 +1,1 @@
+INSERT INTO spa.admin_user_addr (is_deleted, id, description, modifier, dept_belong_id, update_datetime, create_datetime, addr, isDefault, status, creator_id, user_id) VALUES (0, 1, null, null, null, '2023-08-07 19:57:59.000000', '2023-08-07 19:58:02.000000', '北京市朝阳区天天路1212号', 1, 0, 4, 26);
