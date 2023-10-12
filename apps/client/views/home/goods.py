@@ -47,7 +47,7 @@ class GoodsViewSet(CustomModelViewSet):
         serializer = self.get_serializer(queryset, many=True, request=request)
         return SuccessResponse(data=serializer.data, msg="获取成功")
 
-    @action(methods=["GET"], detail=False, permission_classes=[])
+    @action(methods=["GET"], detail=False, permission_classes=[], authentication_classes=[])
     def getDetails(self, request: Request, *args, **kwargs):
         """获取商品详情"""
         goodsId = request.query_params
@@ -61,4 +61,4 @@ class GoodsViewSet(CustomModelViewSet):
             "email": goodsDetails.email,
         }
 
-        return DetailResponse()
+        return DetailResponse(data=result)
